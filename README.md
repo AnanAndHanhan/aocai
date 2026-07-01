@@ -19,6 +19,7 @@
 ```text
 .
 ├── README.md
+├── CHANGELOG.md
 ├── PROJECT_HANDOFF.md
 ├── 基础资料.md
 ├── 决策记录.md
@@ -45,6 +46,7 @@
 | 路径 | 作用 |
 | --- | --- |
 | `README.md` | 项目总入口，说明安装、运行和维护方式 |
+| `CHANGELOG.md` | 项目变更日志，记录每次开发任务的新增功能、修改内容和修复问题 |
 | `PROJECT_HANDOFF.md` | 完整交接文档，新会话或新设备接手时优先阅读 |
 | `基础资料.md` | 核心资料库：生肖号码、主格、外号、分组、分析规则和复盘 |
 | `决策记录.md` | 已确认的分析规则、权重边界和输出格式 |
@@ -194,6 +196,7 @@ main
 ```bash
 git status --short --branch
 git pull --ff-only origin main
+# 完成开发任务后，先更新 CHANGELOG.md，再提交所有相关文件
 git add -A
 git commit -m "Update project docs"
 git push origin main
@@ -210,4 +213,5 @@ git push origin main
 3. 将常用运行命令封装为统一入口，例如 `make analyze-period` 或一个顶层脚本。
 4. 增加模型连通性检查命令，提前验证 Ollama 服务、模型名称和上下文配置。
 5. 把每期最终结果、复盘结论和新增规则形成固定维护流程，及时写回 `开奖记录.md`、`决策记录.md` 和 `基础资料.md`。
-6. 保持仓库定期推送到 GitHub，并在重大规则更新后同步生成本地 bundle 备份。
+6. 每次完成开发任务时同步更新 `CHANGELOG.md`，记录新增功能、修改内容和修复问题。
+7. 保持仓库定期推送到 GitHub，并在重大规则更新后同步生成本地 bundle 备份。

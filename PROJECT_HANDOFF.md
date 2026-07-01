@@ -16,6 +16,7 @@
 - Git 仓库已初始化，主分支为 `main`。
 - 远程仓库已切换并推送到 `https://github.com/AnanAndHanhan/aocai.git`。
 - `README.md` 已生成，作为项目总入口。
+- `CHANGELOG.md` 已建立，作为后续开发任务的统一变更记录。
 - `RESTORE.md` 已生成，作为新电脑恢复指南。
 - `PROJECT_HANDOFF.md` 已更新为当前交接文档。
 - `.gitignore` 已配置，排除缓存、日志、`__pycache__`、环境变量和临时文件。
@@ -33,6 +34,7 @@
 .
 ├── .gitignore
 ├── README.md
+├── CHANGELOG.md
 ├── RESTORE.md
 ├── PROJECT_HANDOFF.md
 ├── 基础资料.md
@@ -60,6 +62,7 @@
 | 路径 | 当前作用 | 接手优先级 |
 | --- | --- | --- |
 | `README.md` | 项目总入口，说明项目定位、安装、运行、GitHub 仓库和开发计划 | 最高 |
+| `CHANGELOG.md` | 项目变更日志，记录每次开发任务的新增功能、修改内容和修复问题 | 最高 |
 | `RESTORE.md` | 新电脑恢复指南，覆盖克隆、依赖、Ollama、模型和验证 | 最高 |
 | `PROJECT_HANDOFF.md` | 本交接文档，概括当前状态、结构、进度、待办和设计决策 | 最高 |
 | `基础资料.md` | 核心资料库：生肖号码、主格、外号、分组、分析规则和实战复盘 | 最高 |
@@ -94,6 +97,7 @@ origin https://github.com/AnanAndHanhan/aocai.git
 ```bash
 git status --short --branch
 git pull --ff-only origin main
+# 完成开发任务后，先更新 CHANGELOG.md，再提交所有相关文件
 git add -A
 git commit -m "Update 澳彩 project"
 git push origin main
@@ -103,6 +107,7 @@ git push origin main
 
 - GitHub 仓库是主备份和跨设备同步来源。
 - `澳彩-backup.bundle` 是本地离线兜底备份。
+- 每次完成开发任务都必须更新 `CHANGELOG.md`，记录新增功能、修改内容和修复问题。
 - 重大规则变更、开奖记录更新、脚本调整、README/RESTORE/HANDOFF 更新后，都要提交并推送。
 - 不要提交 `ai-workflow/cache/`、`ai-workflow/logs/`、`.env`、`__pycache__` 和临时文件。
 
@@ -196,6 +201,18 @@ git clone 澳彩-backup.bundle ~/Documents/澳彩-restored
 - Markdown 文件透明、可读、可迁移。
 - Git 适合跨设备、跨账号同步。
 - AI 对话和账号记忆不可靠，重要规则必须沉淀到仓库文件。
+
+### CHANGELOG 作为开发记录
+
+每次完成开发任务时，必须同步更新 `CHANGELOG.md`，并与任务改动一起提交推送到 GitHub。
+
+记录格式固定分为：
+
+- 新增功能
+- 修改内容
+- 修复问题
+
+如果某一类没有内容，写“暂无”，不要省略分类。
 
 ### 项目不是 Web 应用
 
@@ -310,11 +327,12 @@ git clone 澳彩-backup.bundle ~/Documents/澳彩-restored
 - 将常用命令封装为统一入口，例如 `make analyze-period` 或顶层 `scripts/` 命令。
 - 清理或归档早期 Phase 测试输出，明确哪些结果需要长期保留。
 - 为 `RESTORE.md` 增加 Windows/Linux 差异说明，如果未来要跨平台恢复。
-- 在每次重大规则更新后同步更新 README、RESTORE 和 HANDOFF，避免交接文档再次过期。
+- 在每次重大规则更新后同步更新 README、RESTORE、HANDOFF 和 CHANGELOG，避免交接文档和变更日志再次过期。
 
 长期维护：
 
 - 每期开奖后优先维护 `开奖记录.md`。
+- 每次开发任务完成后维护 `CHANGELOG.md`，再提交推送。
 - 每次分析发现规则边界或漏判原因，都写入 `决策记录.md`。
 - 实战复盘和资料补充写入 `基础资料.md`。
 - 保持 GitHub 仓库定期推送，并定期刷新本地 bundle 备份。
@@ -325,6 +343,7 @@ git clone 澳彩-backup.bundle ~/Documents/澳彩-restored
 - 只看单字拆解，忽略整句、成语或幽默包袱：分析必须先整体释义。
 - 过度相信解肖/九肖：它们只能作为弱辅助候选池。
 - 使用历史走势直接决定结果：近 50 期和近 10 期只能辅助，不能压过当期资料。
+- 忘记更新 `CHANGELOG.md`：每次开发任务完成后都必须补充新增功能、修改内容和修复问题。
 - 忘记提交推送：重要文档和脚本变化必须进入 GitHub。
 - 依赖本机聊天记忆：重要上下文必须写入仓库 Markdown。
 - 新电脑恢复后忘记拉模型：`RESTORE.md` 中的 Ollama 和模型检查必须执行。

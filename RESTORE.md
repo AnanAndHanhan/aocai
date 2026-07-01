@@ -463,6 +463,7 @@ git status --short --branch
 
 常见维护内容：
 
+- 更新 `CHANGELOG.md`：每次开发任务完成后记录新增功能、修改内容和修复问题。
 - 更新 `开奖记录.md`：新增期数、日期、正码、特码、首号生肖、特码生肖和走势摘要。
 - 更新 `基础资料.md`：补充生肖资料、规则和实战复盘。
 - 更新 `决策记录.md`：记录已确认的分析口径和边界规则。
@@ -472,6 +473,8 @@ git status --short --branch
 提交并推送：
 
 ```bash
+git status --short --branch
+# 确认 CHANGELOG.md 已记录本次开发任务
 git add -A
 git commit -m "Update 澳彩 project"
 git push origin main
@@ -480,6 +483,7 @@ git push origin main
 注意事项：
 
 - `ai-workflow/cache/` 和 `ai-workflow/logs/` 默认不上传。
+- 每次完成开发任务后，必须先更新 `CHANGELOG.md`，再提交推送。
 - 临时文件、`.env`、`__pycache__`、日志文件不要提交。
 - 正式分析结果保存到 `ai-workflow/output/<期号>/当期分析.md`。
 - 重要规则必须写入 `决策记录.md` 或 `基础资料.md`，不要只留在聊天记录里。
