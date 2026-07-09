@@ -20,6 +20,7 @@
 .
 ├── README.md
 ├── CHANGELOG.md
+├── PROJECT_HANDOFF_FINAL.md
 ├── PROJECT_HANDOFF.md
 ├── 基础资料.md
 ├── 决策记录.md
@@ -47,7 +48,8 @@
 | --- | --- |
 | `README.md` | 项目总入口，说明安装、运行和维护方式 |
 | `CHANGELOG.md` | 项目变更日志，记录每次开发任务的新增功能、修改内容和修复问题 |
-| `PROJECT_HANDOFF.md` | 完整交接文档，新会话或新设备接手时优先阅读 |
+| `PROJECT_HANDOFF_FINAL.md` | 最终交接文档，新会话、新设备或下一位开发者接手时优先阅读 |
+| `PROJECT_HANDOFF.md` | 简版交接文档，保留给快速接手和 `ai-workflow/` 兼容读取 |
 | `基础资料.md` | 核心资料库：生肖号码、主格、外号、分组、分析规则和复盘 |
 | `决策记录.md` | 已确认的分析规则、权重边界和输出格式 |
 | `项目记忆.md` | 项目位置、备份目标、接手顺序和维护原则 |
@@ -121,11 +123,13 @@ ai-workflow/config/models.json
 新会话或新设备接手时，建议按顺序阅读：
 
 1. `README.md`
-2. `PROJECT_HANDOFF.md`
+2. `PROJECT_HANDOFF_FINAL.md`
 3. `基础资料.md`
 4. `决策记录.md`
-5. `项目记忆.md`
-6. `开奖记录.md`
+5. `开奖记录.md`
+6. `ai-workflow/README.md`
+7. `CHANGELOG.md`
+8. 必要时再读 `PROJECT_HANDOFF.md`、`项目记忆.md`、`对话摘要.md`
 
 每期开奖后，先更新 `开奖记录.md`，再根据需要补充 `决策记录.md`、`基础资料.md` 或复盘内容。下一期分析前，必须从 `开奖记录.md` 复核上一期开奖结果第一颗号码对应生肖，首号用于最高降权；末尾特码不能误当首号降权。
 

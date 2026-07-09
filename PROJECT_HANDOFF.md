@@ -1,9 +1,11 @@
 # 澳彩项目交接文档
 
-更新时间：2026-07-08  
-项目路径：`/Users/anan/Documents/澳彩`  
-当前分支：`main`  
+更新时间：2026-07-09
+项目路径：`/Users/anan/Documents/澳彩`
+当前分支：`main`
 远程仓库：`https://github.com/AnanAndHanhan/aocai.git`
+
+> 最终交接基准请优先阅读 `PROJECT_HANDOFF_FINAL.md`。本文件保留为快速接手文档，并兼容 `ai-workflow/` 中仍读取 `PROJECT_HANDOFF.md` 的脚本和提示词。
 
 ## 1. 项目定位
 
@@ -21,7 +23,7 @@
 新建窗口后优先阅读：
 
 1. `README.md`：项目入口、目录和常用命令。
-2. `PROJECT_HANDOFF.md`：当前交接文档。
+2. `PROJECT_HANDOFF_FINAL.md`：最终全量交接文档。
 3. `基础资料.md`：生肖号码、分类、资料类型分析规则。
 4. `决策记录.md`：用户后续校准过的关键规则，优先级很高。
 5. `开奖记录.md`：开奖数据库和走势统计。
@@ -31,13 +33,14 @@
 建议新窗口开场提示：
 
 ```text
-请先阅读 README.md、PROJECT_HANDOFF.md、基础资料.md、决策记录.md、开奖记录.md，建立澳彩项目上下文。注意本地开奖记录可能落后，先核对最新开奖再分析。
+请先阅读 README.md、PROJECT_HANDOFF_FINAL.md、基础资料.md、决策记录.md、开奖记录.md，建立澳彩项目上下文。注意先核对最新开奖，再开始分析或开发。
 ```
 
 ## 3. 当前文件状态
 
 核心文件：
 
+- `PROJECT_HANDOFF_FINAL.md`：最终交接文档，完整梳理项目状态、规则、决策、文件结构、Git 信息和接手 Prompt。
 - `基础资料.md`：2026 年生肖号码、主格、分类、资料分析规则。
 - `决策记录.md`：用户逐期纠偏后的高优先级规则。
 - `开奖记录.md`：本地开奖数据库、近 50 期和近 10 期统计。
@@ -48,9 +51,10 @@
 
 当前注意事项：
 
-- `开奖记录.md` 当前文件显示抓取时间为 `2026-07-05`，接口最新记录为 `2026 年第 186 期`。截至 2026-07-08，这个文件很可能已经落后；新窗口做任何预测前必须先刷新并核验最新开奖。
-- 当前工作区已有未提交修改：`决策记录.md`、`开奖记录.md`。这些不是本次交接文档任务新产生的改动，不要随意回退。
-- 本次任务会更新根目录 `PROJECT_HANDOFF.md`，并同步更新 `CHANGELOG.md`。
+- `开奖记录.md` 当前抓取时间为 `2026-07-09`，接口最新记录为 `2026 年第 190 期`。
+- 2026-07-09 已核验接口首行返回 `periods=190`、号码 `46,14,19,37,48,29,16`，与本地最新行一致。
+- 下一期分析前仍必须再次核验接口最新期数，避免本地记录落后。
+- 本次任务新增最终交接文档，并同步更新 README、RESTORE、决策记录、CHANGELOG 和本文件。
 
 ## 4. 本地 AI 工作流状态
 
@@ -64,24 +68,28 @@ http://127.0.0.1:11434
 
 - 主分析模型：`qwen3:14b-q4_K_M`
 - Vision 模型：`qwen2.5vl:7b-q4_K_M`
+- 主模型上下文：`32768`
+- Vision 上下文：`8192`
+- `think`: `false`
 
 单图分析命令：
 
 ```bash
-/Users/anan/Documents/澳彩/ai-workflow/scripts/run_analysis.sh 图片路径
+./ai-workflow/scripts/run_analysis.sh 图片路径
 ```
 
 多图交叉分析命令：
 
 ```bash
-/Users/anan/Documents/澳彩/ai-workflow/scripts/run_period.sh 期号 图片1 图片2 ...
+./ai-workflow/scripts/run_period.sh 期号 图片1 图片2 ...
 ```
 
 重要限制：
 
 - Vision 只做 OCR 和事实提取，不直接做最终判断。
-- 最终分析必须读取 `PROJECT_HANDOFF.md`、`基础资料.md`、`决策记录.md` 和当期 `brief.md`。
+- 最终分析必须读取项目规则文档和当期 `brief.md`。
 - 高分辨率图片应保留足够上下文，例如 Vision 请求使用 `num_ctx: 8192`。
+- 默认排除内容不能反向进入候选权重。
 
 ## 5. 开奖记录维护
 
@@ -97,10 +105,10 @@ https://aczj.cc/plus/record.html
 https://aczj.cc/tools/Submit_Ajax.ashx?action=getkjrecord&topnum=50
 ```
 
-抓取时使用明确请求头，避免证书或反爬问题：
+抓取时使用明确请求头：
 
 ```bash
-curl -L 'https://aczj.cc/tools/Submit_Ajax.ashx?action=getkjrecord&topnum=50' \
+curl -sS -L 'https://aczj.cc/tools/Submit_Ajax.ashx?action=getkjrecord&topnum=50' \
   -H 'User-Agent: Mozilla/5.0' \
   -H 'Referer: https://aczj.cc/plus/record.html'
 ```
@@ -110,8 +118,9 @@ curl -L 'https://aczj.cc/tools/Submit_Ajax.ashx?action=getkjrecord&topnum=50' \
 1. 先比较接口最新期数和 `开奖记录.md` 本地最新期数。
 2. 如果没有新期，保持文件不变并报告接口最新期数。
 3. 如果有新期，补入缺失期数，并重建近 50 期和近 10 期统计。
-4. 报告新期数、开奖号、首号生肖、特码生肖、下一期首号降权生肖。
-5. 上期首号降权只看第一颗号码，不能把特码当成首号。
+4. 回读校验行数、范围、最新行、期数连续性和摘要频次。
+5. 报告新期数、开奖号、首号生肖、特码生肖、下一期首号降权生肖。
+6. 上期首号降权只看第一颗号码，不能把特码当成首号。
 
 ## 6. 分析总规则
 
@@ -131,7 +140,7 @@ curl -L 'https://aczj.cc/tools/Submit_Ajax.ashx?action=getkjrecord&topnum=50' \
 
 - 用户标注区域优先；用户明确排除的区域不参与权重。
 - 每张资料图先看整体意境，再逐句释义，再逐字拆关键词、数字、字形、场景、方位、颜色、五行、家野、山水、号码级交叉。
-- 成语、四字短语、熟语必须先释义整体含义，再拆字；避免牵强拆字。
+- 成语、四字短语、熟语必须先释义整体含义，再拆字。
 - 连续数字串必须检查单字位序、单字号码、相邻两位号码、整体求和、相邻求和。
 - 单个中文数字也要双拆：生肖位序 + 2026 年同号号码生肖。
 - 输出主六肖和防三肖时，每个生肖后必须说明证据和交叉来源。
@@ -240,15 +249,15 @@ origin https://github.com/AnanAndHanhan/aocai.git
 
 注意：
 
+- 每次开发任务完成后先更新 `CHANGELOG.md`，再提交并推送。
 - 如果涉及 GitHub 登录、PAT、SSH、远程覆盖或强推，必须先向用户确认。
 - 如果用户要求上传前查看状态，先展示 `git status --short` 的文件列表。
 - 不要回退用户已有修改。
 
 ## 11. 待办
 
-1. 刷新 `开奖记录.md` 到接口最新期，并补齐 186 之后的开奖记录。
-2. 把开奖现场抓取流程沉淀成可复用脚本或自动化任务。
+1. 把开奖记录抓取、比对、补齐、摘要重算和回读校验沉淀成可复用脚本。
+2. 为 `ai-workflow/` 增加基础回归样例，检查“标注区域优先、管家婆红字、挂牌挂爆降权、九肖弱参考”等规则。
 3. 将常用分类表补成机器可读格式，减少临场查询遗漏。
-4. 为 `ai-workflow/` 增加基础回归样例，检查“标注区域优先、管家婆红字、挂牌挂爆降权、九肖弱参考”等规则。
+4. 增加模型连通性检查命令，提前验证 Ollama 服务、模型名称和上下文配置。
 5. 每次较大开发或文档维护后同步更新 `CHANGELOG.md`。
-

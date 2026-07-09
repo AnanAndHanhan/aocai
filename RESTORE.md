@@ -26,11 +26,13 @@ cd ~/Documents/澳彩
 恢复后优先阅读：
 
 1. `README.md`
-2. `PROJECT_HANDOFF.md`
+2. `PROJECT_HANDOFF_FINAL.md`
 3. `基础资料.md`
 4. `决策记录.md`
-5. `项目记忆.md`
-6. `开奖记录.md`
+5. `开奖记录.md`
+6. `ai-workflow/README.md`
+7. `CHANGELOG.md`
+8. 必要时再读 `PROJECT_HANDOFF.md`、`项目记忆.md`、`对话摘要.md`
 
 ## 2. 如何从 GitHub 克隆项目
 
@@ -242,11 +244,12 @@ git status --short --branch
 
 ```text
 README.md
-PROJECT_HANDOFF.md
+PROJECT_HANDOFF_FINAL.md
 基础资料.md
 决策记录.md
-项目记忆.md
 开奖记录.md
+ai-workflow/README.md
+CHANGELOG.md
 ```
 
 ### 运行单图分析
