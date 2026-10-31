@@ -1,0 +1,35 @@
+{
+  "year": 2026,
+  "period": 304,
+  "archive_date": "2026-10-31",
+  "status": "已归档资料与原结论，待开奖",
+  "source": "本项目对话历史补录",
+  "analysis_transcript_complete": false,
+  "analysis_note": "v001为归档整理，并非原回复逐字备份；后续逐次保存完整实际输出",
+  "files": [
+    {
+      "path": "原始资料/01-管家婆.jpg",
+      "sha256": "74636370da458cf374448731516a21471928756bfd443df3cc0715805108544b"
+    },
+    {
+      "path": "原始资料/02-跑马.jpg",
+      "sha256": "250d5ef6d686bf361cee2dc1873017d2cd92275da88351c65351f5dc75fc1e8a"
+    },
+    {
+      "path": "原始资料/03-跑狗.jpg",
+      "sha256": "0995e5091cb09a40ca2c035e244d0e074fccacf3ab49745e50f073a611e77af0"
+    },
+    {
+      "path": "原始资料/04-码头诗.jpg",
+      "sha256": "f8ba0064e76c40260be07f8239d82b14c9658e92a20603cd587a1059b013c4ec"
+    },
+    {
+      "path": "原始资料/05-澳门传真.jpg",
+      "sha256": "6544f3f2f8512177cae27b7f6bb7b892bbcd54d30abf946cea4453087cb2be1a"
+    },
+    {
+      "path": "原始资料/06-澳门挂牌.jpg",
+      "sha256": "13d71f4d74a73046e5c7360a689e660f9d80cb9c3f64d905a83d7a1ced5b8547"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "year": 2026,
+  "period": 304,
+  "versions": [
+    {
+      "version": "v001",
+      "source": "本对话此前分析，归档整理非逐字备份",
+      "analysis_file": "分析-v001.md",
+      "main": [
+        "牛",
+        "兔",
+        "鼠",
+        "马",
+        "鸡",
+        "蛇"
+      ],
+      "defense": [
+        "龙",
+        "狗",
+        "羊"
+      ],
+      "before_result_received_in_chat": true,
+      "before_actual_draw_verified": null,
+      "frozen": true
+    },
+    {
+      "version": "v002",
+      "analysis_file": "分析-v002.md",
+      "type": "correction_only",
+      "main": null,
+      "defense": null,
+      "note": "未重新排序，不替代v001名单"
+    }
+  ]
+}
