@@ -46,6 +46,28 @@
       "main": null,
       "defense": null,
       "note": "非标准词句仍按生肖谜面查表分析，未重新排序"
+    },
+    {
+      "version": "v005",
+      "analysis_file": "分析-v005.md",
+      "type": "full_reanalysis",
+      "main": [
+        "牛",
+        "兔",
+        "龙",
+        "鼠",
+        "马",
+        "猴"
+      ],
+      "defense": [
+        "猪",
+        "蛇",
+        "鸡"
+      ],
+      "before_result_received_in_chat": true,
+      "before_actual_draw_verified": null,
+      "frozen": true,
+      "note": "依据最新用户纠偏全量重分析，未查询或收到304结果"
     }
   ]
 }

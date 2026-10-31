@@ -5,7 +5,7 @@
   "status": "已归档资料与原结论，待开奖",
   "source": "本项目对话历史补录",
   "analysis_transcript_complete": false,
-  "analysis_note": "v001为归档整理，并非原回复逐字备份；后续逐次保存完整实际输出",
+  "analysis_note": "v001为历史整理非逐字备份；v005完整分析独立保存",
   "files": [
     {
       "path": "原始资料/01-管家婆.jpg",
@@ -35,5 +35,6 @@
       "path": "原始资料/07-澳门挂牌-用户红框标注.png",
       "sha256": "aec0037c8f467f71414e1e26c5685403672d4e91b6c9c2d6fba17333a526bd36"
     }
-  ]
+  ],
+  "latest_full_analysis": "分析-v005.md"
 }
