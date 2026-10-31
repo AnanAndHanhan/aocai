@@ -38,6 +38,14 @@
       "main": null,
       "defense": null,
       "note": "挂牌仅四字，挂27龙及爆兔为可由强交叉覆盖的降权，未重新排序"
+    },
+    {
+      "version": "v004",
+      "analysis_file": "分析-v004.md",
+      "type": "correction_only",
+      "main": null,
+      "defense": null,
+      "note": "非标准词句仍按生肖谜面查表分析，未重新排序"
     }
   ]
 }
