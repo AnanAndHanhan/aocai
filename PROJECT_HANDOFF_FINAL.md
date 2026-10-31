@@ -1,6 +1,6 @@
 # 澳彩项目最终交接文档
 
-更新时间：2026-07-09
+更新时间：2026-10-31
 项目路径：`/Users/anan/Documents/澳彩`
 当前分支：`main`
 远程仓库：`https://github.com/AnanAndHanhan/aocai.git`
@@ -12,22 +12,22 @@
 
 ### 项目目标
 
-“澳彩”项目是一个以 Markdown 为核心的澳门六合彩生肖卡资料知识库，同时包含一套可本地运行的 Ollama 图片识别与多资料交叉分析工作流。项目目标是：
+“澳彩”项目是以 Markdown 为核心的资料知识库，维护生肖卡资料、分析规则、开奖记录和复盘记录。项目目标是：
+
+“澳彩”项目是一个以 Markdown 为核心的澳门六合彩生肖卡资料知识库。项目目标是：
 
 1. 保存 2026 年生肖号码、主格、外号、分组、资料图分析口径和实战复盘。
 2. 维护 `开奖记录.md`，记录每期开奖结果、首号生肖、特码生肖和滚动走势统计。
 3. 把用户逐期纠偏后的业务规则沉淀到 `基础资料.md`、`决策记录.md` 和交接文档中。
-4. 支持本地 AI 处理资料图：Vision 模型负责 OCR 和事实提取，Qwen3 主模型负责多资料交叉分析。
-5. 通过 GitHub 私有仓库和本地 bundle 备份，让项目可以跨设备、跨账号、跨 AI 会话继续使用。
+4. 通过 GitHub 私有仓库和本地 bundle 备份，让项目可以跨设备、跨账号、跨 AI 会话继续使用。
 
 ### 当前实现的功能
 
 - Markdown 知识库：`README.md`、`基础资料.md`、`决策记录.md`、`项目记忆.md`、`对话摘要.md`、`开奖记录.md`、`PROJECT_HANDOFF.md`、`PROJECT_HANDOFF_FINAL.md`、`RESTORE.md`、`CHANGELOG.md`。
 - 开奖记录维护：本地记录近 50 期明细、近 50 期特码/首号/全 7 码频次、近 10 期窗口摘要。
 - 开奖接口核验：已验证 `aczj.cc` JSON 接口可配合 `curl`、`User-Agent`、`Referer` 抓取。
-- 本地 AI 工作流：单图 Vision OCR、有效范围裁剪、Qwen3 单图分析、多图 brief 汇总、多资料交叉分析和输出落盘。
 - GitHub 备份：当前远程为 `AnanAndHanhan/aocai.git`，主分支为 `main`。
-- 恢复文档：`RESTORE.md` 记录新机恢复、模型拉取、脚本验证、GitHub 推送流程。
+- 恢复文档：`RESTORE.md` 记录新机恢复和 GitHub 推送流程。
 - 变更日志：`CHANGELOG.md` 是每次开发任务必须同步维护的变更记录。
 
 ### 整体架构
@@ -37,14 +37,6 @@
 ```text
 Markdown 知识库
   -> 保存项目规则、开奖记录、复盘和交接说明
-
-ai-workflow/
-  -> Python 标准库脚本
-  -> Ollama HTTP API
-  -> qwen2.5vl Vision 事实提取
-  -> brief.md 中间事实汇总
-  -> qwen3 主模型交叉分析
-  -> output/<期号>/当期分析.md
 
 Git / GitHub / bundle
   -> 私有仓库同步
@@ -57,9 +49,6 @@ Git / GitHub / bundle
 - 业务规则：用户在多次复盘和纠偏中确认的规则，主要整理于 `决策记录.md` 和 `基础资料.md`。
 - 开奖记录：页面来源 `https://aczj.cc/plus/record.html`。
 - 已验证开奖记录接口：`https://aczj.cc/tools/Submit_Ajax.ashx?action=getkjrecord&topnum=50`。
-- AI 工作流输入：用户提供的当期资料图，放入 `ai-workflow/input/` 或通过命令行传入。
-- AI 工作流输出：`ai-workflow/output/<期号>/当期分析.md` 和 `ai-workflow/outputs/` 下的兼容输出。
-
 ### 工作流程
 
 日常资料维护流程：
@@ -73,13 +62,6 @@ Git / GitHub / bundle
 7. 复盘后把新增规则或纠偏写回 `决策记录.md`、`基础资料.md` 或 `开奖记录.md`。
 8. 每次开发或文档维护后更新 `CHANGELOG.md`，再提交并推送 GitHub。
 
-本地 AI 分析流程：
-
-```bash
-./ai-workflow/scripts/run_analysis.sh 图片路径
-./ai-workflow/scripts/run_period.sh 期号 图片1 图片2 ...
-```
-
 ## 2. 当前项目状态
 
 ### 已完成内容
@@ -88,10 +70,6 @@ Git / GitHub / bundle
 - 2026 年生肖号码表、1-49 主格、生肖外号、常用分组、补充分组、VIP 底栏资料和实战复盘已整理。
 - 用户确认的核心分析规则已集中记录在 `基础资料.md` 与 `决策记录.md`。
 - `开奖记录.md` 已维护到 2026 年第 190 期。
-- `ai-workflow/` 已完成 Phase 1、Phase 2、Phase 3：
-  - Phase 1：Ollama 主模型和 Vision 模型验证、目录骨架建立。
-  - Phase 2：图片输入、Vision OCR、范围裁剪、Qwen3 单图分析、输出落盘。
-  - Phase 3：多图 Vision、`brief.md` 汇总、Qwen3 多资料交叉分析、正式输出到 `ai-workflow/output/<期号>/当期分析.md`。
 - GitHub 私有仓库和本地 bundle 备份均已存在。
 - `README.md`、`RESTORE.md`、`PROJECT_HANDOFF.md`、`CHANGELOG.md` 已作为项目入口和维护文档。
 
@@ -102,26 +80,11 @@ Git / GitHub / bundle
 - 生成本文档前 HEAD：`1115e83 Update handoff and changelog for latest draw data`。
 - 2026-07-09 已用接口核验开奖记录：接口首行返回 `periods=190`、号码 `46,14,19,37,48,29,16`，与 `开奖记录.md` 最新第 190 期一致。
 - `开奖记录.md` 当前近 50 期范围为第 141 期至第 190 期，近 10 期范围为第 181 期至第 190 期。
-- Ollama 配置文件存在：`ai-workflow/config/models.json`。
-- 当前模型配置：
-  - 主分析模型：`qwen3:14b-q4_K_M`
-  - Vision 模型：`qwen2.5vl:7b-q4_K_M`
-  - `ollama_base_url`: `http://127.0.0.1:11434`
-  - `num_ctx_main`: `32768`
-  - `num_ctx_vision`: `8192`
-  - `think`: `false`
-- `qwen2.5vl:7b-q4_K_M` 曾验证可识别图片、红框和数字；高分辨率图片需要 `num_ctx: 8192`。
-- 早期恢复流程已验证可用测试图片：`ai-workflow/tests/assets/vision-redbox-test.svg.png`。
-
 ### 未完成内容
 
 - 开奖记录抓取和重算摘要还未沉淀成仓库内正式脚本，目前主要依赖已验证的 `curl` + Python 解析流程。
-- `ai-workflow/scripts/` 还缺少最小化自动测试，尤其是图片路径解析、brief 生成、输出落盘和范围裁剪回归。
 - 常用分类表仍主要是 Markdown 表格，尚未转成机器可读结构化数据。
-- 模型连通性检查还未封装成顶层命令。
 - 每期最终结果、复盘结论和新增规则还需要继续形成稳定维护流程。
-- `ai-workflow/cache/` 和 `ai-workflow/logs/` 只保留目录占位，不上传运行缓存；新环境需要重新生成。
-
 ### 已知问题
 
 - 开奖接口字段 `times` 可能会对历史期数回填或修正日期，更新滚动窗口时应以当前接口响应重建，不要只信本地旧日期。
@@ -134,11 +97,9 @@ Git / GitHub / bundle
 ### 后续优先级
 
 1. 把开奖记录更新流程写成仓库脚本：抓取、比对本地、补齐缺失期、重算 50/10 期摘要、回读校验。
-2. 为 `ai-workflow/` 增加回归测试，覆盖资料类型范围裁剪和输出格式。
-3. 把 2026 年号码、生肖分组、主格表转换成 JSON 或 YAML，减少模型临场漏查。
-4. 增加 `check-env` 或类似命令，验证 Ollama、模型、上下文、测试图片。
-5. 建立每期分析后的固定复盘模板，把命中、漏判、纠正规则及时写回。
-6. 重大规则更新后同步生成新的本地 `澳彩-backup.bundle`。
+2. 把 2026 年号码、生肖分组、主格表转换成 JSON 或 YAML，减少模型临场漏查。
+3. 建立每期分析后的固定复盘模板，把命中、漏判、纠正规则及时写回。
+4. 重大规则更新后同步生成新的本地 `澳彩-backup.bundle`。
 
 ## 3. 核心规则
 
@@ -282,17 +243,6 @@ curl -sS -L 'https://aczj.cc/tools/Submit_Ajax.ashx?action=getkjrecord&topnum=50
 - 禁止只输出生肖名单。
 - 禁止只写“交叉多”“资料明显”等泛泛理由。
 
-### 本地 AI 工作流规则
-
-- Vision 模型只做 OCR 和事实提取，不直接做最终生肖判断。
-- Qwen3 主模型必须读取项目规则和 `brief.md` 后做最终分析。
-- `brief.md` 中只有“有效分析原文”“数字线索.analysis_scope_numbers”“图像主体”“弱辅助内容”和“期数与降权上下文”可按规则使用。
-- `brief.md` 的默认排除内容不得反向进入候选权重。
-- Vision 原始 possible_clues、zodiac_clues、number_clues 可能来自默认排除区域，不能越过有效范围。
-- 当 Vision 结果与项目规则冲突时，以用户指定区域、`决策记录.md` 和 `基础资料.md` 为准。
-- 高分辨率图片应使用 `num_ctx_vision=8192`；主模型上下文为 `num_ctx_main=32768`。
-- 模型配置中 `think=false`，输出中不要包含内部思考过程。
-
 ### Git 与文档维护规则
 
 - 每次完成开发任务必须更新 `CHANGELOG.md`。
@@ -300,8 +250,6 @@ curl -sS -L 'https://aczj.cc/tools/Submit_Ajax.ashx?action=getkjrecord&topnum=50
 - 不要回退用户已有修改。
 - 涉及 GitHub 登录、PAT、SSH、远程覆盖或强推时，必须先向用户确认。
 - 如果用户要求上传前查看状态，先展示 `git status --short` 的文件列表。
-- 仓库文档中的命令示例优先使用仓库相对路径，例如 `./ai-workflow/scripts/run_period.sh`，避免机器专属绝对路径。
-
 ## 4. 决策记录
 
 ### 2026-06-03：备份方式
@@ -346,7 +294,7 @@ curl -sS -L 'https://aczj.cc/tools/Submit_Ajax.ashx?action=getkjrecord&topnum=50
 
 ### 2026-07-09：最终交接文档基准
 
-决定新增 `PROJECT_HANDOFF_FINAL.md` 作为最终交接版本，完整梳理项目目标、状态、规则、决策、文件结构、开发历史、Git 信息、后续开发建议和接手 Prompt。旧 `PROJECT_HANDOFF.md` 保留为简版运行交接和脚本提示词依赖，不再作为唯一全量交接来源。
+决定新增 `PROJECT_HANDOFF_FINAL.md` 作为最终交接版本，完整梳理项目目标、状态、规则、决策、文件结构、开发历史、Git 信息、后续开发建议和接手 Prompt。旧 `PROJECT_HANDOFF.md` 保留为简版交接，不再作为唯一全量交接来源。
 
 ## 5. 文件结构说明
 
@@ -362,17 +310,7 @@ curl -sS -L 'https://aczj.cc/tools/Submit_Ajax.ashx?action=getkjrecord&topnum=50
 ├── 项目记忆.md
 ├── 对话摘要.md
 ├── 开奖记录.md
-├── 澳彩-backup.bundle
-└── ai-workflow/
-    ├── README.md
-    ├── config/
-    ├── inbox/
-    ├── input/
-    ├── output/
-    ├── outputs/
-    ├── prompts/
-    ├── scripts/
-    └── tests/
+└── 澳彩-backup.bundle
 ```
 
 ### 根目录文件
@@ -381,41 +319,16 @@ curl -sS -L 'https://aczj.cc/tools/Submit_Ajax.ashx?action=getkjrecord&topnum=50
 | --- | --- |
 | `README.md` | 项目总入口，说明项目定位、目录、环境、运行方式、GitHub 仓库和后续开发计划。 |
 | `PROJECT_HANDOFF_FINAL.md` | 最终交接文档，下一位开发者或新 AI 会话接手时的最高优先级文档。 |
-| `PROJECT_HANDOFF.md` | 旧交接文档更新后的简版运行交接；仍被部分 AI 工作流脚本或提示词读取，保留核心规则和当前状态。 |
+| `PROJECT_HANDOFF.md` | 旧交接文档更新后的简版运行交接，保留核心规则和当前状态。 |
 | `基础资料.md` | 核心资料库：2026 年生肖号码、顶部十二生肖栏、1-49 主格、VIP 底栏、生肖外号、常用分组、补充分组、名人表、实战复盘。 |
 | `决策记录.md` | 用户逐期确认的业务规则和纠偏记录；分析时优先级很高。 |
 | `开奖记录.md` | 开奖数据库，包含数据来源、记录规则、2026 生肖号码表、近 50 期走势摘要、近 10 期窗口和近 50 期明细。 |
 | `项目记忆.md` | 项目位置、备份目标、重要原则、交接阅读顺序和开奖记录维护原则。 |
 | `对话摘要.md` | 早期对话背景和备份方案摘要。 |
-| `RESTORE.md` | 新电脑恢复指南，包括 GitHub 克隆、依赖安装、Ollama 模型恢复、运行验证和提交推送流程。 |
+| `RESTORE.md` | 新电脑恢复指南，包括 GitHub 克隆、提交推送流程。 |
 | `CHANGELOG.md` | 变更日志；每次开发任务完成后必须更新并随提交推送。 |
 | `.gitignore` | 排除缓存、日志、`node_modules`、`.env`、临时文件和 `__pycache__`。 |
 | `澳彩-backup.bundle` | 本地 Git bundle 备份文件；GitHub 不可用时可作为兜底恢复来源。 |
-
-### `ai-workflow/` 目录
-
-| 路径 | 作用 |
-| --- | --- |
-| `ai-workflow/README.md` | 本地 AI 工作流说明，记录 Phase 1-3 状态、命令、输出和范围规则。 |
-| `ai-workflow/config/models.json` | Ollama 地址、主模型、Vision 模型、上下文、温度和 `think=false` 配置。 |
-| `ai-workflow/config/workflow.json` | 项目根路径、交接文件列表和工作目录配置。 |
-| `ai-workflow/scripts/run_analysis.sh` | 单图分析入口。 |
-| `ai-workflow/scripts/run_period.sh` | 多资料交叉分析入口。 |
-| `ai-workflow/scripts/vision_extract.py` | 调用 Vision 模型做 OCR 和结构化事实提取。 |
-| `ai-workflow/scripts/analyze_with_qwen3.py` | 单图流程中的 Qwen3 分析脚本，同时包含有效范围裁剪逻辑。 |
-| `ai-workflow/scripts/build_brief.py` | 汇总多图 Vision 结果，生成 `brief.md` 和 `brief_scope.json`。 |
-| `ai-workflow/scripts/cross_analyze.py` | 调用 Qwen3 读取项目文档和 `brief.md`，生成多资料最终分析。 |
-| `ai-workflow/scripts/common.py` | 共享配置、目录、Ollama 请求、JSON 提取、图片元数据等工具函数。 |
-| `ai-workflow/prompts/vision_extract.md` | Vision 事实提取提示词。 |
-| `ai-workflow/prompts/main_analysis.md` | 单图 Qwen3 分析提示词。 |
-| `ai-workflow/prompts/multi_source_analysis.md` | 多资料 Qwen3 交叉分析提示词。 |
-| `ai-workflow/input/` | 建议保存原始图片，按期号分目录。 |
-| `ai-workflow/inbox/` | 单图分析兼容入口；未传图片时脚本读取这里。 |
-| `ai-workflow/output/` | Phase 3 正式分析输出，按期号保存。 |
-| `ai-workflow/outputs/` | Phase 2 兼容输出目录。 |
-| `ai-workflow/cache/` | 运行中间结果目录，不上传实际缓存。 |
-| `ai-workflow/logs/` | 运行日志目录，不上传实际日志。 |
-| `ai-workflow/tests/assets/` | 本地验证图片资产。 |
 
 ## 6. 开发历史
 
@@ -435,19 +348,11 @@ curl -sS -L 'https://aczj.cc/tools/Submit_Ajax.ashx?action=getkjrecord&topnum=50
 
 新增 `开奖记录.md`，记录期数、日期、正码、特码、首号，并建立近 50 期和近 10 期滚动摘要。后续又验证 `aczj.cc` JSON 接口、抓取请求头、滚动窗口重算和自动化记忆写回方式。
 
-### 阶段 5：本地 AI 工作流
-
-建立 `ai-workflow/`：
-
-- Phase 1 完成模型与目录骨架。
-- Phase 2 完成单图 Vision OCR、范围裁剪、Qwen3 主分析和输出落盘。
-- Phase 3 完成多资料逐图 Vision、brief 汇总、多资料交叉分析和正式输出。
-
-### 阶段 6：GitHub 备份和恢复文档
+### 阶段 5：GitHub 备份和恢复文档
 
 确认远程仓库为 `AnanAndHanhan/aocai.git`，建立 `README.md`、`RESTORE.md`、`PROJECT_HANDOFF.md`、`CHANGELOG.md`，并确认后续开发任务必须同步更新变更日志后再提交推送。
 
-### 阶段 7：最终交接版本
+### 阶段 6：最终交接版本
 
 2026-07-09 新增 `PROJECT_HANDOFF_FINAL.md`，把整个项目从目标、功能、架构、规则、决策、文件结构、历史、Git 信息、后续建议到接手 Prompt 重新梳理为最终交接版本。
 
@@ -501,9 +406,8 @@ origin https://github.com/AnanAndHanhan/aocai.git
 3. `基础资料.md`
 4. `决策记录.md`
 5. `开奖记录.md`
-6. `ai-workflow/README.md`
-7. `CHANGELOG.md`
-8. 必要时再读 `PROJECT_HANDOFF.md`、`RESTORE.md`、`项目记忆.md`、`对话摘要.md`
+6. `CHANGELOG.md`
+7. 必要时再读 `PROJECT_HANDOFF.md`、`RESTORE.md`、`项目记忆.md`、`对话摘要.md`
 
 ### 建议开发顺序
 
@@ -511,10 +415,9 @@ origin https://github.com/AnanAndHanhan/aocai.git
 2. 先核验 `开奖记录.md` 是否与接口最新期一致。
 3. 若做分析任务，先读 `开奖记录.md` 最新行，确认上期首号降权和特码分离。
 4. 若做规则维护，先查 `决策记录.md` 是否已有相关规则，避免重复或冲突。
-5. 若改 AI 工作流，先跑最小样例，确认输出路径、brief 和 Qwen3 提示词未破坏。
-6. 若新增规则，写入 `决策记录.md`；若新增基础分类，写入 `基础资料.md`；若新增开奖记录，写入 `开奖记录.md` 并重算摘要。
-7. 完成后更新 `CHANGELOG.md`。
-8. 只暂存本次相关文件，提交并推送。
+5. 若新增规则，写入 `决策记录.md`；若新增基础分类，写入 `基础资料.md`；若新增开奖记录，写入 `开奖记录.md` 并重算摘要。
+6. 完成后更新 `CHANGELOG.md`。
+7. 只暂存本次相关文件，提交并推送。
 
 ### 千万不要随意修改的地方
 
@@ -525,7 +428,6 @@ origin https://github.com/AnanAndHanhan/aocai.git
 - 不要只根据历史频次判断本期倾向。
 - 不要因为降权就绝对排除强资料生肖。
 - 不要删除 `基础资料.md`、`决策记录.md`、`开奖记录.md`、`CHANGELOG.md` 或 `PROJECT_HANDOFF_FINAL.md`。
-- 不要把 `ai-workflow/cache/`、`ai-workflow/logs/` 的运行缓存大量提交。
 - 不要静默改 Git remote、凭据、PAT、SSH 或强推。
 - 不要回退用户已有修改，除非用户明确要求。
 
@@ -542,13 +444,12 @@ origin https://github.com/AnanAndHanhan/aocai.git
 3. 基础资料.md
 4. 决策记录.md
 5. 开奖记录.md
-6. ai-workflow/README.md
-7. CHANGELOG.md
+6. CHANGELOG.md
 
-全部阅读完成后，请先总结你对项目目标、当前状态、核心规则、开奖记录维护流程、本地 AI 工作流和后续优先级的理解，再开始开发。
+全部阅读完成后，请先总结你对项目目标、当前状态、核心规则、开奖记录维护流程、后续优先级的理解，再开始开发。
 
 注意：
-- 这是 Markdown 知识库 + 本地 Ollama AI 工作流，不是 Web 应用。
+- 这是 Markdown 知识库，不是 Web 应用。
 - 下一期分析前必须先核验开奖记录最新期数。
 - 上期开奖第一颗号码对应生肖用于最高降权，末尾特码不能当首号。
 - 用户标注区域优先，用户明确排除的区域不参与权重。
