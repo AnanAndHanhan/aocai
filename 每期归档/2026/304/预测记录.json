@@ -29,7 +29,8 @@
       "type": "correction_only",
       "main": null,
       "defense": null,
-      "note": "未重新排序，不替代v001名单"
+      "note": "未重新排序，不替代v001名单",
+      "frozen": true
     },
     {
       "version": "v003",
@@ -37,7 +38,8 @@
       "type": "correction_only",
       "main": null,
       "defense": null,
-      "note": "挂牌仅四字，挂27龙及爆兔为可由强交叉覆盖的降权，未重新排序"
+      "note": "挂牌仅四字，挂27龙及爆兔为可由强交叉覆盖的降权，未重新排序",
+      "frozen": true
     },
     {
       "version": "v004",
@@ -45,7 +47,8 @@
       "type": "correction_only",
       "main": null,
       "defense": null,
-      "note": "非标准词句仍按生肖谜面查表分析，未重新排序"
+      "note": "非标准词句仍按生肖谜面查表分析，未重新排序",
+      "frozen": true
     },
     {
       "version": "v005",
@@ -69,5 +72,8 @@
       "frozen": true,
       "note": "依据最新用户纠偏全量重分析，未查询或收到304结果"
     }
-  ]
+  ],
+  "result_received_at": "2026-10-31T23:14:30.401839+08:00",
+  "result_special_zodiac": "狗",
+  "actual_pre_draw_timing_verified": false
 }
