@@ -1,0 +1,13 @@
+{
+  "year": null,
+  "period": null,
+  "created_at": null,
+  "expected_materials": [],
+  "received_files": [],
+  "missing_materials": [],
+  "scope_confirmed": false,
+  "ambiguous_text": [],
+  "previous_first_verified": false,
+  "downgrades_checked": false,
+  "status": "暂定"
+}

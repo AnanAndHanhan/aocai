@@ -1,0 +1,39 @@
+{
+  "year": 2026,
+  "period": 248,
+  "lottery": "新澳门六合彩",
+  "draw_time": "2026-09-05T21:32:32+08:00",
+  "numbers": [
+    43,
+    26,
+    49,
+    39,
+    14,
+    27,
+    20
+  ],
+  "zodiacs": [
+    "鼠",
+    "蛇",
+    "马",
+    "龙",
+    "蛇",
+    "龙",
+    "猪"
+  ],
+  "regular_numbers": [
+    43,
+    26,
+    49,
+    39,
+    14,
+    27
+  ],
+  "special_number": 20,
+  "first_number": 43,
+  "first_zodiac": "鼠",
+  "special_zodiac": "猪",
+  "source": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+  "fetched_at": "2026-10-31T23:26:58+08:00",
+  "source_file": "数据/来源/2026-4cd21f134dfe.json"
+}

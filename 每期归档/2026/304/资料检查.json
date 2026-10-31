@@ -1,0 +1,55 @@
+{
+  "year": 2026,
+  "period": 304,
+  "created_at": "2026-10-31T23:26:37.128583+08:00",
+  "historical_received_at": null,
+  "expected_materials": [
+    "管家婆",
+    "跑马",
+    "跑狗",
+    "码头诗",
+    "澳门传真",
+    "澳门挂牌"
+  ],
+  "received_files": [
+    {
+      "path": "原始资料/01-管家婆.jpg",
+      "sha256": "74636370da458cf374448731516a21471928756bfd443df3cc0715805108544b"
+    },
+    {
+      "path": "原始资料/02-跑马.jpg",
+      "sha256": "250d5ef6d686bf361cee2dc1873017d2cd92275da88351c65351f5dc75fc1e8a"
+    },
+    {
+      "path": "原始资料/03-跑狗.jpg",
+      "sha256": "0995e5091cb09a40ca2c035e244d0e074fccacf3ab49745e50f073a611e77af0"
+    },
+    {
+      "path": "原始资料/04-码头诗.jpg",
+      "sha256": "f8ba0064e76c40260be07f8239d82b14c9658e92a20603cd587a1059b013c4ec"
+    },
+    {
+      "path": "原始资料/05-澳门传真.jpg",
+      "sha256": "6544f3f2f8512177cae27b7f6bb7b892bbcd54d30abf946cea4453087cb2be1a"
+    },
+    {
+      "path": "原始资料/06-澳门挂牌.jpg",
+      "sha256": "13d71f4d74a73046e5c7360a689e660f9d80cb9c3f64d905a83d7a1ced5b8547"
+    },
+    {
+      "path": "原始资料/07-澳门挂牌-用户红框标注.png",
+      "sha256": "aec0037c8f467f71414e1e26c5685403672d4e91b6c9c2d6fba17333a526bd36"
+    }
+  ],
+  "missing_materials": [],
+  "scope_confirmed": false,
+  "ambiguous_text": [
+    "码头诗瓢/飘字形",
+    "放防、蓝忆城按原字保留；句不通不停止查表"
+  ],
+  "scope_note": "挂牌已确认；传真有效范围仍为假定，待用户确认",
+  "previous_first_verified": true,
+  "previous_first_source": "数据/开奖记录-2026.json中的303期；08猪，特17虎",
+  "downgrades_checked": true,
+  "status": "已开奖历史补录；资料齐但部分范围待确认"
+}
