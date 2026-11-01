@@ -26,6 +26,15 @@
       "before_actual_draw_verified": null,
       "note": "本版暂定；未查询305结果，未锁单号",
       "frozen": true
+    },
+    {
+      "version": "v002",
+      "analysis_file": "分析-v002.md",
+      "type": "correction_only",
+      "main": null,
+      "defense": null,
+      "formed_at": "2026-11-01T15:54:31.816241+08:00",
+      "note": "确认传真固定范围，具体号须实际参与交叉和排序；本次补充未完整重排，不替换v001名单"
     }
   ]
 }

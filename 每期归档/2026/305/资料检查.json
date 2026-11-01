@@ -37,13 +37,14 @@
     }
   ],
   "missing_materials": [],
-  "scope_confirmed": false,
+  "scope_confirmed": true,
   "ambiguous_text": [
     "管家婆云字后的发式字（鬟/鬓）待核",
     "码头诗一向膘按原字保留"
   ],
   "previous_first_verified": true,
   "downgrades_checked": true,
-  "status": "暂定；6张齐，传真正文范围按既有习惯假定，疑字待核",
-  "previous_first_source": "已归档304期结果：首号23猴，特21狗；与305图中回放一致"
+  "status": "范围已确认；发式字等疑字待核，本版仍保留暂定",
+  "previous_first_source": "已归档304期结果：首号23猴，特21狗；与305图中回放一致",
+  "scope_note": "2026-11-01用户明确每期传真固定取当期正文及四字，不再重复询问；305四字大打出手"
 }
