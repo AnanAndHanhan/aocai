@@ -1,0 +1,10 @@
+{
+  "version": "v001",
+  "snapshot_created_at": "2026-11-01T15:49:46+08:00",
+  "historical_formed_at": "2026-11-01T15:49:46.603086+08:00",
+  "analysis_sha256": "98ab5a2bebc950a4ae4014e3a4d1d81e7be8af7084e1dbe7cfc237e9a7e79507",
+  "prediction_sha256": "05d0aec052b2545d2b599f7080f4fcccb5d3eb7e30abd65bf009e4fe054dc3da",
+  "known_draw_time": null,
+  "pre_draw_proven": false,
+  "note": "若要认证开奖前版本，须有开奖前远程提交及原始时间记录独立核验；不可倒填"
+}

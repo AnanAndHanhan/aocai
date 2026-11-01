@@ -1,0 +1,25 @@
+{
+  "version": "v001",
+  "status": "provisional",
+  "formed_at": "2026-11-01T15:49:46.603086+08:00",
+  "analysis_file": "分析-v001.md",
+  "main": [
+    "猪",
+    "牛",
+    "羊",
+    "鼠",
+    "马",
+    "狗"
+  ],
+  "defense": [
+    "鸡",
+    "虎",
+    "龙"
+  ],
+  "evidence_file": "证据表.csv",
+  "rule_commit": "cca08f66cf51da5dd8f50e16189c557bf32a1c0a",
+  "before_result_received_in_chat": true,
+  "before_actual_draw_verified": null,
+  "note": "本版暂定；未查询305结果，未锁单号",
+  "frozen": true
+}

@@ -1,2 +1,3 @@
 {"event": "period_created", "at": "2026-11-01T15:39:29+08:00"}
 {"event": "materials_archived", "at": "2026-11-01T15:40:34.490558+08:00", "files": 6, "received_at": null, "note": "此时为实际归档时间，未伪造消息发送或附件接收时刻"}
+{"event": "analysis_version_saved", "at": "2026-11-01T15:49:46.603086+08:00", "version": "v001", "note": "形成完整归档版本的当前实际时刻，非消息接收时刻"}
