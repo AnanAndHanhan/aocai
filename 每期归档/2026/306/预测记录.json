@@ -26,6 +26,16 @@
       "before_actual_draw_verified": null,
       "frozen": true,
       "note": "完整暂定；本次未查询306开奖；具体号码为竞争观察，不锁单号"
+    },
+    {
+      "version": "v002",
+      "type": "correction_only",
+      "formed_at": "2026-11-02T12:03:22.729076+08:00",
+      "analysis_file": "分析-v002.md",
+      "main": null,
+      "defense": null,
+      "note": "十二生肖六来源交叉回填及相关性说明；沿用v001名单，不计独立预测",
+      "before_actual_draw_verified": null
     }
   ]
 }

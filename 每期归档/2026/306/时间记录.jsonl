@@ -1,2 +1,3 @@
 {"event": "period_created", "at": "2026-11-02T11:43:04+08:00"}
 {"event": "originals_archived_and_analysis_formed", "at": "2026-11-02T11:47:34.886388+08:00", "note": "实际归档时间；用户消息送达精确时间未知，不倒填"}
+{"event": "cross_evidence_audit_v002", "at": "2026-11-02T12:03:22.729076+08:00", "note": "用户追问交叉偏少后补充；未查询306结果"}
