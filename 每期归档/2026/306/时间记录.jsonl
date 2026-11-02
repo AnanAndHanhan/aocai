@@ -2,3 +2,4 @@
 {"event": "originals_archived_and_analysis_formed", "at": "2026-11-02T11:47:34.886388+08:00", "note": "实际归档时间；用户消息送达精确时间未知，不倒填"}
 {"event": "cross_evidence_audit_v002", "at": "2026-11-02T12:03:22.729076+08:00", "note": "用户追问交叉偏少后补充；未查询306结果"}
 {"event": "scheduled_sync_rejected", "at": "2026-11-02T22:03:43+08:00", "reason": "2026年接口混入60条2025记录；未导入306，保留原预测", "evidence": "数据/维护异常/2026-11-02-history-febf52bbba0c.json", "sha256": "febf52bbba0ca242477f50f3cfeace7b39faacac0c1bd72b062cfc0c320bebb9"}
+{"event": "period_result_cross_checked_and_reviewed", "at": "2026-11-02T22:11:10+08:00", "regular": [39, 13, 28, 9, 14, 32], "special": 15, "first": 39, "method": "单期历史与实时字段一致，年批量仍停止"}
