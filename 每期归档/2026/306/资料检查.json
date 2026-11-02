@@ -1,0 +1,55 @@
+{
+  "year": 2026,
+  "period": 306,
+  "created_at": "2026-11-02T11:43:04+08:00",
+  "expected_materials": [
+    "管家婆",
+    "跑马",
+    "跑狗",
+    "码头诗",
+    "澳门传真",
+    "澳门挂牌"
+  ],
+  "received_files": [
+    {
+      "path": "原始资料/01-管家婆.png",
+      "sha256": "d83e09bd1152aeaaa1359da784ea8581a55873c1d9bc282c7ca4fd1e1c4238d3"
+    },
+    {
+      "path": "原始资料/02-跑马.png",
+      "sha256": "eacc480ae642eca0f5ecc09e23f81cdf86821cd1d21f0e46a3e6a678e5cd3853"
+    },
+    {
+      "path": "原始资料/03-跑狗.png",
+      "sha256": "a750420a71e43639deab24391ad136e5e51621689247ec7d361cc1d7e4fc296f"
+    },
+    {
+      "path": "原始资料/04-码头诗.png",
+      "sha256": "a76a4c1f3012a4bb52132de950b91f348deea25a09e91ed4451dafaed80901fc"
+    },
+    {
+      "path": "原始资料/05-澳门传真.png",
+      "sha256": "428dbdfc1368165b017c86858ced2594cbb51dd2d8195eca74b15276f81927c1"
+    },
+    {
+      "path": "原始资料/06-澳门挂牌.png",
+      "sha256": "45912bf69bb2bf39428a84190d640661b8c34cb7ee576b0f52872df2b52127c4"
+    }
+  ],
+  "missing_materials": [],
+  "scope_confirmed": true,
+  "ambiguous_text": [
+    "跑马第二诗句凄字暂读，保留复核"
+  ],
+  "previous_first_verified": true,
+  "downgrades_checked": true,
+  "status": "完整分析暂定v001，保留个别字形疑问",
+  "previous_first_source": "305已归档原响应核验结果31鼠；本期六图回放一致",
+  "downgrades": {
+    "鼠": "首号31最高",
+    "虎": "挂17最高",
+    "龙": "底部对冲次级",
+    "狗": "底部对冲次级",
+    "鸡": "爆肖次级"
+  }
+}

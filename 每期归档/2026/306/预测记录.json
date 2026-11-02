@@ -1,0 +1,31 @@
+{
+  "year": 2026,
+  "period": 306,
+  "versions": [
+    {
+      "version": "v001",
+      "status": "provisional",
+      "formed_at": "2026-11-02T11:47:34.886388+08:00",
+      "analysis_file": "分析-v001.md",
+      "main": [
+        "马",
+        "鸡",
+        "猪",
+        "鼠",
+        "羊",
+        "龙"
+      ],
+      "defense": [
+        "猴",
+        "牛",
+        "蛇"
+      ],
+      "evidence_file": "证据表.csv",
+      "rule_commit": "b3f31b08c69fae00a283f3c52b05943c59fa847b",
+      "before_result_received_in_chat": true,
+      "before_actual_draw_verified": null,
+      "frozen": true,
+      "note": "完整暂定；本次未查询306开奖；具体号码为竞争观察，不锁单号"
+    }
+  ]
+}
