@@ -1,0 +1,10 @@
+{
+  "version": "v002",
+  "type": "correction_only",
+  "formed_at": "2026-11-03T08:44:09+08:00",
+  "analysis_file": "分析-v002.md",
+  "main": null,
+  "defense": null,
+  "note": "用户确认未中特不得削弱有效交叉；沿用v001主防，不计第二次独立预测",
+  "before_actual_draw_verified": null
+}

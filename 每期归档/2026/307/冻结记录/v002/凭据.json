@@ -1,0 +1,10 @@
+{
+  "version": "v002",
+  "snapshot_created_at": "2026-11-03T22:02:57+08:00",
+  "historical_formed_at": "2026-11-03T08:44:09+08:00",
+  "analysis_sha256": "4370230e2e1a35d1fe105039e73b21b0749035112e18d0d3cf0a215d42e5b67d",
+  "prediction_sha256": "1a35c7d020ae5c729eeecb508001487ab2b5476ab4e7ba4d8d18572b2943891f",
+  "known_draw_time": "2026-11-03T21:32:32+08:00",
+  "pre_draw_proven": false,
+  "note": "说明修订，不是独立预测；本次读取结果后保留当前快照，不能证明历史形成时间，原文未改。"
+}
