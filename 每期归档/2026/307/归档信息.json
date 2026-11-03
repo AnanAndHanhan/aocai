@@ -30,5 +30,8 @@
     }
   ],
   "analysis_transcript_complete": true,
-  "latest_full_analysis": "分析-v001.md"
+  "latest_full_analysis": "分析-v001.md",
+  "supplements": [
+    "分析-v002.md"
+  ]
 }
