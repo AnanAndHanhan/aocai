@@ -1,0 +1,31 @@
+{
+  "year": 2026,
+  "period": 307,
+  "versions": [
+    {
+      "version": "v001",
+      "status": "provisional",
+      "formed_at": "2026-11-03T08:34:39+08:00",
+      "analysis_file": "分析-v001.md",
+      "main": [
+        "马",
+        "羊",
+        "牛",
+        "鼠",
+        "兔",
+        "狗"
+      ],
+      "defense": [
+        "猴",
+        "蛇",
+        "龙"
+      ],
+      "evidence_file": "证据表.csv",
+      "rule_commit": "74f2f374d37b7e4be60fadc031812edcbee322eb",
+      "before_result_received_in_chat": true,
+      "before_actual_draw_verified": null,
+      "frozen": true,
+      "note": "完整暂定，未查询307开奖；原图疑字保留；未锁单号"
+    }
+  ]
+}

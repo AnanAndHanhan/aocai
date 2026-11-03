@@ -1,0 +1,59 @@
+{
+  "year": 2026,
+  "period": 307,
+  "created_at": "2026-11-03T08:29:51+08:00",
+  "expected_materials": [
+    "管家婆",
+    "跑马",
+    "跑狗",
+    "码头诗",
+    "澳门传真",
+    "澳门挂牌"
+  ],
+  "received_files": [
+    {
+      "path": "原始资料/01-管家婆.jpg",
+      "sha256": "2f067bf4898d2622e477f7fa344e8cd58cea037ecafdf4f9e35cefeaa5d19a07"
+    },
+    {
+      "path": "原始资料/02-跑马.jpg",
+      "sha256": "21fc07116afb013096256d941827c43cba426ec7a7ec662dce3a8ecdae88a0fd"
+    },
+    {
+      "path": "原始资料/03-跑狗.jpg",
+      "sha256": "d2150b34600f52ad704c31074e95dc767be3e0f0fa455e9937e8bc19f8901cb6"
+    },
+    {
+      "path": "原始资料/04-码头诗.jpg",
+      "sha256": "e7c2d1d7856589dedc01d19470b4bff9b2536a514dc429af71d6dece55389336"
+    },
+    {
+      "path": "原始资料/05-澳门传真.jpg",
+      "sha256": "38e7e558e061880e2293a32914219dadf95f882564c30f1bbd1ca6633c602c7a"
+    },
+    {
+      "path": "原始资料/06-澳门挂牌.jpg",
+      "sha256": "1a2190976549cb5896840ad48fd5f6769f1cbac875cb2c57fd3c7eaa8a6c103b"
+    }
+  ],
+  "missing_materials": [],
+  "scope_confirmed": true,
+  "ambiguous_text": [
+    "跑马寒清健碧远相含个别字暂读",
+    "跑狗蓬赖麻直第二字暂读",
+    "传真人劳牧意暂读；非标准原句保留"
+  ],
+  "previous_first_verified": true,
+  "downgrades_checked": true,
+  "status": "六图完整，个别疑字保留；完整暂定v001",
+  "previous_first_source": "306双接口核验存档首39龙、特15龙，与307图载回放一致",
+  "downgrades": {
+    "龙": "306首39最高",
+    "猪": [
+      "挂20最高",
+      "蛇冲猪次级"
+    ],
+    "蛇": "蛇冲猪次级",
+    "马": "爆马次级"
+  }
+}
