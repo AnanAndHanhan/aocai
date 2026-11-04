@@ -1,0 +1,34 @@
+{
+  "year": 2026,
+  "period": 308,
+  "archive_date": "2026-11-04",
+  "status": "六张原图、完整暂定v001已归档，未接收308结果",
+  "files": [
+    {
+      "path": "原始资料/01-管家婆.jpg",
+      "sha256": "7f68e2d0afe1d509c44557aaca23f5bbde5515f06af2e637dd34332f0a19207c"
+    },
+    {
+      "path": "原始资料/02-跑马.jpg",
+      "sha256": "349af282142d8149f72a6a55fc05ff5bad9a8bc4c31d0795871da6472fab48fd"
+    },
+    {
+      "path": "原始资料/03-跑狗.jpg",
+      "sha256": "848eb59dc7119936ee5dee0fdd1a5663ec36d68fae575a2575530fb87886028f"
+    },
+    {
+      "path": "原始资料/04-码头诗.jpg",
+      "sha256": "cdb298f7ea9edbfcde99922d611cfe171accf2e5ab37f2dd6ed679e0917a67c5"
+    },
+    {
+      "path": "原始资料/05-澳门传真.jpg",
+      "sha256": "60696a2594ae30f7d78c9ef24feaabd2e0e7c4779e58737cfbbf009539bd1d41"
+    },
+    {
+      "path": "原始资料/06-澳门挂牌.jpg",
+      "sha256": "60a68d42c5c959207cc3686ab7f7fde20d32a017573ba03250eeedd5724dae46"
+    }
+  ],
+  "analysis_transcript_complete": true,
+  "latest_full_analysis": "分析-v001.md"
+}
