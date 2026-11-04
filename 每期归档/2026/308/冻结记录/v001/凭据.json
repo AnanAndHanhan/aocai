@@ -1,0 +1,10 @@
+{
+  "version": "v001",
+  "snapshot_created_at": "2026-11-04T22:16:36+08:00",
+  "historical_formed_at": "2026-11-04T20:29:30+08:00",
+  "analysis_sha256": "476b80e79933b83c411abe1c5fbc2572dda810ae45d59684e02f559b19a0db30",
+  "prediction_sha256": "1682d009476c54735f1c21d763813572bd50b580c773dcf95d82663b6e2e65e3",
+  "known_draw_time": "2026-11-04T21:32:32+08:00",
+  "pre_draw_proven": false,
+  "note": "原稿为完整暂定，未改为最终版；本次读到结果后补存当前保全快照，不是历史形成时间证明，不冒充开奖前冻结。"
+}
