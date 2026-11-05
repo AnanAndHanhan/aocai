@@ -2,7 +2,7 @@
   "year": 2026,
   "period": 309,
   "archive_date": "2026-11-05",
-  "status": "六张PNG原图及完整最终分析v001；主鸡虎龙兔蛇鼠，防猴狗猪；结果待核验",
+  "status": "309双接口核验特13马、首34鸡；原主6防3均未覆盖马，无原明确13号，完整逐图复盘完成",
   "files": [
     {
       "path": "原始资料/01-管家婆.png",
@@ -32,5 +32,8 @@
   "analysis_transcript_complete": true,
   "latest_full_analysis": "分析-v001.md",
   "latest_summary": "总结-v001.md",
-  "summary_note": "按用户2026-11-05样式反馈汇总原v001，主防顺序和证据判断不变；冻结原分析不改"
+  "summary_note": "按用户2026-11-05样式反馈汇总原v001，主防顺序和证据判断不变；冻结原分析不改",
+  "latest_review": "复盘.md",
+  "review_evidence": "复盘证据审计.csv",
+  "result_file": "开奖结果.json"
 }

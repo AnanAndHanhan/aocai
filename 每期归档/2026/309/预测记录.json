@@ -27,5 +27,17 @@
       "frozen": true,
       "note": "六图齐全、固定范围明确；非标准词原字及释义不确定性已注明，完整最终版；未查询309结果，未锁单号；冻结凭据不独立认证开奖前成绩"
     }
-  ]
+  ],
+  "result_received_at": "2026-11-05T23:16:05+08:00",
+  "result_special_zodiac": "马",
+  "result_special_number": 13,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": false,
+    "defense_zodiac_covered": false,
+    "actual_position": "九肖外",
+    "specific_special_number_explicitly_listed": false,
+    "certified_pre_draw_performance_included": false,
+    "reason": "未独立核验远程首次形成早于实际开奖的时间，冻结凭据pre_draw_proven=false；只作版本对照"
+  }
 }

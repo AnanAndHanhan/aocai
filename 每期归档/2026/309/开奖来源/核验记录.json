@@ -1,0 +1,31 @@
+{
+  "lottery": "新澳门六合彩",
+  "expect": "2026309",
+  "cross_checked_at": "2026-11-05T23:16:05+08:00",
+  "raw_rows_equal": true,
+  "raw_verify": false,
+  "validation_scope": "两接口原字段相等、彩种8、年份期号日期、七码唯一性、生肖映射及首号特码；原verify=false保留，不改为官方认证",
+  "annual_failure": {
+    "reason": "彩种或年份/期号不符",
+    "rows": 366,
+    "year_counts": {
+      "2026": 309,
+      "2025": 57
+    },
+    "action": "停止年批量导入，仅用另行核验的单期响应"
+  },
+  "files": [
+    {
+      "path": "实时新澳门六合彩.json",
+      "sha256": "856a31eec5bdbd45648fb541ccf3350e4dfbc2c06f24c8240ae722ecae3f8a0b"
+    },
+    {
+      "path": "单期历史309.json",
+      "sha256": "eb3e4f21ca9c204c898f54c295ac722b51796e43e3bdf418958e21cbc7a2bdb4"
+    },
+    {
+      "path": "年接口拒绝响应.json",
+      "sha256": "874962e87200c78e36694457a6c18a15121a6fe791b2e2d70c5409ef398eda8d"
+    }
+  ]
+}
