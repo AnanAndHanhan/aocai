@@ -30,5 +30,7 @@
     }
   ],
   "analysis_transcript_complete": true,
-  "latest_full_analysis": "分析-v001.md"
+  "latest_full_analysis": "分析-v001.md",
+  "latest_summary": "总结-v001.md",
+  "summary_note": "按用户2026-11-05样式反馈汇总原v001，主防顺序和证据判断不变；冻结原分析不改"
 }
