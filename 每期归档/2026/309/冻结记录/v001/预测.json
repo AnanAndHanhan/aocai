@@ -1,0 +1,25 @@
+{
+  "version": "v001",
+  "status": "final",
+  "formed_at": "2026-11-05T09:08:34+08:00",
+  "analysis_file": "分析-v001.md",
+  "main": [
+    "鸡",
+    "虎",
+    "龙",
+    "兔",
+    "蛇",
+    "鼠"
+  ],
+  "defense": [
+    "猴",
+    "狗",
+    "猪"
+  ],
+  "evidence_file": "证据表.csv",
+  "rule_commit": "a3193ec1d456b0e2955eaf19178e4faaca147215",
+  "before_result_received_in_chat": true,
+  "before_actual_draw_verified": null,
+  "frozen": true,
+  "note": "六图齐全、固定范围明确；非标准词原字及释义不确定性已注明，完整最终版；未查询309结果，未锁单号；冻结凭据不独立认证开奖前成绩"
+}

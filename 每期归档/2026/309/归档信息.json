@@ -1,0 +1,34 @@
+{
+  "year": 2026,
+  "period": 309,
+  "archive_date": "2026-11-05",
+  "status": "六张PNG原图及完整最终分析v001；主鸡虎龙兔蛇鼠，防猴狗猪；结果待核验",
+  "files": [
+    {
+      "path": "原始资料/01-管家婆.png",
+      "sha256": "9f831c06d14badf920949fe212b8f8779a12cd6d42b2cdd2a64fe2839b9329ae"
+    },
+    {
+      "path": "原始资料/02-跑马.png",
+      "sha256": "4d7b30aef2cfa40d71114165a9fabd79003ea2872ab9a67010f090e5e0465ff9"
+    },
+    {
+      "path": "原始资料/03-跑狗.png",
+      "sha256": "42b471e35840f9192edb87d328f491472e9b1a75a8a017d83097bcbf75d6463c"
+    },
+    {
+      "path": "原始资料/04-码头诗.png",
+      "sha256": "b4c4aab80c742f497774167a4b3845effacc004c9c19eb9cf3579f3c6cd7e2d7"
+    },
+    {
+      "path": "原始资料/05-澳门传真.png",
+      "sha256": "a39990fc19530f4631d064187c872ffb1948a57af407f165d72c725f2f2a868c"
+    },
+    {
+      "path": "原始资料/06-澳门挂牌.png",
+      "sha256": "96ec1af9e3142556ed5c6793004384a6db3f63c666e33876e231d38e712be030"
+    }
+  ],
+  "analysis_transcript_complete": true,
+  "latest_full_analysis": "分析-v001.md"
+}
