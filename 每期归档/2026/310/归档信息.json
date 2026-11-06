@@ -2,7 +2,7 @@
   "year": 2026,
   "period": 310,
   "archive_date": "2026-11-06",
-  "status": "六张JPG原图、完整分析及固定格式总结v001；结果待核验",
+  "status": "三源核验特46鸡、首37马，原主6防3均未覆盖，46仅见大双条件清单，复盘完成",
   "files": [
     {
       "path": "原始资料/01-管家婆.jpg",
@@ -31,5 +31,8 @@
   ],
   "analysis_transcript_complete": true,
   "latest_full_analysis": "分析-v001.md",
-  "latest_summary": "总结-v001.md"
+  "latest_summary": "总结-v001.md",
+  "latest_review": "复盘.md",
+  "review_evidence": "复盘证据审计.csv",
+  "result_file": "开奖结果.json"
 }

@@ -1,0 +1,22 @@
+{
+  "lottery": "新澳门六合彩",
+  "expect": "2026310",
+  "cross_checked_at": "2026-11-06T22:36:13+08:00",
+  "raw_rows_equal": true,
+  "raw_verify": false,
+  "validation_scope": "年、实时、单期历史三源310原字段逐项相等，日期期号、彩种8、七码、首号、特码及生肖一致",
+  "annual_source_file": "数据/来源/2026-21c9949824fb.json",
+  "annual_sha256": "21c9949824fb992a0b28d455db136e98e0230ef26944a0921275fa0bd7e86afb",
+  "annual_raw_rows": 620,
+  "annual_unique_periods": 310,
+  "files": [
+    {
+      "path": "实时新澳门六合彩.json",
+      "sha256": "abebf197fc7ab07d8a9a4e97b170b3efdc592ab9d50f9ca467bb3ffe56d21876"
+    },
+    {
+      "path": "单期历史310.json",
+      "sha256": "589e8af13b80c097043ba2bf7cd5e8c6ea7ad25e6cf24d24005b4b689dc47176"
+    }
+  ]
+}

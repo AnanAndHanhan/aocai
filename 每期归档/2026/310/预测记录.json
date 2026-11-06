@@ -28,5 +28,19 @@
       "frozen": true,
       "note": "六图有效范围完整；局部疑字和石桩疑形单列；未查询310开奖结果，未锁单号；冻结凭据不独立证明开奖前时间"
     }
-  ]
+  ],
+  "result_received_at": "2026-11-06T22:36:13+08:00",
+  "result_special_zodiac": "鸡",
+  "result_special_number": 46,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": false,
+    "defense_zodiac_covered": false,
+    "actual_position": "九肖外首位",
+    "specific_special_number_explicitly_listed": true,
+    "specific_special_number_listing_scope": "原分析的大双12号条件清单",
+    "specific_special_number_targeted": false,
+    "certified_pre_draw_performance_included": false,
+    "reason": "缺少独立开奖前时间凭据，冻结pre_draw_proven=false"
+  }
 }
