@@ -1,0 +1,74 @@
+{
+  "year": 2026,
+  "period": 310,
+  "created_at": "2026-11-06T20:17:52+08:00",
+  "expected_materials": [
+    "管家婆",
+    "跑马",
+    "跑狗",
+    "码头诗",
+    "澳门传真",
+    "澳门挂牌"
+  ],
+  "received_files": [
+    {
+      "path": "原始资料/01-管家婆.jpg",
+      "sha256": "0d05ae62f7109f8a479f631302ea308556f8829a59d4197af6823f00ead7dd75"
+    },
+    {
+      "path": "原始资料/02-跑马.jpg",
+      "sha256": "d4a9e95c1c9895b19dcb8558fc38264fd67e32dbfbefbcf5774f6347dd456089"
+    },
+    {
+      "path": "原始资料/03-跑狗.jpg",
+      "sha256": "690b8c65e7aad621cf1bbee7ec7cacba15a49d3b47bfef6496ceccdf7b6139b1"
+    },
+    {
+      "path": "原始资料/04-码头诗.jpg",
+      "sha256": "3a77709f2a9e3ada1538deaa8d49a22b632d0ae3ae5d17e2770b89da4d1cf217"
+    },
+    {
+      "path": "原始资料/05-澳门传真.jpg",
+      "sha256": "e159fe575d92f98d14952eaef64ee5991a4fba5d44648cd2f4d90639210f8dc2"
+    },
+    {
+      "path": "原始资料/06-澳门挂牌.jpg",
+      "sha256": "8bcdb4869b1216d9dc2ff6790c9078cd7f2301ac4055655d09c7e14c57e9910b"
+    }
+  ],
+  "missing_materials": [],
+  "scope_confirmed": true,
+  "ambiguous_text": [
+    "跑马诗尾华顶末／未待辨，暂按高处景物，不派生数字",
+    "跑狗石桩上部图形似06、下部似9，可能为纹孔，不作明文号码",
+    "码头穷挂头、三兄二弟掠大双及烟花三九保留不顺原字"
+  ],
+  "previous_first_verified": true,
+  "downgrades_checked": true,
+  "status": "六图齐、范围和首号降权已核；诗末及图形疑处已隔离，完整最终版v001",
+  "previous_first_source": "309/开奖结果.json：首34鸡、特13马；本期图中上期回放一致，仅核前期，不查询310结果",
+  "downgrades": {
+    "previous_first": {
+      "number": 34,
+      "zodiac": "鸡",
+      "level": "最高"
+    },
+    "hanging": {
+      "number": 32,
+      "zodiac": "猪",
+      "level": "最高"
+    },
+    "explosion": {
+      "zodiac": "狗",
+      "level": "次级"
+    },
+    "opposition": {
+      "text": "猴冲虎",
+      "zodiacs": [
+        "猴",
+        "虎"
+      ],
+      "level": "次级"
+    }
+  }
+}

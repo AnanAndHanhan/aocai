@@ -1,0 +1,32 @@
+{
+  "year": 2026,
+  "period": 310,
+  "versions": [
+    {
+      "version": "v001",
+      "status": "final",
+      "formed_at": "2026-11-06T20:26:50+08:00",
+      "analysis_file": "分析-v001.md",
+      "summary_file": "总结-v001.md",
+      "main": [
+        "羊",
+        "蛇",
+        "兔",
+        "龙",
+        "鼠",
+        "猪"
+      ],
+      "defense": [
+        "牛",
+        "猴",
+        "马"
+      ],
+      "evidence_file": "证据表.csv",
+      "rule_commit": "ceb8ab5a6c75a85054ce1e78a9c64176f7eb7c64",
+      "before_result_received_in_chat": true,
+      "before_actual_draw_verified": null,
+      "frozen": true,
+      "note": "六图有效范围完整；局部疑字和石桩疑形单列；未查询310开奖结果，未锁单号；冻结凭据不独立证明开奖前时间"
+    }
+  ]
+}
