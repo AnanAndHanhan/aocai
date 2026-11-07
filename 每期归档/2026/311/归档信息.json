@@ -2,7 +2,7 @@
   "year": 2026,
   "period": 311,
   "archive_date": "2026-11-07",
-  "status": "六张PNG、完整分析和逐肖总结v001，结果待核验",
+  "status": "六图与完整分析总结v001保留；311结果已核验，六图37项原证据及4项补核复盘完成",
   "files": [
     {
       "path": "原始资料/01-管家婆.png",
@@ -31,5 +31,11 @@
   ],
   "analysis_transcript_complete": true,
   "latest_full_analysis": "分析-v001.md",
-  "latest_summary": "总结-v001.md"
+  "latest_summary": "总结-v001.md",
+  "latest_review": "复盘.md",
+  "review_evidence_file": "复盘证据审计.csv",
+  "review_evidence_count": 41,
+  "reviewed_at": "2026-11-07T22:10:12+08:00",
+  "result_file": "开奖结果.json",
+  "result_validation_file": "开奖来源/核验记录.json"
 }

@@ -28,5 +28,19 @@
       "frozen": true,
       "note": "六图齐全与范围确认；人物及非标准语句限制单列；传真双数作为条件保留冲突；未查询311结果；冻结不独立认证开奖前时间"
     }
-  ]
+  ],
+  "result_received_at": "2026-11-07T22:06:25+08:00",
+  "result_special_zodiac": "鸡",
+  "result_special_number": 34,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": false,
+    "defense_zodiac_covered": false,
+    "actual_position": "九肖外，原其余牛、鸡、狗",
+    "specific_special_number_explicitly_listed": false,
+    "specific_special_number_listing_scope": "原双数宽条件涵盖34，但无明确有效34观察；原不拼34及上期回放34不计",
+    "specific_special_number_targeted": false,
+    "certified_pre_draw_performance_included": false,
+    "reason": "缺少独立开奖前时间凭据，冻结pre_draw_proven=false；不将正码算特码命中"
+  }
 }
