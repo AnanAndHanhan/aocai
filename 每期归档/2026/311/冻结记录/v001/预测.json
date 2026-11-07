@@ -1,0 +1,26 @@
+{
+  "version": "v001",
+  "status": "final",
+  "formed_at": "2026-11-07T17:54:07+08:00",
+  "analysis_file": "分析-v001.md",
+  "summary_file": "总结-v001.md",
+  "main": [
+    "龙",
+    "虎",
+    "猴",
+    "猪",
+    "羊",
+    "马"
+  ],
+  "defense": [
+    "兔",
+    "蛇",
+    "鼠"
+  ],
+  "evidence_file": "证据表.csv",
+  "rule_commit": "61b24aa7105ff8f0afe84ff4d78ec72233fce69c",
+  "before_result_received_in_chat": true,
+  "before_actual_draw_verified": null,
+  "frozen": true,
+  "note": "六图齐全与范围确认；人物及非标准语句限制单列；传真双数作为条件保留冲突；未查询311结果；冻结不独立认证开奖前时间"
+}

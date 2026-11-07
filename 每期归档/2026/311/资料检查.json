@@ -1,0 +1,74 @@
+{
+  "year": 2026,
+  "period": 311,
+  "created_at": "2026-11-07T17:48:06+08:00",
+  "expected_materials": [
+    "管家婆",
+    "跑马",
+    "跑狗",
+    "码头诗",
+    "澳门传真",
+    "澳门挂牌"
+  ],
+  "received_files": [
+    {
+      "path": "原始资料/01-管家婆.png",
+      "sha256": "57cc1dcf2bf6617395843569d39af553dcc0e11628efec28cace216893fe9f4c"
+    },
+    {
+      "path": "原始资料/02-跑马.png",
+      "sha256": "26aa7c7403d1e7f5ac1a2c65a8ff353b0720e3cd453e44f4ae07f1e790491e01"
+    },
+    {
+      "path": "原始资料/03-跑狗.png",
+      "sha256": "77b0b611ec6dbbd5b1f2fecdba4458d1a27b3c284b68ad0fdf7e4bda942cdc71"
+    },
+    {
+      "path": "原始资料/04-码头诗.png",
+      "sha256": "777ee572334bef180dd5073bb100605002a9b6dd388110065e3b19d8c66344dd"
+    },
+    {
+      "path": "原始资料/05-澳门传真.png",
+      "sha256": "291e93ef15aea6e847175d9330f988f14b98281b970063083e71f75d926a7469"
+    },
+    {
+      "path": "原始资料/06-澳门挂牌.png",
+      "sha256": "dbc52903c4cc993d4e72816fa4fc0b4d8a4d5a237bff5a23d696d737c4943b9d"
+    }
+  ],
+  "missing_materials": [],
+  "scope_confirmed": true,
+  "ambiguous_text": [
+    "跑马诗句恋顶、青丝缕保留不顺原字，语义有限",
+    "传真期中夕二起相思、四方三面四最长及一三原字保留",
+    "图中挥斧者姓名不明；云雁等物件不数数；溘然长往按整体惜别死亡语义弱查"
+  ],
+  "previous_first_verified": true,
+  "downgrades_checked": true,
+  "status": "六图齐、有效区与首号降权确认，非标准句义和人物身份已单列，完整最终v001",
+  "previous_first_source": "310/开奖结果.json：首37马、特46鸡；原图上期回放一致；本次仅核前期，不查询311结果",
+  "downgrades": {
+    "previous_first": {
+      "number": 37,
+      "zodiac": "马",
+      "level": "最高"
+    },
+    "hanging": {
+      "number": 6,
+      "zodiac": "牛",
+      "level": "最高"
+    },
+    "explosion": {
+      "zodiac": "羊",
+      "level": "次级"
+    },
+    "opposition": {
+      "text": "鸡冲兔",
+      "zodiacs": [
+        "鸡",
+        "兔"
+      ],
+      "level": "次级"
+    }
+  }
+}
