@@ -1,0 +1,38 @@
+{
+  "year": 2026,
+  "period": 312,
+  "archive_date": "2026-11-08",
+  "archived_at": "2026-11-08T20:16:24+08:00",
+  "status": "六张PNG、完整最终分析与逐肖总结v001；结果待核验",
+  "files": [
+    {
+      "path": "原始资料/01-管家婆.png",
+      "sha256": "2c90ac73bd36a5a9a1cd64b72a42097fac96f3ab698c134836d69b01e9aaec33"
+    },
+    {
+      "path": "原始资料/02-跑马.png",
+      "sha256": "501404fba2c9c5c36cc45c65d707ecc9bdd51d761684db4d3e5ac00c774bf3cb"
+    },
+    {
+      "path": "原始资料/03-跑狗.png",
+      "sha256": "1ae4e84ae9eda849e1dfe2f2a3fd7cdfc1268a2095280a6a96faf4ab105f9528"
+    },
+    {
+      "path": "原始资料/04-码头诗.png",
+      "sha256": "e5a9f5170041316b0bb2736f95d658d92c91343c45f0e8e6a055eabf1ea41f09"
+    },
+    {
+      "path": "原始资料/05-澳门传真.png",
+      "sha256": "a62c51a20c7808e119784dbc1ec53aeef3320f5aea65f5e02bccf1429d025892"
+    },
+    {
+      "path": "原始资料/06-澳门挂牌.png",
+      "sha256": "4dd0e741fb37edb36e39beb15db59b4a0ee3b114492710d31e643e79ccfedca3"
+    }
+  ],
+  "analysis_transcript_complete": true,
+  "latest_full_analysis": "分析-v001.md",
+  "latest_summary": "总结-v001.md",
+  "evidence_count": 41,
+  "analysis_formed_at": "2026-11-08T20:32:35+08:00"
+}

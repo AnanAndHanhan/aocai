@@ -1,0 +1,26 @@
+{
+  "version": "v001",
+  "status": "final",
+  "formed_at": "2026-11-08T20:32:35+08:00",
+  "analysis_file": "分析-v001.md",
+  "summary_file": "总结-v001.md",
+  "main": [
+    "鸡",
+    "虎",
+    "猴",
+    "马",
+    "兔",
+    "蛇"
+  ],
+  "defense": [
+    "龙",
+    "羊",
+    "鼠"
+  ],
+  "evidence_file": "证据表.csv",
+  "rule_commit": "76b2e0500e5797fd4d23b8ad7d796144396bfea0",
+  "before_result_received_in_chat": true,
+  "before_actual_draw_verified": null,
+  "frozen": true,
+  "note": "本次6图齐，按R19总结；合字分段、末一肖谓语、人物身份限制已明写；未查询312结果；冻结不独立认证实际开奖前时间"
+}

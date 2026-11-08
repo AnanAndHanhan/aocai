@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-08T20:32:35+08:00",
+  "scope": "仅核词义，不查询312开奖、不采用外部生肖表",
+  "method": "agent-reach Exa检索定位、Jina Reader读取",
+  "entries": [
+    {
+      "word": "红牙",
+      "source": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E7%B4%85%E7%89%99",
+      "meaning_note": "拍板乐器；音乐意再依本项目琴肖表推断，不是词典提供生肖"
+    },
+    {
+      "word": "悃愊无华",
+      "source": "https://www.zdic.net/hans/%E6%82%83%E6%84%8A%E6%97%A0%E5%8D%8E",
+      "meaning_note": "诚实质朴、不虚浮；不按部首、总笔画或无花推肖"
+    }
+  ]
+}
