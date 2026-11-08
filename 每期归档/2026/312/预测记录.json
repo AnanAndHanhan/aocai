@@ -28,5 +28,20 @@
       "frozen": true,
       "note": "本次6图齐，按R19总结；合字分段、末一肖谓语、人物身份限制已明写；未查询312结果；冻结不独立认证实际开奖前时间"
     }
-  ]
+  ],
+  "result_received_at": "2026-11-08T22:23:33+08:00",
+  "result_special_zodiac": "蛇",
+  "result_special_number": 38,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": true,
+    "main_rank": 6,
+    "defense_zodiac_covered": false,
+    "actual_position": "主六肖第6位",
+    "specific_special_number_explicitly_listed": false,
+    "specific_special_number_listing_scope": "原观察14/02及蛇位；38只出现在不等竹花38的限制文字，不计有效给号",
+    "specific_special_number_targeted": false,
+    "certified_pre_draw_performance_included": false,
+    "reason": "冻结pre_draw_proven=false，缺少独立开奖前时间证明；原蛇生肖覆盖不等于明确38，不把正码算特码命中"
+  }
 }

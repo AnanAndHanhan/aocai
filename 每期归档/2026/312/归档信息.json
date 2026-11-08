@@ -3,7 +3,7 @@
   "period": 312,
   "archive_date": "2026-11-08",
   "archived_at": "2026-11-08T20:16:24+08:00",
-  "status": "六张PNG、完整最终分析与逐肖总结v001；结果待核验",
+  "status": "原6图、分析总结v001保留；312结果已核验，六图41项原证据及3项补核审计完成",
   "files": [
     {
       "path": "原始资料/01-管家婆.png",
@@ -34,5 +34,11 @@
   "latest_full_analysis": "分析-v001.md",
   "latest_summary": "总结-v001.md",
   "evidence_count": 41,
-  "analysis_formed_at": "2026-11-08T20:32:35+08:00"
+  "analysis_formed_at": "2026-11-08T20:32:35+08:00",
+  "latest_review": "复盘.md",
+  "review_evidence_file": "复盘证据审计.csv",
+  "review_evidence_count": 44,
+  "reviewed_at": "2026-11-08T22:28:14+08:00",
+  "result_file": "开奖结果.json",
+  "result_validation_file": "开奖来源/核验记录.json"
 }
