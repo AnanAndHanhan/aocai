@@ -1,0 +1,26 @@
+{
+  "version": "v001",
+  "status": "final",
+  "formed_at": "2026-11-09T10:15:12+08:00",
+  "analysis_file": "分析-v001.md",
+  "summary_file": "总结-v001.md",
+  "main": [
+    "羊",
+    "虎",
+    "猪",
+    "蛇",
+    "龙",
+    "鼠"
+  ],
+  "defense": [
+    "马",
+    "鸡",
+    "猴"
+  ],
+  "evidence_file": "证据表.csv",
+  "rule_commit": "7baabdbc42af1baee26f34b73bb6d2d4013a2422",
+  "before_result_received_in_chat": true,
+  "before_actual_draw_verified": null,
+  "frozen": true,
+  "note": "本次6图齐；疑字形5/8不作关键输入，原句不顺与身份限制单列；最高降权非绝对，31神偷明鼠覆盖部分。未查询313结果；冻结不独立认证实际开奖前时间"
+}
