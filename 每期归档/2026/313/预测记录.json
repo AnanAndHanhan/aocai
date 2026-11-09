@@ -28,5 +28,20 @@
       "frozen": true,
       "note": "本次6图齐；疑字形5/8不作关键输入，原句不顺与身份限制单列；最高降权非绝对，31神偷明鼠覆盖部分。未查询313结果；冻结不独立认证实际开奖前时间"
     }
-  ]
+  ],
+  "result_received_at": "2026-11-09T22:11:07+08:00",
+  "result_special_zodiac": "鼠",
+  "result_special_number": 43,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": true,
+    "main_rank": 6,
+    "defense_zodiac_covered": false,
+    "actual_position": "主六肖第6位",
+    "specific_special_number_explicitly_listed": false,
+    "specific_special_number_listing_scope": "43在原文中仅为挂牌降权/属性限制，不计正向选中；原正向观察31神偷与单七07鼠，31没出、07只正码",
+    "specific_special_number_targeted": false,
+    "certified_pre_draw_performance_included": false,
+    "reason": "冻结pre_draw_proven=false，未独立核验开奖前时间；鼠生肖覆盖与43未提前选中分开，不将挂牌负向记录或07正码当特号命中"
+  }
 }
