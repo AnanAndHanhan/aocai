@@ -1,0 +1,26 @@
+{
+  "version": "v001",
+  "status": "final",
+  "formed_at": "2026-11-10T20:42:44+08:00",
+  "analysis_file": "分析-v001.md",
+  "summary_file": "总结-v001.md",
+  "main": [
+    "马",
+    "牛",
+    "羊",
+    "猴",
+    "龙",
+    "蛇"
+  ],
+  "defense": [
+    "狗",
+    "猪",
+    "兔"
+  ],
+  "evidence_file": "证据表.csv",
+  "rule_commit": "76a8fd3e8690ff3a03720456b47c5b1ae406f042",
+  "before_result_received_in_chat": true,
+  "before_actual_draw_verified": null,
+  "frozen": true,
+  "note": "本次六图与范围齐；疑字不作关键输入。狗首33、龙挂15最高及猪爆/鼠马冲次级均分来源，跨资料可覆盖部分。未查询314结果；冻结时间不独立证明实际开奖前成绩"
+}

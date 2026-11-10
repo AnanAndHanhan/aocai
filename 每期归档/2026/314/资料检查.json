@@ -1,0 +1,83 @@
+{
+  "year": 2026,
+  "period": 314,
+  "created_at": "2026-11-10T20:30:05+08:00",
+  "expected_materials": [
+    "管家婆",
+    "跑马",
+    "跑狗",
+    "码头诗",
+    "澳门传真",
+    "澳门挂牌"
+  ],
+  "received_files": [
+    "原始资料/01-管家婆.png",
+    "原始资料/02-跑马.png",
+    "原始资料/03-跑狗.png",
+    "原始资料/04-码头诗.png",
+    "原始资料/05-澳门传真.png",
+    "原始资料/06-澳门挂牌.png"
+  ],
+  "missing_materials": [],
+  "scope_confirmed": true,
+  "ambiguous_text": [
+    "码头首句首字暂录链，关系不顺；仅15作为可靠数字",
+    "跑马添新涨一篙春碧的涨字局部字体；扬施/丹灶保留可见字，不改熟句",
+    "道者姓名未明；葫芦剑柄样物不认特定仙人；鹿由正文确认，不数物件"
+  ],
+  "previous_first_verified": true,
+  "downgrades_checked": true,
+  "status": "六图齐，范围/上期首号/五项降权核对完成；疑字不作关键输入，可保存完整最终版",
+  "previous_result": {
+    "period": 313,
+    "regular_numbers": [
+      33,
+      39,
+      45,
+      15,
+      7,
+      20
+    ],
+    "special_number": 43,
+    "first_number": 33,
+    "first_zodiac": "狗",
+    "special_zodiac": "鼠",
+    "source": "../313/开奖结果.json",
+    "image_replay_matches": true
+  },
+  "downgrades": [
+    {
+      "zodiac": "狗",
+      "level": "最高",
+      "source": "313首33"
+    },
+    {
+      "zodiac": "龙",
+      "level": "最高",
+      "source": "314挂15"
+    },
+    {
+      "zodiac": "猪",
+      "level": "次级",
+      "source": "314爆猪"
+    },
+    {
+      "zodiac": "鼠",
+      "level": "次级",
+      "source": "314跑狗鼠冲马"
+    },
+    {
+      "zodiac": "马",
+      "level": "次级",
+      "source": "314跑狗鼠冲马"
+    }
+  ],
+  "effective_scope": {
+    "管家婆": "仅岸上红梨叶战初",
+    "跑马": "主图/上角/共用四字/诗文/指定总9",
+    "跑狗": "主图/上角/共用四字/正文/指定总14/底部鼠冲马",
+    "码头": "正文和赠言",
+    "传真": "当期正文及江山之恨",
+    "挂牌": "为恶不悛；15及爆猪只降权"
+  }
+}
