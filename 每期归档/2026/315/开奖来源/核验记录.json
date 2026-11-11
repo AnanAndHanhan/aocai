@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-11-11T22:04:06+08:00",
+  "lottery": "新澳门六合彩",
+  "expect": "2026315",
+  "accepted_source": "https://history.macaumarksix.com/history/macaujc2/expect/2026315",
+  "latest_source": "https://macaumarksix.com/api/macaujc2.com",
+  "rows_equal": true,
+  "compared_fields": "实时与单期完整行一致；原normalizer严格核彩种8、年期、非未来日期、七号码原序唯一与全部生肖；首06牛末尾特48羊，波色另逐项与基础表核对",
+  "source_verify": false,
+  "raw_files": [
+    {
+      "path": "实时新澳门六合彩.json",
+      "sha256": "01a66d79eafd83d0e652224240cdb0786594c064b278606b838aed60edb04370",
+      "response_file_saved_at": "2026-11-11T22:02:28+08:00"
+    },
+    {
+      "path": "单期历史315.json",
+      "sha256": "5f28e28315172a491ce17c445c93be78bee8dcd095277f5e2ff09740ce8ebd07",
+      "response_file_saved_at": "2026-11-11T22:02:28+08:00"
+    },
+    {
+      "path": "年接口拒绝响应.json",
+      "sha256": "9c61bacdeee0115ecb4dc4325fc646e8d7e6f4f3103864ae3ee1abdbc100dc55",
+      "response_file_saved_at": "2026-11-11T22:02:29+08:00"
+    }
+  ],
+  "time_note": "实际落盘/复核均在11月11日22:00后；不倒填任务触发或计划时间",
+  "annual_rejected": {
+    "source": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+    "error": "彩种或年份/期号不符",
+    "row_count": 366,
+    "years": {
+      "2026": 315,
+      "2025": 51
+    },
+    "action": "整批拒绝留件，不修改校验；采用独立一致的单期响应"
+  },
+  "prediction_note": "没有315原图、资料分析或预测，不建立冻结、名单或命中率；不套314"
+}

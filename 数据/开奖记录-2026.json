@@ -1,9 +1,9 @@
 {
   "source_page": "https://macaujc.com/",
-  "source": "https://history.macaumarksix.com/history/macaujc2/expect/2026313",
-  "fetched_at": "2026-11-09T22:11:07+08:00",
-  "source_file": "数据/来源/2026-57b1765e3366.json",
-  "source_sha256": "57b1765e33668f913ac975aec992241196d80ddce446a30ccd189c5c5dbd452e",
+  "source": "https://history.macaumarksix.com/history/macaujc2/expect/2026315",
+  "fetched_at": "2026-11-11T22:04:06+08:00",
+  "source_file": "数据/来源/2026-5f28e2831517.json",
+  "source_sha256": "5f28e28315172a491ce17c445c93be78bee8dcd095277f5e2ff09740ce8ebd07",
   "records": [
     {
       "year": 2026,
@@ -6232,9 +6232,83 @@
       "first_number": 33,
       "first_zodiac": "狗",
       "special_zodiac": "鼠"
+    },
+    {
+      "year": 2026,
+      "period": 314,
+      "lottery": "新澳门六合彩",
+      "draw_time": "2026-11-10T21:32:32+08:00",
+      "numbers": [
+        13,
+        26,
+        9,
+        37,
+        34,
+        44,
+        31
+      ],
+      "zodiacs": [
+        "马",
+        "蛇",
+        "狗",
+        "马",
+        "鸡",
+        "猪",
+        "鼠"
+      ],
+      "regular_numbers": [
+        13,
+        26,
+        9,
+        37,
+        34,
+        44
+      ],
+      "special_number": 31,
+      "first_number": 13,
+      "first_zodiac": "马",
+      "special_zodiac": "鼠"
+    },
+    {
+      "year": 2026,
+      "period": 315,
+      "lottery": "新澳门六合彩",
+      "draw_time": "2026-11-11T21:32:32+08:00",
+      "numbers": [
+        6,
+        9,
+        25,
+        27,
+        33,
+        22,
+        48
+      ],
+      "zodiacs": [
+        "牛",
+        "狗",
+        "马",
+        "龙",
+        "狗",
+        "鸡",
+        "羊"
+      ],
+      "regular_numbers": [
+        6,
+        9,
+        25,
+        27,
+        33,
+        22
+      ],
+      "special_number": 48,
+      "first_number": 6,
+      "first_zodiac": "牛",
+      "special_zodiac": "羊"
     }
   ],
   "inherited_source_files": [
+    "数据/来源/2026-cf0b67c3b4c7.json",
+    "数据/来源/2026-57b1765e3366.json",
     "数据/来源/2026-6b0337aaa68a.json",
     "数据/来源/2026-d0ba61632ce7.json",
     "数据/来源/2026-21c9949824fb.json",
@@ -6244,5 +6318,5 @@
     "数据/来源/2026-3a7f33fc79b6.json",
     "数据/来源/2026-8606263e1dc1.json"
   ],
-  "source_note": "313经实时与单期历史完整原字段一致后补录；年接口混2025年53条，严格整批拒绝，不筛选导入。141—312保持既有核验数据与来源链；当前source_file仅对应313。"
+  "source_note": "315实时与单期历史完整原字段一致，经严格校验只补315；年接口混2025年51条，整批拒绝，不筛选导入。141—314保持本地已核验数据与来源链；其中314为11月10日已核验、11月11日恢复补完复盘的记录。当前source_file仅对应315。"
 }

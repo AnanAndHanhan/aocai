@@ -28,5 +28,21 @@
       "frozen": true,
       "note": "本次六图与范围齐；疑字不作关键输入。狗首33、龙挂15最高及猪爆/鼠马冲次级均分来源，跨资料可覆盖部分。未查询314结果；冻结时间不独立证明实际开奖前成绩"
     }
-  ]
+  ],
+  "result_received_at": "2026-11-10T22:10:41+08:00",
+  "result_special_zodiac": "鼠",
+  "result_special_number": 31,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": false,
+    "main_rank": null,
+    "defense_zodiac_covered": false,
+    "defense_rank": null,
+    "actual_position": "九肖外（原其余三肖第一鼠，非主6或防3）",
+    "specific_special_number_explicitly_listed": false,
+    "specific_special_number_listing_scope": "31仅历史引用或无强号码身份的限制中出现，未作为本期有效选号；原13/09/34观察仅出正码",
+    "specific_special_number_targeted": false,
+    "certified_pre_draw_performance_included": false,
+    "reason": "原主6防3均未覆盖特31鼠；pre_draw_proven=false，本次不独立认证开奖前成绩，不以平码作特码命中"
+  }
 }

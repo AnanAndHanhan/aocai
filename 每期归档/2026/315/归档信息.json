@@ -1,0 +1,14 @@
+{
+  "year": 2026,
+  "period": 315,
+  "archive_date": "2026-11-11",
+  "archived_at": "2026-11-11T22:04:06+08:00",
+  "status": "仅已核验实际结果，无315原始资料、分析及预测；无资料复盘已保存",
+  "files": [],
+  "prediction_present": false,
+  "analysis_transcript_complete": false,
+  "result_file": "开奖结果.json",
+  "result_validation_file": "开奖来源/核验记录.json",
+  "latest_review": "复盘.md",
+  "performance_evaluated": false
+}
