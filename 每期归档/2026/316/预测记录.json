@@ -28,5 +28,21 @@
       "frozen": true,
       "note": "本次六图、范围、首号和降权完整核对；非关键疑字保留。未查询316结果；保存真实时间，不据冻结时钟认证实际开奖前成绩。"
     }
-  ]
+  ],
+  "result_received_at": "2026-11-12T22:02:21+08:00",
+  "result_special_zodiac": "龙",
+  "result_special_number": 3,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": false,
+    "main_rank": null,
+    "defense_zodiac_covered": false,
+    "defense_rank": null,
+    "actual_position": "九肖外（原其余三肖猪、蛇、龙，龙未入主防）",
+    "specific_special_number_explicitly_listed": true,
+    "specific_special_number_listing_scope": "原分析号码表及E027/E028/E031已正向列03龙、蓝波及佛灯火，属于条件辅助观察；不是纯历史引用、暗码或否定段",
+    "specific_special_number_targeted": false,
+    "certified_pre_draw_performance_included": false,
+    "reason": "原主6防3均未覆盖龙；03曾列为条件观察不等于最终选中或锁定；pre_draw_proven=false，不算认证开奖前成绩，不把正码当特码"
+  }
 }

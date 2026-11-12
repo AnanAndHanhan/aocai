@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-11-12T22:02:21+08:00",
+  "lottery": "新澳门六合彩",
+  "expect": "2026316",
+  "accepted_source": "https://history.macaumarksix.com/history/macaujc2/expect/2026316",
+  "latest_source": "https://macaumarksix.com/api/macaujc2.com",
+  "rows_equal": true,
+  "compared_fields": "实时与单期完整原始行逐字段相等；原normalizer核type8、2026/316、非未来日期、七号码原序唯一、全部生肖；波色另逐号与基础资料核对；首14蛇末特03龙",
+  "source_verify": false,
+  "raw_files": [
+    {
+      "path": "实时新澳门六合彩.json",
+      "sha256": "1168edbaa91ae26c24aa50a6b5b11714c5542fd1254fb975836b96cabc86926b",
+      "response_file_saved_at": "2026-11-12T22:00:38+08:00",
+      "note": "保存时间取本次下载文件实际mtime；非计划触发时间"
+    },
+    {
+      "path": "单期历史316.json",
+      "sha256": "1a24d9b95fcc9843c10b730034661ebe7f02f84cd68682d4b3370146f350cf47",
+      "response_file_saved_at": "2026-11-12T22:00:38+08:00",
+      "note": "保存时间取本次下载文件实际mtime；非计划触发时间"
+    },
+    {
+      "path": "年接口拒绝响应.json",
+      "sha256": "ee73c73beb23497ee92e40886749cd4d8884cadcf1d6dd6f39c427f6bdf14979",
+      "response_file_saved_at": "2026-11-12T22:00:38+08:00",
+      "note": "保存时间取本次下载文件实际mtime；非计划触发时间"
+    }
+  ],
+  "annual_rejected": {
+    "source": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+    "error": "彩种或年份/期号不符",
+    "row_count": 366,
+    "years": {
+      "2026": 316,
+      "2025": 50
+    },
+    "action": "整批拒绝，不筛选、不放宽normalizer；独立一致单期响应补316"
+  },
+  "prediction_note": "v001已冻结，分析/总结/原证据及版本名单不变；pre_draw_proven=false，不独立认证开奖前成绩"
+}

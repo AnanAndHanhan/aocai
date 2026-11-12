@@ -4,7 +4,7 @@
   "archived_at": "2026-11-12T13:57:47+08:00",
   "archive_date": "2026-11-12",
   "source": "用户本次对话6张PNG原件",
-  "status": "316六图原件、完整分析v001、逐肖总结、43项证据及冻结快照齐；待316开奖结果和复盘",
+  "status": "316结果核验与六图完整复盘完成；原主防未覆盖龙，03为原有条件观察；v001及冻结保留",
   "files": [
     {
       "path": "原始资料/01-管家婆.png",
@@ -43,5 +43,11 @@
   "analysis_formed_at": "2026-11-12T14:09:12+08:00",
   "evidence_count": 43,
   "frozen_at": "2026-11-12T14:09:47+08:00",
-  "pre_draw_proven": false
+  "pre_draw_proven": false,
+  "latest_review": "复盘.md",
+  "review_evidence_file": "复盘证据审计.csv",
+  "review_evidence_count": 54,
+  "reviewed_at": "2026-11-12T22:16:12+08:00",
+  "result_file": "开奖结果.json",
+  "result_validation_file": "开奖来源/核验记录.json"
 }
