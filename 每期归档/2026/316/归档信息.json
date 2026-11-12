@@ -1,0 +1,47 @@
+{
+  "year": 2026,
+  "period": 316,
+  "archived_at": "2026-11-12T13:57:47+08:00",
+  "archive_date": "2026-11-12",
+  "source": "用户本次对话6张PNG原件",
+  "status": "316六图原件、完整分析v001、逐肖总结、43项证据及冻结快照齐；待316开奖结果和复盘",
+  "files": [
+    {
+      "path": "原始资料/01-管家婆.png",
+      "sha256": "ae7b64fc7b3d8d0c08cd9010a2916500cd6c6d92d75d9123a22025583ffe3f04",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-2d53912d-8c4a-4f39-b17f-9a9e70243ab5.png"
+    },
+    {
+      "path": "原始资料/02-跑马.png",
+      "sha256": "c33f9619088b79818316064bfe8300aa7347290a35f4c8ef568c1ec5df50314c",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-d505021c-f321-4b16-929b-dfd8518fb226.png"
+    },
+    {
+      "path": "原始资料/03-跑狗.png",
+      "sha256": "98dca56ce9918856b9e923b647a31f051d66fb3921902d0c405e1b9500e4780d",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-85a0d9f5-d239-4fce-8072-5f783402e24f.png"
+    },
+    {
+      "path": "原始资料/04-码头诗.png",
+      "sha256": "c4f80723f7dc1c6deaa975910a61d4c0ab32e6b3d90bb9b4593d6908a823a45c",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-3caeff6a-0d37-48d6-92d9-0e4b15bc4655.png"
+    },
+    {
+      "path": "原始资料/05-澳门传真.png",
+      "sha256": "968c2c3c11beba953c6f1e40c8e0cb9b3d89443ba4610880cd6b1d90c7cf6e11",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-84c1f74d-1ab3-4be6-a175-b3d9295142fd.png"
+    },
+    {
+      "path": "原始资料/06-澳门挂牌.png",
+      "sha256": "00b6e869e6d36e56b16858223a112a686219dac07808ccdb5176839a29b31bad",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-c94300fb-2dca-4223-93f5-11475863b552.png"
+    }
+  ],
+  "analysis_transcript_complete": true,
+  "latest_full_analysis": "分析-v001.md",
+  "latest_summary": "总结-v001.md",
+  "analysis_formed_at": "2026-11-12T14:09:12+08:00",
+  "evidence_count": 43,
+  "frozen_at": "2026-11-12T14:09:47+08:00",
+  "pre_draw_proven": false
+}

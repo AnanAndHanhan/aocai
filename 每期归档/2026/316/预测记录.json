@@ -1,0 +1,32 @@
+{
+  "year": 2026,
+  "period": 316,
+  "versions": [
+    {
+      "version": "v001",
+      "status": "final",
+      "formed_at": "2026-11-12T14:09:12+08:00",
+      "analysis_file": "分析-v001.md",
+      "summary_file": "总结-v001.md",
+      "main": [
+        "马",
+        "鼠",
+        "猴",
+        "狗",
+        "虎",
+        "鸡"
+      ],
+      "defense": [
+        "牛",
+        "兔",
+        "羊"
+      ],
+      "evidence_file": "证据表.csv",
+      "rule_commit": "2897c9c597957fff583b69dfe82756ce32b14247",
+      "before_result_received_in_chat": true,
+      "before_actual_draw_verified": null,
+      "frozen": true,
+      "note": "本次六图、范围、首号和降权完整核对；非关键疑字保留。未查询316结果；保存真实时间，不据冻结时钟认证实际开奖前成绩。"
+    }
+  ]
+}
