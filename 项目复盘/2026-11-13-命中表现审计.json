@@ -1,0 +1,438 @@
+{
+  "generated_at": "2026-11-13T17:51:47+08:00",
+  "scope": "仅当前仓库已存304—316期结果及最后一份完整名单；315无预测排除，317未查结果排除；304v005，305—308暂定v001，309起最终v001；说明类v002不另计样本",
+  "performance_type": "存档结果描述性对照；所有样本pre_draw_proven=false，不称已认证开奖前命中率",
+  "baseline_assumption": "每期49号等概率；马5号，其余肖4号；使用每期原主6/九肖所覆盖号码数除49，再对样本期平均；不是对网站真实机制的独立认证",
+  "all_saved_lists": {
+    "sample_size": 12,
+    "main_hits": 5,
+    "defense_only_hits": 0,
+    "nine_hits": 5,
+    "outside_nine": 7,
+    "top1_hits": 0,
+    "top3_hits": 2,
+    "main_rate": 0.4166666666666667,
+    "defense_only_rate": 0.0,
+    "nine_rate": 0.4166666666666667,
+    "equal_number_assumption_main_baseline": 0.5034013605442178,
+    "equal_number_assumption_nine_baseline": 0.7534013605442177,
+    "independently_certified_pre_draw_samples": 0
+  },
+  "final_lists_309_to_316": {
+    "sample_size": 7,
+    "main_hits": 2,
+    "defense_only_hits": 0,
+    "nine_hits": 2,
+    "outside_nine": 5,
+    "top1_hits": 0,
+    "top3_hits": 0,
+    "main_rate": 0.2857142857142857,
+    "defense_only_rate": 0.0,
+    "nine_rate": 0.2857142857142857,
+    "equal_number_assumption_main_baseline": 0.5014577259475218,
+    "equal_number_assumption_nine_baseline": 0.7521865889212827,
+    "independently_certified_pre_draw_samples": 0
+  },
+  "rows": [
+    {
+      "period": 304,
+      "version": "v005",
+      "special": 21,
+      "zodiac": "狗",
+      "main": [
+        "牛",
+        "兔",
+        "龙",
+        "鼠",
+        "马",
+        "猴"
+      ],
+      "defense": [
+        "猪",
+        "蛇",
+        "鸡"
+      ],
+      "position": "九肖外",
+      "final_status": null,
+      "certificate": false,
+      "source_prediction": "每期归档/2026/304/预测记录.json",
+      "source_result": "每期归档/2026/304/开奖结果.json",
+      "source_prediction_sha256": "13d9222b421fcc304ab7dfa1d395f7ae10781187bd1797b30e038bbdfd3dd66b",
+      "source_result_sha256": "9ddd4be875fc4d7aaf31a8c5a2a8d77e195ad13dfe612d8de741fe2031ed8fb5"
+    },
+    {
+      "period": 305,
+      "version": "v001",
+      "special": 26,
+      "zodiac": "蛇",
+      "main": [
+        "猪",
+        "牛",
+        "羊",
+        "鼠",
+        "马",
+        "狗"
+      ],
+      "defense": [
+        "鸡",
+        "虎",
+        "龙"
+      ],
+      "position": "九肖外",
+      "final_status": "provisional",
+      "certificate": false,
+      "source_prediction": "每期归档/2026/305/预测记录.json",
+      "source_result": "每期归档/2026/305/开奖结果.json",
+      "source_prediction_sha256": "f12621625dd8867f4ed43fb8f08991fb069168e41f1e2f1629649a8ff226adad",
+      "source_result_sha256": "13f041ea4929aa19abc0d660626bee329e7750e1766dc22c852d5499a0c8305d"
+    },
+    {
+      "period": 306,
+      "version": "v001",
+      "special": 15,
+      "zodiac": "龙",
+      "main": [
+        "马",
+        "鸡",
+        "猪",
+        "鼠",
+        "羊",
+        "龙"
+      ],
+      "defense": [
+        "猴",
+        "牛",
+        "蛇"
+      ],
+      "position": "主6",
+      "final_status": "provisional",
+      "certificate": false,
+      "source_prediction": "每期归档/2026/306/预测记录.json",
+      "source_result": "每期归档/2026/306/开奖结果.json",
+      "source_prediction_sha256": "4b172ab773f9096d9def26132193bf686574d344d6197841def9dfc1f00a09c1",
+      "source_result_sha256": "f4bf5720c3358395ed70ef07eb27026b9d42874433b6e1abc0be48655b7056a5"
+    },
+    {
+      "period": 307,
+      "version": "v001",
+      "special": 42,
+      "zodiac": "牛",
+      "main": [
+        "马",
+        "羊",
+        "牛",
+        "鼠",
+        "兔",
+        "狗"
+      ],
+      "defense": [
+        "猴",
+        "蛇",
+        "龙"
+      ],
+      "position": "主3",
+      "final_status": "provisional",
+      "certificate": false,
+      "source_prediction": "每期归档/2026/307/预测记录.json",
+      "source_result": "每期归档/2026/307/开奖结果.json",
+      "source_prediction_sha256": "c00bd04a12291dccda651abf34b16162832b2ecf465a97442b643fb456cd06d7",
+      "source_result_sha256": "8bad20a646b47a1fb84528fd289bab09b456b7d1f1b416a4bc0851bf52f03cd9"
+    },
+    {
+      "period": 308,
+      "version": "v001",
+      "special": 46,
+      "zodiac": "鸡",
+      "main": [
+        "蛇",
+        "鸡",
+        "鼠",
+        "牛",
+        "猪",
+        "羊"
+      ],
+      "defense": [
+        "马",
+        "猴",
+        "龙"
+      ],
+      "position": "主2",
+      "final_status": "provisional",
+      "certificate": false,
+      "source_prediction": "每期归档/2026/308/预测记录.json",
+      "source_result": "每期归档/2026/308/开奖结果.json",
+      "source_prediction_sha256": "aabbd7f28eeb9e72fccd6df9bc8e9b1c5639b287afcc7c2db104eadc5b01e076",
+      "source_result_sha256": "01ba8fd1a6c63b0741cc0407ba2b54d3dcf942e45818d7ab438dc68e7647fab9"
+    },
+    {
+      "period": 309,
+      "version": "v001",
+      "special": 13,
+      "zodiac": "马",
+      "main": [
+        "鸡",
+        "虎",
+        "龙",
+        "兔",
+        "蛇",
+        "鼠"
+      ],
+      "defense": [
+        "猴",
+        "狗",
+        "猪"
+      ],
+      "position": "九肖外",
+      "final_status": "final",
+      "certificate": false,
+      "source_prediction": "每期归档/2026/309/预测记录.json",
+      "source_result": "每期归档/2026/309/开奖结果.json",
+      "source_prediction_sha256": "456ea4e120cac9db574814c04211bfac122cb0484195c47683822243eda18b0a",
+      "source_result_sha256": "724a2f383a999f0e06e3a9fb11113a5342e1fde6fea4c01c7a98a261a4470d0b"
+    },
+    {
+      "period": 310,
+      "version": "v001",
+      "special": 46,
+      "zodiac": "鸡",
+      "main": [
+        "羊",
+        "蛇",
+        "兔",
+        "龙",
+        "鼠",
+        "猪"
+      ],
+      "defense": [
+        "牛",
+        "猴",
+        "马"
+      ],
+      "position": "九肖外",
+      "final_status": "final",
+      "certificate": false,
+      "source_prediction": "每期归档/2026/310/预测记录.json",
+      "source_result": "每期归档/2026/310/开奖结果.json",
+      "source_prediction_sha256": "9691a8f248c22edadbac6aa81f5d2cdb6f028ac9a31a4779421dd0700a173710",
+      "source_result_sha256": "1f623c93e06cf9c9f4ba4076df2c593327588be3de44fb7a30fe80072dc5fd2e"
+    },
+    {
+      "period": 311,
+      "version": "v001",
+      "special": 34,
+      "zodiac": "鸡",
+      "main": [
+        "龙",
+        "虎",
+        "猴",
+        "猪",
+        "羊",
+        "马"
+      ],
+      "defense": [
+        "兔",
+        "蛇",
+        "鼠"
+      ],
+      "position": "九肖外",
+      "final_status": "final",
+      "certificate": false,
+      "source_prediction": "每期归档/2026/311/预测记录.json",
+      "source_result": "每期归档/2026/311/开奖结果.json",
+      "source_prediction_sha256": "85827dfae941074de50902c13f2508062f6a0eee46b3231648703efbf329cb85",
+      "source_result_sha256": "b201541186d480db58f1a4e39cfd39ba269eaa9cbcb6b68340626832776f4dfb"
+    },
+    {
+      "period": 312,
+      "version": "v001",
+      "special": 38,
+      "zodiac": "蛇",
+      "main": [
+        "鸡",
+        "虎",
+        "猴",
+        "马",
+        "兔",
+        "蛇"
+      ],
+      "defense": [
+        "龙",
+        "羊",
+        "鼠"
+      ],
+      "position": "主6",
+      "final_status": "final",
+      "certificate": false,
+      "source_prediction": "每期归档/2026/312/预测记录.json",
+      "source_result": "每期归档/2026/312/开奖结果.json",
+      "source_prediction_sha256": "b4e30815192a28c238422638677c0256890ad2194adad81e50bd560fb24cd135",
+      "source_result_sha256": "ac39d8c0bf97d80b58242861cdf5fda0ae85768902b6fe212c07a4b1b1ff0515"
+    },
+    {
+      "period": 313,
+      "version": "v001",
+      "special": 43,
+      "zodiac": "鼠",
+      "main": [
+        "羊",
+        "虎",
+        "猪",
+        "蛇",
+        "龙",
+        "鼠"
+      ],
+      "defense": [
+        "马",
+        "鸡",
+        "猴"
+      ],
+      "position": "主6",
+      "final_status": "final",
+      "certificate": false,
+      "source_prediction": "每期归档/2026/313/预测记录.json",
+      "source_result": "每期归档/2026/313/开奖结果.json",
+      "source_prediction_sha256": "99d33ee9d1800051fea6bc2baeeab0547ab4e4c465336300b290599237d0655e",
+      "source_result_sha256": "d134764000365e5842d1b6cd539d7e0cd00202df5f8b4de95a10d4eded8d315e"
+    },
+    {
+      "period": 314,
+      "version": "v001",
+      "special": 31,
+      "zodiac": "鼠",
+      "main": [
+        "马",
+        "牛",
+        "羊",
+        "猴",
+        "龙",
+        "蛇"
+      ],
+      "defense": [
+        "狗",
+        "猪",
+        "兔"
+      ],
+      "position": "九肖外",
+      "final_status": "final",
+      "certificate": false,
+      "source_prediction": "每期归档/2026/314/预测记录.json",
+      "source_result": "每期归档/2026/314/开奖结果.json",
+      "source_prediction_sha256": "67f796963af64fe5aa9caa0cec94f7eb17f11f829ed6f9f841a96be6ad31f6d9",
+      "source_result_sha256": "8f55ea80b25d0e085f425347cb9cb74de8e12a2a240fec0b21d2e676fee4794e"
+    },
+    {
+      "period": 316,
+      "version": "v001",
+      "special": 3,
+      "zodiac": "龙",
+      "main": [
+        "马",
+        "鼠",
+        "猴",
+        "狗",
+        "虎",
+        "鸡"
+      ],
+      "defense": [
+        "牛",
+        "兔",
+        "羊"
+      ],
+      "position": "九肖外",
+      "final_status": "final",
+      "certificate": false,
+      "source_prediction": "每期归档/2026/316/预测记录.json",
+      "source_result": "每期归档/2026/316/开奖结果.json",
+      "source_prediction_sha256": "99cc5a6b5dbe59063f25dbf475ee8d317b7989254e908a42e14609dcb37280ed",
+      "source_result_sha256": "5425a124e9639f3a6c714d0415f23abbf7f53223a53864eca97b223f2894567d"
+    }
+  ],
+  "branch_width_audit": [
+    {
+      "period": 316,
+      "csv_row_count": 43,
+      "retained_row_count": 39,
+      "candidate_zodiac_count": 12,
+      "unique_number_count": 36,
+      "numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        48,
+        49
+      ],
+      "note": "包含弱/条件/属性竞争分支，非最终选号；过滤固定降权、前置核验、上期首特事实；不把行数视为独立来源"
+    },
+    {
+      "period": 317,
+      "csv_row_count": 47,
+      "retained_row_count": 42,
+      "candidate_zodiac_count": 12,
+      "unique_number_count": 30,
+      "numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        22,
+        24,
+        25,
+        26,
+        27,
+        28,
+        31,
+        34,
+        35,
+        36,
+        37,
+        42,
+        43
+      ],
+      "note": "包含弱/条件/属性竞争分支，非最终选号；过滤固定降权、前置核验、上期首特事实；不把行数视为独立来源"
+    }
+  ]
+}
