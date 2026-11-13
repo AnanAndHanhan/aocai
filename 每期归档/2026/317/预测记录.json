@@ -1,0 +1,32 @@
+{
+  "year": 2026,
+  "period": 317,
+  "versions": [
+    {
+      "version": "v001",
+      "status": "final",
+      "formed_at": "2026-11-13T17:35:37+08:00",
+      "analysis_file": "分析-v001.md",
+      "summary_file": "总结-v001.md",
+      "main": [
+        "马",
+        "兔",
+        "羊",
+        "龙",
+        "牛",
+        "鸡"
+      ],
+      "defense": [
+        "猪",
+        "鼠",
+        "猴"
+      ],
+      "evidence_file": "证据表.csv",
+      "rule_commit": "a2c05a4ce7d37b6e57a0152602c37659db7f1047",
+      "before_result_received_in_chat": true,
+      "before_actual_draw_verified": null,
+      "frozen": true,
+      "note": "本次六图齐，范围/首14蛇、挂05虎、爆猴及兔鸡冲均核对；跑狗旧特码错印48羊仅留件不采。上角首两字疑字非关键。未查317开奖结果，不独立认证开奖前成绩。"
+    }
+  ]
+}

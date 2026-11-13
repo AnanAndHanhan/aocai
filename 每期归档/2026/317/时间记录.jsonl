@@ -1,0 +1,4 @@
+{"event": "period_created", "at": "2026-11-13T17:17:01+08:00"}
+{"event": "six_originals_saved_and_scope_checked", "at": "2026-11-13T17:24:49+08:00", "note": "实际保存核对时间；对话精确接收时刻未知，不倒填；未查询317结果", "files": ["原始资料/01-管家婆.png", "原始资料/02-跑马.png", "原始资料/03-跑狗.png", "原始资料/04-码头诗.png", "原始资料/05-澳门传真.png", "原始资料/06-澳门挂牌.png"]}
+{"event": "analysis_v001_formed", "at": "2026-11-13T17:35:37+08:00", "evidence_count": 47, "rule_commit": "a2c05a4ce7d37b6e57a0152602c37659db7f1047", "note": "真实形成时间；六图、前期首号/当期降权已核，未查317结果；不据冻结时钟认证实际开奖前成绩"}
+{"event": "v001_frozen_and_checks_passed", "at": "2026-11-13T17:37:30+08:00", "snapshot_created_at": "2026-11-13T17:37:30+08:00", "pre_draw_proven": false, "note": "6图哈希/字节、47项号码候选归属、主防正文总结及链接核验；未查询317结果"}
