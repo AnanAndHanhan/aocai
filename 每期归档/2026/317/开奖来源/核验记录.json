@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-11-13T22:08:08+08:00",
+  "lottery": "新澳门六合彩",
+  "expect": "2026317",
+  "accepted_source": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+  "latest_source": "https://macaumarksix.com/api/macaujc2.com",
+  "period_source": "https://history.macaumarksix.com/history/macaujc2/expect/2026317",
+  "rows_equal": true,
+  "compared_fields": "年度317全部重复行、实时及单期完整行相等；type8、日期、七号原序唯一、全部生肖与波色、首31鼠及末特26蛇通过；旧141—316前缀完全不变",
+  "source_verify": false,
+  "annual_validation": {
+    "raw_rows": 634,
+    "year_counts": {
+      "2026": 634
+    },
+    "normalized_periods": 177,
+    "note": "本次年度634行均为2026，重复记录一致，原normalizer完整通过；未筛混年，未放宽校验"
+  },
+  "raw_files": [
+    {
+      "path": "实时新澳门六合彩.json",
+      "sha256": "7a7b3165da604901eacbee422670882338e03417bd1a4f68d3e29e6fb2b0bc6c",
+      "response_file_saved_at": "2026-11-13T22:07:05+08:00"
+    },
+    {
+      "path": "单期历史317.json",
+      "sha256": "085e690074eea416233c89fafd9d2b4826114ba289a5b5c936390d43d569a1b4",
+      "response_file_saved_at": "2026-11-13T22:07:05+08:00"
+    },
+    {
+      "path": "年接口2026.json",
+      "sha256": "123fe5cee061b71307d090a891360048a382c28c0300ac14839e688956dd5a56",
+      "response_file_saved_at": "2026-11-13T22:06:53+08:00"
+    }
+  ],
+  "prediction_note": "v001在接收结果前已有冻结，哈希已验证；不改历史文本，不独立认证开奖前成绩"
+}
