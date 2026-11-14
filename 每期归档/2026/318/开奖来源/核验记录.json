@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-11-14T22:01:27+08:00",
+  "lottery": "新澳门六合彩",
+  "expect": "2026318",
+  "accepted_source": "https://history.macaumarksix.com/history/macaujc2/expect/2026318",
+  "latest_source": "https://macaumarksix.com/api/macaujc2.com",
+  "rows_equal": true,
+  "compared_fields": "实时与单期完整原始行逐字段相等；原normalizer核type8、2026/318、非未来日期、七号原序唯一、全部生肖；波色逐号对照基础表；首10鸡末特38蛇",
+  "source_verify": false,
+  "raw_files": [
+    {
+      "path": "实时新澳门六合彩.json",
+      "sha256": "28946e5f5441e85dd265053382474816a5b74e7acefb7e769494652685ae15d3",
+      "response_file_saved_at": "2026-11-14T22:00:41+08:00"
+    },
+    {
+      "path": "单期历史318.json",
+      "sha256": "d2a52a10f2cd035d818eb8651e53eb53f9fd2a19944419bf6d00115c8ebb2ecd",
+      "response_file_saved_at": "2026-11-14T22:00:41+08:00"
+    },
+    {
+      "path": "年接口拒绝响应.json",
+      "sha256": "150ed0dc58f98c65f69e520173bbef28bfec501f6cb6f0358fd864e10cff6b3a",
+      "response_file_saved_at": "2026-11-14T22:00:41+08:00"
+    }
+  ],
+  "annual_rejected": {
+    "source": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+    "error": "彩种或年份/期号不符",
+    "row_count": 366,
+    "years": {
+      "2026": 318,
+      "2025": 48
+    },
+    "action": "正常sync-history严格拒绝；失败后复取原响应留件，同样混年整批拒绝，不筛年、不放宽校验；只独立一致单期补318"
+  },
+  "prediction_note": "查询前检查无318期资料/分析/预测，故无318可冻结版本；已有317冻结哈希完整，不改旧稿，不将旧期名单套入318"
+}
