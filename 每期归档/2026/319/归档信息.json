@@ -1,0 +1,22 @@
+{
+  "year": 2026,
+  "period": 319,
+  "archived_at": "2026-11-15T22:07:32+08:00",
+  "archive_date": "2026-11-15",
+  "source": "macaujc.com指定新澳门实时/单期接口",
+  "status": "首06牛、特05虎已核验；无319资料/预测，完成无资料复盘，不计成绩",
+  "files": [],
+  "materials_received": false,
+  "prediction_available": false,
+  "review_file": "复盘.md",
+  "review_type": "无资料复盘",
+  "result_file": "开奖结果.json",
+  "source_verification_file": "开奖来源/核验记录.json",
+  "result_fetched_at": "2026-11-15T22:06:28+08:00",
+  "reviewed_at": "2026-11-15T22:07:32+08:00",
+  "first_number": 6,
+  "first_zodiac": "牛",
+  "special_number": 5,
+  "special_zodiac": "虎",
+  "performance_sample_included": false
+}
