@@ -1,0 +1,46 @@
+{
+  "year": 2026,
+  "period": 320,
+  "lottery": "新澳门六合彩",
+  "draw_time": "2026-11-16T21:32:32+08:00",
+  "numbers": [
+    14,
+    17,
+    32,
+    34,
+    24,
+    46,
+    20
+  ],
+  "zodiacs": [
+    "蛇",
+    "虎",
+    "猪",
+    "鸡",
+    "羊",
+    "鸡",
+    "猪"
+  ],
+  "regular_numbers": [
+    14,
+    17,
+    32,
+    34,
+    24,
+    46
+  ],
+  "special_number": 20,
+  "first_number": 14,
+  "first_zodiac": "蛇",
+  "special_zodiac": "猪",
+  "source": "https://history.macaumarksix.com/history/macaujc2/expect/2026320",
+  "fetched_at": "2026-11-17T00:34:18+08:00",
+  "source_file": "数据/来源/2026-93b71c14f611.json",
+  "latest_source": "https://macaumarksix.com/api/macaujc2.com",
+  "period_source": "https://history.macaumarksix.com/history/macaujc2/expect/2026320",
+  "latest_evidence": "开奖来源/实时新澳门六合彩.json",
+  "period_evidence": "开奖来源/单期历史320.json",
+  "cross_checked_at": "2026-11-17T00:35:00+08:00",
+  "source_verify": false,
+  "validation_note": "实时与已确认单期完整行相同；年度混年整批拒绝不筛年；来源verify=false保留。实际11月17日凌晨处理，未倒填22:00"
+}

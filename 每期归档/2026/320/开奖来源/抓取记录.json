@@ -1,0 +1,33 @@
+[
+  {
+    "file": "年度2026-拒绝原件.json",
+    "url": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+    "response_saved_at": "2026-11-17T00:33:43+08:00",
+    "sha256": "690b47bf378a3941901bdc75f8c2435b334fdf51671d2b41e16129dcb1ce54b3",
+    "rows": 366,
+    "years": {
+      "2025": 46,
+      "2026": 320
+    }
+  },
+  {
+    "file": "实时新澳门六合彩.json",
+    "url": "https://macaumarksix.com/api/macaujc2.com",
+    "response_saved_at": "2026-11-17T00:33:47+08:00",
+    "sha256": "2c99d6cd8ac108b16d4eeb0d149367350c45d482869b7ec5614aa14a632a9069",
+    "rows": 1,
+    "years": {
+      "2026": 1
+    }
+  },
+  {
+    "file": "单期历史320.json",
+    "url": "https://history.macaumarksix.com/history/macaujc2/expect/2026320",
+    "response_saved_at": "2026-11-17T00:34:18+08:00",
+    "sha256": "93b71c14f6118162b4dc231ddeb4bafa5487d2fadb90034c1bdf46ecd0cbb442",
+    "rows": 1,
+    "years": {
+      "2026": 1
+    }
+  }
+]

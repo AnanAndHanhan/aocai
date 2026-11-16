@@ -1,9 +1,9 @@
 {
   "source_page": "https://macaujc.com/",
-  "source": "https://history.macaumarksix.com/history/macaujc2/expect/2026319",
-  "fetched_at": "2026-11-15T22:06:28+08:00",
-  "source_file": "数据/来源/2026-2f11e6f3ccf5.json",
-  "source_sha256": "2f11e6f3ccf55e8f0e8dc0e2fa39c0ce652f3b340fb0bc47ef61842b61e27678",
+  "source": "https://history.macaumarksix.com/history/macaujc2/expect/2026320",
+  "fetched_at": "2026-11-17T00:34:18+08:00",
+  "source_file": "数据/来源/2026-93b71c14f611.json",
+  "source_sha256": "93b71c14f6118162b4dc231ddeb4bafa5487d2fadb90034c1bdf46ecd0cbb442",
   "records": [
     {
       "year": 2026,
@@ -6448,10 +6448,55 @@
       "first_number": 6,
       "first_zodiac": "牛",
       "special_zodiac": "虎"
+    },
+    {
+      "year": 2026,
+      "period": 320,
+      "lottery": "新澳门六合彩",
+      "draw_time": "2026-11-16T21:32:32+08:00",
+      "numbers": [
+        14,
+        17,
+        32,
+        34,
+        24,
+        46,
+        20
+      ],
+      "zodiacs": [
+        "蛇",
+        "虎",
+        "猪",
+        "鸡",
+        "羊",
+        "鸡",
+        "猪"
+      ],
+      "regular_numbers": [
+        14,
+        17,
+        32,
+        34,
+        24,
+        46
+      ],
+      "special_number": 20,
+      "first_number": 14,
+      "first_zodiac": "蛇",
+      "special_zodiac": "猪"
     }
   ],
-  "latest_source": "https://macaumarksix.com/api/macaujc2.com",
-  "annual_source_rejected": true,
-  "prior_source_file": "数据/来源/2026-d2a52a10f2cd.json",
-  "source_note": "旧141—318的178条逐条不变；本次只补319；年度366行混2025年47行整批拒绝，不筛年/放宽校验；单期原响应经实时完整行一致核验"
+  "cross_checked_at": "2026-11-17T00:35:00+08:00",
+  "source_note": "本次来源原件仅含320；原141—319共179条逐条未变，继承此前核验来源；年度混年拒绝，不从混年响应筛选。",
+  "previous_dataset_source": {
+    "source_page": "https://macaujc.com/",
+    "source": "https://history.macaumarksix.com/history/macaujc2/expect/2026319",
+    "fetched_at": "2026-11-15T22:06:28+08:00",
+    "source_file": "数据/来源/2026-2f11e6f3ccf5.json",
+    "source_sha256": "2f11e6f3ccf55e8f0e8dc0e2fa39c0ce652f3b340fb0bc47ef61842b61e27678",
+    "latest_source": "https://macaumarksix.com/api/macaujc2.com",
+    "annual_source_rejected": true,
+    "prior_source_file": "数据/来源/2026-d2a52a10f2cd.json",
+    "source_note": "旧141—318的178条逐条不变；本次只补319；年度366行混2025年47行整批拒绝，不筛年/放宽校验；单期原响应经实时完整行一致核验"
+  }
 }

@@ -3,3 +3,5 @@
 {"event": "analysis_v001_formed", "at": "2026-11-16T18:47:32+08:00", "evidence_count": 55, "rule_commit": "f6d497704f5055095d5c0230dd01fd5679f8b10d", "note": "真实形成时间；六图及全部有效区域、号码与降权已核，未查询320结果；本地形成时间不独立证明早于开奖"}
 {"event": "analysis_v001_final_consistency_checked", "at": "2026-11-16T18:48:39+08:00", "previous_draft_formed_at": "2026-11-16T18:47:32+08:00", "evidence_count": 55, "note": "和尚两表/VIP补查同步正文和资料说明；55项号码归属、主防与总结、六图逐字节/SHA256及链接核验通过；此刻为最终稿形成时刻，未查询320结果"}
 {"event": "v001_frozen", "at": "2026-11-16T18:49:07+08:00", "snapshot_created_at": "2026-11-16T18:48:39+08:00", "pre_draw_proven": false, "note": "完整稿与预测原样冻结，尚未查询320结果；冻结不独立证明早于实际开奖"}
+{"event": "result_fetched_and_verified", "at": "2026-11-17T00:34:18+08:00", "cross_checked_at": "2026-11-17T00:35:00+08:00", "recorded_at": "2026-11-17T00:46:24+08:00", "note": "实际2026-11-17凌晨应用户继续复盘处理；年度混年整批拒绝，实时/单期完整行一致补320；首14蛇特20猪，不倒填22:00"}
+{"event": "full_six_image_review_completed", "at": "2026-11-17T00:46:24+08:00", "evidence_count": 64, "note": "原55项逐条+9项阶段/边界审计；主6第3猪，20原E046条件号未锁；原分析总结CSV/检查资料/六图/冻结/版本数组保留，pre_draw_proven=false"}

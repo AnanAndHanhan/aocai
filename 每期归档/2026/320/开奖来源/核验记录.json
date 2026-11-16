@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-11-17T00:35:00+08:00",
+  "lottery": "新澳门六合彩",
+  "expect": "2026320",
+  "accepted_source": "https://history.macaumarksix.com/history/macaujc2/expect/2026320",
+  "latest_source": "https://macaumarksix.com/api/macaujc2.com",
+  "rows_equal": true,
+  "compared_fields": "两个入口完整原始行相等；原normalizer核type8、2026/320、非未来日期、七号原序唯一及全部生肖，波色逐号对照基础表；首14蛇末特20猪",
+  "source_verify": false,
+  "raw_files": [
+    {
+      "file": "年度2026-拒绝原件.json",
+      "url": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+      "response_saved_at": "2026-11-17T00:33:43+08:00",
+      "sha256": "690b47bf378a3941901bdc75f8c2435b334fdf51671d2b41e16129dcb1ce54b3",
+      "rows": 366,
+      "years": {
+        "2025": 46,
+        "2026": 320
+      }
+    },
+    {
+      "file": "实时新澳门六合彩.json",
+      "url": "https://macaumarksix.com/api/macaujc2.com",
+      "response_saved_at": "2026-11-17T00:33:47+08:00",
+      "sha256": "2c99d6cd8ac108b16d4eeb0d149367350c45d482869b7ec5614aa14a632a9069",
+      "rows": 1,
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "file": "单期历史320.json",
+      "url": "https://history.macaumarksix.com/history/macaujc2/expect/2026320",
+      "response_saved_at": "2026-11-17T00:34:18+08:00",
+      "sha256": "93b71c14f6118162b4dc231ddeb4bafa5487d2fadb90034c1bdf46ecd0cbb442",
+      "rows": 1,
+      "years": {
+        "2026": 1
+      }
+    }
+  ],
+  "annual_rejected": {
+    "error": "彩种或年份/期号不符",
+    "row_count": 366,
+    "years": {
+      "2026": 320,
+      "2025": 46
+    },
+    "action": "整批拒绝不筛年不放宽，只用实时与已确认单期完整一致响应补320"
+  },
+  "independence_note": "两入口属同一服务，只核数据一致性，不视为两个独立开奖机构证明",
+  "prediction_note": "v001结果查询前已有冻结且哈希通过；pre_draw_proven仍false，不据本地时间认证成绩"
+}
