@@ -1,0 +1,207 @@
+{
+  "created_at": "2026-11-16T10:03:43+08:00",
+  "data_base_commit": "3aae874bebe9a37b557c9a074275b7939805aab9",
+  "latest_period": 319,
+  "record_range": [
+    141,
+    319
+  ],
+  "record_count": 179,
+  "latest_first": {
+    "number": 6,
+    "zodiac": "牛"
+  },
+  "latest_special": {
+    "number": 5,
+    "zodiac": "虎"
+  },
+  "source_files": [
+    {
+      "section": 1,
+      "path": "CHATGPT_HANDOFF.md",
+      "source_sha256": "8ce6173351e73d85db73c08ef107c7674187a41be8bb53103db93e4f600084e3",
+      "source_bytes": 9541,
+      "embedded_sha256": "073adcd00fd80fe522d6d574e84a2582431020be6d2863037aafe66000a4b101",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 2,
+      "path": "交接包/ChatGPT项目指令.txt",
+      "source_sha256": "648c40c9f4b0e8e9fdd17d5887be3a70f0013f25c8ee8ddb748942604403c98b",
+      "source_bytes": 2012,
+      "embedded_sha256": "648c40c9f4b0e8e9fdd17d5887be3a70f0013f25c8ee8ddb748942604403c98b",
+      "transformation": "原文本保留"
+    },
+    {
+      "section": 3,
+      "path": "README.md",
+      "source_sha256": "ed1f04118434d6d08e262f1e6c1412c75c42f3511dec9cc3b12b2a8206047807",
+      "source_bytes": 4380,
+      "embedded_sha256": "398a2b89178579d0812555f3e9f379944559aa01d3d3a438602f2a22046b69ba",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 4,
+      "path": "PROJECT_HANDOFF_FINAL.md",
+      "source_sha256": "15ee6d29f3b95d83be488a6da6eef4e37575302b77b62e304a9ff7e6af57cc36",
+      "source_bytes": 5811,
+      "embedded_sha256": "d83fa5c1f0de5cf200a1c488f41fcfbd7eaf4da4e4988642687d672700c50f1c",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 5,
+      "path": "决策记录.md",
+      "source_sha256": "a3dd500b217a6309aca00c755bb56f1739a6071c41e151de5c78c600f4deabe1",
+      "source_bytes": 9658,
+      "embedded_sha256": "45f5b81067ac3d6985602e417bb491aaee31670b6aed15679f83cef10778c351",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 6,
+      "path": "基础资料.md",
+      "source_sha256": "4c404415e92785986e8f5685334296e78985133f93b298ccb24f8296857d3093",
+      "source_bytes": 21649,
+      "embedded_sha256": "c71637593cf945c5bdd40d332f9f6d5a7c199dd1a73329c243a356eb11e21e15",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 7,
+      "path": "开奖记录.md",
+      "source_sha256": "f5b1a26f6b5a403a805a0c9d98ef1a3d9988de859fb63d3b6461c2cc22524ec3",
+      "source_bytes": 14100,
+      "embedded_sha256": "f5b1a26f6b5a403a805a0c9d98ef1a3d9988de859fb63d3b6461c2cc22524ec3",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 8,
+      "path": "归档规则.md",
+      "source_sha256": "ba68577cc8b9fd12d5c17819b1770e0f4af7041c943e09a5c85a23c3bb59c060",
+      "source_bytes": 5730,
+      "embedded_sha256": "b3da983c436460d8c3594326524310a046c85548d831b80837dff4f89fbeaae7",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 9,
+      "path": "维护说明.md",
+      "source_sha256": "ce63273874d27a6898420e0143d490491999c6370588e925963482831b0632ee",
+      "source_bytes": 2421,
+      "embedded_sha256": "ce63273874d27a6898420e0143d490491999c6370588e925963482831b0632ee",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 10,
+      "path": "模板/逐肖总结.md",
+      "source_sha256": "ef560cd63e94a691ff5573d92e6fc2caeb0ece57d2d865339653a170fcaadc6b",
+      "source_bytes": 1939,
+      "embedded_sha256": "ef560cd63e94a691ff5573d92e6fc2caeb0ece57d2d865339653a170fcaadc6b",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 11,
+      "path": "复盘模板.md",
+      "source_sha256": "f2bc4042fd56b0cce363eba4f55fef0bdc6aa1cc84b3f7cfea5087a933d2220d",
+      "source_bytes": 1055,
+      "embedded_sha256": "f2bc4042fd56b0cce363eba4f55fef0bdc6aa1cc84b3f7cfea5087a933d2220d",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 12,
+      "path": "预测评估.md",
+      "source_sha256": "621e0d461b62344093cf3fd527a7c76567d8efd8119b7bf339df7e7b38c45094",
+      "source_bytes": 1461,
+      "embedded_sha256": "5ff6298daf5c57772bd47c24cdfe3ebc98712a21714f8b90f05b1d8bc10bb356",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 13,
+      "path": "复盘索引.md",
+      "source_sha256": "72757141b3afe97e456a637e1f242ec306d5cc1669366467ace3d63e6daee96d",
+      "source_bytes": 17044,
+      "embedded_sha256": "af83fdbc45544409763e34e0496171bd126e4d731c3a414aaccbaf56001ca85b",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 14,
+      "path": "每期归档/2026/317/分析-v001.md",
+      "source_sha256": "e7e5311ac5905b255dfd5fd6b52640a02afa6f8fa326a2787fab0491d9ed7a82",
+      "source_bytes": 25871,
+      "embedded_sha256": "e7e5311ac5905b255dfd5fd6b52640a02afa6f8fa326a2787fab0491d9ed7a82",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 15,
+      "path": "每期归档/2026/317/总结-v001.md",
+      "source_sha256": "7d54c8901eb018a0ec021d81cafa208740e08a9e39b68a266bc7a73a50c13573",
+      "source_bytes": 6481,
+      "embedded_sha256": "7d54c8901eb018a0ec021d81cafa208740e08a9e39b68a266bc7a73a50c13573",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 16,
+      "path": "每期归档/2026/317/证据表.csv",
+      "source_sha256": "b202a0d79b343d437e3b98d5528ee8f4d37b36d72f5b68f39398998eed236056",
+      "source_bytes": 16978,
+      "embedded_sha256": "b202a0d79b343d437e3b98d5528ee8f4d37b36d72f5b68f39398998eed236056",
+      "transformation": "原文本保留"
+    },
+    {
+      "section": 17,
+      "path": "每期归档/2026/317/预测记录.json",
+      "source_sha256": "2a896df1aaf515a1f18ee4ad8f74f4766519d0705ed987cf641609eba1a6c905",
+      "source_bytes": 1760,
+      "embedded_sha256": "2a896df1aaf515a1f18ee4ad8f74f4766519d0705ed987cf641609eba1a6c905",
+      "transformation": "原文本保留"
+    },
+    {
+      "section": 18,
+      "path": "每期归档/2026/317/复盘.md",
+      "source_sha256": "cdf7a7cafdbd071696795f08e2eafb6647a3b12e1d908f4cea0835defd5223fe",
+      "source_bytes": 13475,
+      "embedded_sha256": "1a92c1961df78705df3dd70cc9676579a607d02f42adb4846f4540e0ade3139a",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 19,
+      "path": "每期归档/2026/318/复盘.md",
+      "source_sha256": "84d7f246efe5ce59c91fb40ed0fe1d82009a94fa844625217d03241e4f95d56e",
+      "source_bytes": 3651,
+      "embedded_sha256": "488c428df975d2e218827524bdb4fb539f801ef2fdab9270b0de9abc0bbc88a0",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 20,
+      "path": "每期归档/2026/319/复盘.md",
+      "source_sha256": "426a846dc57be4f12580ad00acdf8348563357f7c97aaa63473d3e4754889d43",
+      "source_bytes": 3697,
+      "embedded_sha256": "f16f1b674c1b7f9b8415bb41cb2a22472e73c724e57e618735bf7dd44be563ff",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    },
+    {
+      "section": 21,
+      "path": "项目复盘/2026-11-13-命中表现与原因审计.md",
+      "source_sha256": "730943f6d0496c272e3969b970d0d44d1aeb19f22f5f0be1e9aea7368f285849",
+      "source_bytes": 9827,
+      "embedded_sha256": "275b38beecb262209da505dc09720832bc5438010bba476c022794693ab3fc59",
+      "transformation": "Markdown相对链接转仓库绝对链接，其他内容保留"
+    }
+  ],
+  "bundle": {
+    "path": "交接包/澳彩-ChatGPT手机接续资料-2026-11-16.md",
+    "bytes": 196123,
+    "sha256": "3229914101b1e4c76a94b5a40c32a35d686577974466dad409963af03aed0d2e",
+    "section_count": 21,
+    "contains_original_image_bytes": false
+  },
+  "not_migrated": [
+    "ChatGPT手机项目创建及上传未验证",
+    "仓库写入/新图片自动回传未接通",
+    "原22:00任务配置未改，未复制到ChatGPT",
+    "不包含完整聊天逐字稿、所有历史文件或Git历史"
+  ],
+  "notes": [
+    "正式规则仍以决策记录及用户新指令为准",
+    "原图留在每期归档，特定旧期复盘须实际读取原件",
+    "文件哈希与本次生成时间不是历史开奖前认证",
+    "MD相对链接转为GitHub绝对链接，正文副本哈希与来源哈希分别保留"
+  ]
+}
