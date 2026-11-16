@@ -1,0 +1,27 @@
+{
+  "version": "v001",
+  "status": "final",
+  "formed_at": "2026-11-16T18:48:39+08:00",
+  "analysis_file": "分析-v001.md",
+  "summary_file": "总结-v001.md",
+  "main": [
+    "蛇",
+    "兔",
+    "猪",
+    "狗",
+    "羊",
+    "龙"
+  ],
+  "defense": [
+    "马",
+    "鼠",
+    "牛"
+  ],
+  "evidence_file": "证据表.csv",
+  "rule_commit": "f6d497704f5055095d5c0230dd01fd5679f8b10d",
+  "before_result_received_in_chat": true,
+  "before_actual_draw_verified": null,
+  "frozen": true,
+  "specific_number_targeted": false,
+  "note": "六图齐；首06牛/挂46鸡最高，爆鼠与马鼠冲分别次级；上特05虎不降权。管家婆末字未辨单列，不引九阙。36夫人33管家45/13/28/32/14已参与排序。未查询或接收320结果，时间与冻结不独立认证开奖前成绩。"
+}

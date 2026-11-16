@@ -1,0 +1,47 @@
+{
+  "year": 2026,
+  "period": 320,
+  "archived_at": "2026-11-16T18:32:54+08:00",
+  "archive_date": "2026-11-16",
+  "source": "本次对话六张PNG原件",
+  "status": "六图、完整七项v001、R19总结、55项证据及冻结已保存；未查询320结果，待开奖核验复盘",
+  "files": [
+    {
+      "path": "原始资料/01-管家婆.png",
+      "sha256": "a069ab13caac8e46ee4f427589cd95cc7ddadc180c6c443ead160406b61b071d",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-a2e269e5-5217-4f66-8f45-c24891c5610b.png"
+    },
+    {
+      "path": "原始资料/02-跑马.png",
+      "sha256": "50e8268a90f224b6c7f4ee71dd013cdf4efe228288368670c1c01940b132d484",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-f96d1927-248b-4336-848d-03b8aed2c7b1.png"
+    },
+    {
+      "path": "原始资料/03-跑狗.png",
+      "sha256": "efdf2c92baaf588db85a206ec55a7bc669a54a4178605b835ecf5b3276b0a7ed",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-38db0a34-39e2-4a9d-a8e4-f42cc3d0618b.png"
+    },
+    {
+      "path": "原始资料/04-码头诗.png",
+      "sha256": "994db9d6224e1f0537ef48331a321fca1a4c168fbffea51e91c075291cddf9c1",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-915cbbdc-f8a0-4334-8720-338747b38909.png"
+    },
+    {
+      "path": "原始资料/05-澳门传真.png",
+      "sha256": "9e10efc4d322bc282cd380ef87baac3ce390323a12274d796d9970ccda39ff6c",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-86837d9f-5ffb-4653-9e8c-30bad6100c76.png"
+    },
+    {
+      "path": "原始资料/06-澳门挂牌.png",
+      "sha256": "45830354e1a2f4f3988987e29e1bab9b34298e3d9fa3a8d6697bd2c6fcdd212b",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-1a9768d7-7e9f-460d-bea8-b3e0b9a897b4.png"
+    }
+  ],
+  "analysis_transcript_complete": true,
+  "latest_full_analysis": "分析-v001.md",
+  "latest_summary": "总结-v001.md",
+  "analysis_formed_at": "2026-11-16T18:48:39+08:00",
+  "evidence_count": 55,
+  "pre_draw_proven": false,
+  "frozen_at": "2026-11-16T18:48:39+08:00"
+}

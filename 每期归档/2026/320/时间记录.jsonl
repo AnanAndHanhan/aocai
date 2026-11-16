@@ -1,0 +1,5 @@
+{"event": "period_created", "at": "2026-11-16T18:32:01+08:00"}
+{"event": "six_originals_saved", "at": "2026-11-16T18:32:54+08:00", "note": "实际落盘时间，精确消息接收时间未知不倒填；未查询320开奖结果"}
+{"event": "analysis_v001_formed", "at": "2026-11-16T18:47:32+08:00", "evidence_count": 55, "rule_commit": "f6d497704f5055095d5c0230dd01fd5679f8b10d", "note": "真实形成时间；六图及全部有效区域、号码与降权已核，未查询320结果；本地形成时间不独立证明早于开奖"}
+{"event": "analysis_v001_final_consistency_checked", "at": "2026-11-16T18:48:39+08:00", "previous_draft_formed_at": "2026-11-16T18:47:32+08:00", "evidence_count": 55, "note": "和尚两表/VIP补查同步正文和资料说明；55项号码归属、主防与总结、六图逐字节/SHA256及链接核验通过；此刻为最终稿形成时刻，未查询320结果"}
+{"event": "v001_frozen", "at": "2026-11-16T18:49:07+08:00", "snapshot_created_at": "2026-11-16T18:48:39+08:00", "pre_draw_proven": false, "note": "完整稿与预测原样冻结，尚未查询320结果；冻结不独立证明早于实际开奖"}

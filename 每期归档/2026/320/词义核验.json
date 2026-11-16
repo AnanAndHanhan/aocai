@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-11-16T18:47:32+08:00",
+  "checked_at": null,
+  "note": "本次分析过程中已核对教育部词典；此文件实际写入时间，不倒填每次查询时刻。仅词义检索，未查询320结果。",
+  "sources": [
+    {
+      "term": "短绠汲深",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=48322",
+      "summary": "能力不足以胜任；与短绳取深井水的字面一起比较"
+    },
+    {
+      "term": "涓埃",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=97519",
+      "summary": "细小之物，比喻微小"
+    },
+    {
+      "term": "令出惟行",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=65807",
+      "summary": "命令发布后贯彻施行"
+    },
+    {
+      "term": "猪八戒",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=118120",
+      "summary": "西游记玄奘的弟子，人物猪形"
+    },
+    {
+      "term": "堕落词条内天蓬原著引文",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=48009",
+      "summary": "原著天蓬自述，辅助确认天蓬与猪八戒语境"
+    }
+  ]
+}
