@@ -1,0 +1,33 @@
+{
+  "year": 2026,
+  "period": 321,
+  "versions": [
+    {
+      "version": "v001",
+      "status": "provisional",
+      "formed_at": "2026-11-17T21:00:43+08:00",
+      "analysis_file": "分析-v001.md",
+      "summary_file": "总结-v001.md",
+      "main": [
+        "马",
+        "鸡",
+        "猴",
+        "兔",
+        "猪",
+        "牛"
+      ],
+      "defense": [
+        "虎",
+        "鼠",
+        "龙"
+      ],
+      "evidence_file": "证据表.csv",
+      "rule_commit": "06e0e73a88dec0ff847654beb6e33dc84a72aa61",
+      "before_result_received_in_chat": true,
+      "before_actual_draw_verified": null,
+      "frozen": false,
+      "specific_number_targeted": false,
+      "note": "用户重新分析；六原件路径失效缺SHA256，疑松仅条件；暂定不freeze最终版，未查321结果。原数/总数/位序/条件与降权分开，不认证开奖前成绩。"
+    }
+  ]
+}

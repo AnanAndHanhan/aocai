@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-11-17T21:00:43+08:00",
+  "message_received_at": null,
+  "note": "本次重新分析时核验，六个临时PNG均不存在；依据对话内图片与此前识读，不冒称本地原件齐全。用户发送图片的真实时刻未独立取得，不倒填。",
+  "sources": [
+    {
+      "material": "管家婆",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-935b649e-64df-4966-b28c-bda0cd2fe53b.png",
+      "expected_archive_path": "原始资料/01-管家婆.png",
+      "source_exists_at_check": false,
+      "sha256": null,
+      "status": "原件路径失效；对话中图片可见，未伪造原件或SHA256"
+    },
+    {
+      "material": "跑马",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-b4e2e5e1-be8f-4299-a84b-62f24ade9502.png",
+      "expected_archive_path": "原始资料/02-跑马.png",
+      "source_exists_at_check": false,
+      "sha256": null,
+      "status": "原件路径失效；对话中图片可见，未伪造原件或SHA256"
+    },
+    {
+      "material": "跑狗",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-ff17db17-6962-4cb7-b8d4-62f8af138882.png",
+      "expected_archive_path": "原始资料/03-跑狗.png",
+      "source_exists_at_check": false,
+      "sha256": null,
+      "status": "原件路径失效；对话中图片可见，未伪造原件或SHA256"
+    },
+    {
+      "material": "码头诗",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-22f1c7a3-3c51-42be-9416-83bb3aa09e4e.png",
+      "expected_archive_path": "原始资料/04-码头诗.png",
+      "source_exists_at_check": false,
+      "sha256": null,
+      "status": "原件路径失效；对话中图片可见，未伪造原件或SHA256"
+    },
+    {
+      "material": "澳门传真",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-29c7a971-27d1-41bd-9da2-e2790e962221.png",
+      "expected_archive_path": "原始资料/05-澳门传真.png",
+      "source_exists_at_check": false,
+      "sha256": null,
+      "status": "原件路径失效；对话中图片可见，未伪造原件或SHA256"
+    },
+    {
+      "material": "澳门挂牌",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-7f5867cd-41b0-4181-982b-54ed95df2437.png",
+      "expected_archive_path": "原始资料/06-澳门挂牌.png",
+      "source_exists_at_check": false,
+      "sha256": null,
+      "status": "原件路径失效；对话中图片可见，未伪造原件或SHA256"
+    }
+  ]
+}

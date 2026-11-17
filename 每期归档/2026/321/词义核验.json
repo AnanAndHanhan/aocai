@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-11-17T21:00:43+08:00",
+  "route": "agent-reach / Exa，实际搜索结果；仅词义、不查询321开奖",
+  "sources": [
+    {
+      "term": "一身五世",
+      "url": "https://www.cidianwang.com/cy/y/yishenwushi53516.htm",
+      "finding": "词典释为寿长。仅采用寿长核心义；不据引文指定人物、出生生肖或认定历经哪五朝。世也有代/朝代等义，不强锁某一历史身份。"
+    },
+    {
+      "term": "世",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=8764&word=%3D%E4%B8%96",
+      "finding": "世有代、朝代、时代等义；不额外拼15或用作者生年生肖。"
+    },
+    {
+      "term": "炉火纯青",
+      "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=5503&la=0&webMd=1",
+      "finding": "核心为技艺精纯熟练；字面炉火为条件支线。青焰可解释蓝，但不同时把青硬锁蓝和绿。"
+    },
+    {
+      "term": "灭顶之灾",
+      "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=13655&la=0&webMd=2",
+      "finding": "核心为毁灭性灾难；不能把它直接等同实际洪水图或杀掉某肖。水没头顶字面仅辅助，原文未明确洪水。"
+    }
+  ]
+}
