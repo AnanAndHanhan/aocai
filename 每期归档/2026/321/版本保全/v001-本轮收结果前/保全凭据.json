@@ -1,0 +1,51 @@
+{
+  "preserved_at": "2026-11-17T21:57:27+08:00",
+  "source_commit": "6e99144d5a77f14a90d30632451ef8eee1dae470",
+  "version": "v001",
+  "status": "provisional",
+  "files": [
+    {
+      "path": "分析-v001.md",
+      "sha256": "52e2479216d332c571b163c6d22c584294166e96efb46d8b605c5f85a71fc192"
+    },
+    {
+      "path": "总结-v001.md",
+      "sha256": "1e8b219d8f96f86e1c85a345cd5cf864f27ef6ec262d6f863f50d4e2a15fa1b0"
+    },
+    {
+      "path": "预测记录.json",
+      "sha256": "2e5fa7e69380e82017f699ba9e1746bcf54647a45c2d919238d3c0d31c359f0a"
+    },
+    {
+      "path": "证据表.csv",
+      "sha256": "e2c0d5800134b02d626a64569ca171495f99a0cc3bec76d36172725f0f309a8a"
+    },
+    {
+      "path": "资料检查.json",
+      "sha256": "dca83950c7352b184cb703f542a7f8da1bd1c5d83b6aa7ee122ed6594763a998"
+    },
+    {
+      "path": "资料说明.md",
+      "sha256": "1244388d5a8db198c19d554ad2b3c5b3135f2887f1079ceefbeb24a200adb058"
+    },
+    {
+      "path": "原件缺失清单.json",
+      "sha256": "4177d5350960e9265271b44e5a76232105dec19954185582e2436392dd8c8f28"
+    },
+    {
+      "path": "归档信息.json",
+      "sha256": "6a9ae8363980f6031050126784cb3bb67ccb3f0f0f49b38db12a220a5621d400"
+    },
+    {
+      "path": "时间记录.jsonl",
+      "sha256": "a8d6de6db4e8c1620c347f80b630790bed6625b8e83be98f4d6479e3b4b16bf9"
+    },
+    {
+      "path": "词义核验.json",
+      "sha256": "90418ea5776c4112f3959862d19792fe4fe24e2ae558639db7c2208cb9e6a073"
+    }
+  ],
+  "pre_draw_proven": false,
+  "final_freeze": false,
+  "note": "本轮收到/查询结果之前保全当时已有文件；不是最终版freeze，不证明历史形成时间或实际开奖前形成，六原件仍缺。未知接收时间不倒填。"
+}

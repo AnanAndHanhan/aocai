@@ -1,0 +1,4 @@
+{"event": "period_created", "at": "2026-11-17T20:26:16+08:00"}
+{"event": "original_files_checked_missing", "at": "2026-11-17T21:00:43+08:00", "message_received_at": null, "missing_count": 6, "note": "对话六图可见；临时PNG失效，未取得SHA256；不倒填接收时间"}
+{"event": "analysis_formed", "at": "2026-11-17T21:00:43+08:00", "version": "v001", "status": "provisional", "note": "按用户重新分析；此前仅空表，无旧分析可覆盖；完整七项及证据形成，未查321结果；缺原件不freeze最终版"}
+{"event": "pre_submit_check", "at": "2026-11-17T21:02:10+08:00", "note": "核对证据CSV号码映射与候选；补男肖；六原件仍缺，暂定不freeze。未查询321结果。"}

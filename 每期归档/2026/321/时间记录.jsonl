@@ -2,3 +2,6 @@
 {"event": "original_files_checked_missing", "at": "2026-11-17T21:00:43+08:00", "message_received_at": null, "missing_count": 6, "note": "对话六图可见；临时PNG失效，未取得SHA256；不倒填接收时间"}
 {"event": "analysis_formed", "at": "2026-11-17T21:00:43+08:00", "version": "v001", "status": "provisional", "note": "按用户重新分析；此前仅空表，无旧分析可覆盖；完整七项及证据形成，未查321结果；缺原件不freeze最终版"}
 {"event": "pre_submit_check", "at": "2026-11-17T21:02:10+08:00", "note": "核对证据CSV号码映射与候选；补男肖；六原件仍缺，暂定不freeze。未查询321结果。"}
+{"event": "provisional_version_preserved_before_result_fetch", "at": "2026-11-17T21:57:27+08:00", "receipt": "版本保全/v001-本轮收结果前/保全凭据.json", "pre_draw_proven": false, "note": "仅当前暂定稿保全，不标最终版冻结；完整性缺口不变"}
+{"event": "result_validated_and_recorded", "at": "2026-11-17T22:02:43+08:00", "first_number": 15, "first_zodiac": "龙", "special_number": 41, "special_zodiac": "虎", "raw_response_saved_at": "2026-11-17T22:00:58+08:00", "note": "等到北京时间22:00后查询；年度混年拒绝，实时/单期原行一致；原暂定稿已保全，未知历史时间不倒填"}
+{"event": "semantic_review_completed_originals_pending", "at": "2026-11-17T22:08:46+08:00", "version": "v001 provisional", "review_rows": 72, "main_covered": false, "defense_rank": 1, "originals_available": 0, "note": "六原件像素与SHA256复核未完成；原版本数组/分析/总结/60证据不改，不认证成绩"}

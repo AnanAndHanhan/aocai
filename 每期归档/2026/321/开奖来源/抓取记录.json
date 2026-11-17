@@ -1,0 +1,36 @@
+[
+  {
+    "file": "年度2026-拒绝原件.json",
+    "url": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+    "response_saved_at": "2026-11-17T22:00:58+08:00",
+    "saved_time_basis": "本轮原件写入时刻（文件mtime）；抓取脚本解析列表时中断，回读原件恢复元数据，不冒充精确网络接收时间",
+    "sha256": "c7f9f8de4d33f6f96db07d4c03de7036e43acc91743090eb86a96719e9ffcae9",
+    "rows": 366,
+    "years": {
+      "2026": 321,
+      "2025": 45
+    }
+  },
+  {
+    "file": "实时新澳门六合彩.json",
+    "url": "https://macaumarksix.com/api/macaujc2.com",
+    "response_saved_at": "2026-11-17T22:00:59+08:00",
+    "saved_time_basis": "本轮原件写入时刻（文件mtime）；抓取脚本解析列表时中断，回读原件恢复元数据，不冒充精确网络接收时间",
+    "sha256": "1a1e462e2d1692decbde707eebf2156a6ca51013ec2aee6add24e65e0e0bd6c7",
+    "rows": 1,
+    "years": {
+      "2026": 1
+    }
+  },
+  {
+    "file": "单期历史321.json",
+    "url": "https://history.macaumarksix.com/history/macaujc2/expect/2026321",
+    "response_saved_at": "2026-11-17T22:00:58+08:00",
+    "saved_time_basis": "本轮原件写入时刻（文件mtime）；抓取脚本解析列表时中断，回读原件恢复元数据，不冒充精确网络接收时间",
+    "sha256": "6bfde7d3500ec53707699b2d648fde9c1c1b8c65cc6ec440e9ef35d349b0bce1",
+    "rows": 1,
+    "years": {
+      "2026": 1
+    }
+  }
+]
