@@ -1,9 +1,9 @@
 {
   "source_page": "https://macaujc.com/",
-  "source": "https://history.macaumarksix.com/history/macaujc2/expect/2026321",
-  "fetched_at": "2026-11-17T22:00:58+08:00",
-  "source_file": "数据/来源/2026-6bfde7d3500e.json",
-  "source_sha256": "6bfde7d3500ec53707699b2d648fde9c1c1b8c65cc6ec440e9ef35d349b0bce1",
+  "source": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+  "fetched_at": "2026-11-18T22:01:41+08:00",
+  "source_file": "数据/来源/2026-042cd48cd0a1.json",
+  "source_sha256": "042cd48cd0a12f41067d05058bf0a1206ebd2b218ead2166f5692607f88bd7d5",
   "records": [
     {
       "year": 2026,
@@ -6520,6 +6520,42 @@
       "first_number": 15,
       "first_zodiac": "龙",
       "special_zodiac": "虎"
+    },
+    {
+      "year": 2026,
+      "period": 322,
+      "lottery": "新澳门六合彩",
+      "draw_time": "2026-11-18T21:32:32+08:00",
+      "numbers": [
+        47,
+        31,
+        43,
+        17,
+        8,
+        30,
+        7
+      ],
+      "zodiacs": [
+        "猴",
+        "鼠",
+        "鼠",
+        "虎",
+        "猪",
+        "牛",
+        "鼠"
+      ],
+      "regular_numbers": [
+        47,
+        31,
+        43,
+        17,
+        8,
+        30
+      ],
+      "special_number": 7,
+      "first_number": 47,
+      "first_zodiac": "猴",
+      "special_zodiac": "鼠"
     }
   ]
 }

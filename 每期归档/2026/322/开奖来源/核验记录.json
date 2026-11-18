@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-11-18T22:05:00+08:00",
+  "expect": "2026322",
+  "lottery": "新澳门六合彩",
+  "annual_source": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+  "annual_raw_path": "数据/来源/2026-042cd48cd0a1.json",
+  "annual_sha256": "042cd48cd0a12f41067d05058bf0a1206ebd2b218ead2166f5692607f88bd7d5",
+  "annual_rows": 366,
+  "annual_matching_rows": 1,
+  "live_source": "https://macaumarksix.com/api/macaujc2.com",
+  "live_raw_path": "开奖来源/实时新澳门六合彩.json",
+  "live_sha256": "a5c082aed4093805ddc3e67b8faa8d606c31938aa1ec3efe7e8c941d605f592b",
+  "live_saved_at": "2026-11-18T22:02:21+08:00",
+  "live_saved_time_basis": "抓取时原文件写入时间",
+  "rows_equal": true,
+  "source_verify": false,
+  "checks": "年度正常通过，实时完整原行与年度322行相同。核对type8、年度期号、实际日期非未来、七码唯一原序、全生肖及全波色、首47猴、末特07鼠。同源接口核对数据一致性。"
+}

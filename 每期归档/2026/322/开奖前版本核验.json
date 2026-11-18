@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-11-18T22:05:00+08:00",
+  "version": "v001",
+  "source": "https://api.github.com/repos/AnanAndHanhan/aocai/activity?ref=refs%2Fheads%2Fmain&activity_type=push",
+  "activity": {
+    "id": 50791870129,
+    "ref": "refs/heads/main",
+    "activity_type": "push",
+    "timestamp": "2026-11-18T05:50:04Z",
+    "before": "7a2ddb97df84bd70119467a575b69efe15772f9c",
+    "after": "1cbc9f16d3a58b43379cf81a99a791c75ca1733f"
+  },
+  "pushed_at": "2026-11-18T13:50:04+08:00",
+  "draw_time": "2026-11-18T21:32:32+08:00",
+  "seconds_before_draw": 27748,
+  "pre_draw_proven": true,
+  "hashes": {
+    "分析.md": "ac0b5f05bd1c03a2047631d67e6166a18aed7622158dc2b351b7ff53099ab1ed",
+    "预测.json": "a8328c05392aa2f7fa7fe34d9ebd8ddfc8b6cd5fccead8ae931f374168d3ffc2",
+    "凭据.json": "d656af5f60dc24b926d8c9b0631652cf0cc53ec141327d0e3494a83c02f0da8d"
+  },
+  "note": "保存GitHub服务端活动匹配条目的必要字段。main在实际开奖之前已含冻结稿，提交对象内三件与当前冻结字节一致。认证的是版本在开奖前已存在。原冻结凭据记录创建当时未认证的状态，原件保持原样。"
+}

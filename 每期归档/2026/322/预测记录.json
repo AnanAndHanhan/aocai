@@ -29,5 +29,23 @@
       "specific_number_targeted": false,
       "note": "六原件及固定范围齐。23猴/13马/22鸡等号码是证据比较。未查322结果，未独立认证开奖前形成。"
     }
-  ]
+  ],
+  "result_recorded_at": "2026-11-18T22:01:41+08:00",
+  "evaluation_recorded_at": "2026-11-18T22:07:56+08:00",
+  "result_special_zodiac": "鼠",
+  "result_special_number": 7,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": false,
+    "main_rank": null,
+    "defense_zodiac_covered": false,
+    "defense_rank": null,
+    "actual_position": "九肖外",
+    "specific_special_number_explicitly_listed": true,
+    "specific_special_number_listing_scope": "E036与E039的单七同号07鼠。两处来自同一份传真并同值归一，未锁定。跑马暗码07为排除项。",
+    "specific_special_number_targeted": false,
+    "certified_pre_draw_performance_included": true,
+    "pre_draw_verification_file": "开奖前版本核验.json",
+    "reason": "GitHub服务端main推送早于实际开奖，且提交包含完整v001冻结。原名单未覆盖鼠。"
+  }
 }

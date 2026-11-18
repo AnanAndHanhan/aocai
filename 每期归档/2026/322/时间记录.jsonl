@@ -7,3 +7,6 @@
 {"event": "original_saved", "at": "2026-11-18T13:10:10+08:00", "path": "原始资料/06-澳门挂牌.png", "sha256": "0c2970676ff6e4881192cfdebba98d152522cb28e83ed8e6f06a803bc07ca455", "message_received_at": null}
 {"event": "analysis_formed", "at": "2026-11-18T13:49:23+08:00", "version": "v001", "status": "final", "message_received_at": null, "pre_draw_proven": false}
 {"event": "version_frozen", "at": "2026-11-18T13:49:23+08:00", "version": "v001", "pre_draw_proven": false}
+{"event": "result_synced", "at": "2026-11-18T22:01:41+08:00", "source": "https://history.macaumarksix.com/history/macaujc2/y/2026", "first_number": 47, "special_number": 7}
+{"event": "result_and_pre_draw_version_verified", "at": "2026-11-18T22:05:00+08:00", "source_activity_id": 50791870129, "pre_draw_proven": true}
+{"event": "review_completed", "at": "2026-11-18T22:07:56+08:00", "version": "v001", "review_rows": 58, "main_covered": false, "defense_covered": false}
