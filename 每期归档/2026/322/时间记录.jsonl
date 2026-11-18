@@ -1,0 +1,9 @@
+{"event": "period_created", "at": "2026-11-18T13:10:10+08:00"}
+{"event": "original_saved", "at": "2026-11-18T13:10:10+08:00", "path": "原始资料/01-管家婆.png", "sha256": "21975b78922415f549339bc52bd694ff20f6cb1f990418618f732189e90149b8", "message_received_at": null}
+{"event": "original_saved", "at": "2026-11-18T13:10:10+08:00", "path": "原始资料/02-跑马.png", "sha256": "b7550007b37e1958a33e68134bbce9b68d36037669e46d61ed8cc56eca9eaa8d", "message_received_at": null}
+{"event": "original_saved", "at": "2026-11-18T13:10:10+08:00", "path": "原始资料/03-跑狗.png", "sha256": "51018f7281a6c4c155e9e6969be1468948715766c2191bfba62502f5283af41d", "message_received_at": null}
+{"event": "original_saved", "at": "2026-11-18T13:10:10+08:00", "path": "原始资料/04-码头诗.png", "sha256": "d306925f7fe097b4f73fa5f58b11f093d0221ab37ee689701a06a85b80b66cd0", "message_received_at": null}
+{"event": "original_saved", "at": "2026-11-18T13:10:10+08:00", "path": "原始资料/05-澳门传真.png", "sha256": "fc4e5c4eeb3d2757cb61bcee5911842587783a73e48cd3b173fbf0d09d7c2caa", "message_received_at": null}
+{"event": "original_saved", "at": "2026-11-18T13:10:10+08:00", "path": "原始资料/06-澳门挂牌.png", "sha256": "0c2970676ff6e4881192cfdebba98d152522cb28e83ed8e6f06a803bc07ca455", "message_received_at": null}
+{"event": "analysis_formed", "at": "2026-11-18T13:49:23+08:00", "version": "v001", "status": "final", "message_received_at": null, "pre_draw_proven": false}
+{"event": "version_frozen", "at": "2026-11-18T13:49:23+08:00", "version": "v001", "pre_draw_proven": false}

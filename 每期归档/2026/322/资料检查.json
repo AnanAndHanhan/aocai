@@ -1,0 +1,85 @@
+{
+  "year": 2026,
+  "period": 322,
+  "created_at": "2026-11-18T13:10:10+08:00",
+  "expected_materials": [
+    "管家婆",
+    "跑马",
+    "跑狗",
+    "码头诗",
+    "澳门传真",
+    "澳门挂牌"
+  ],
+  "received_files": [
+    "原始资料/01-管家婆.png",
+    "原始资料/02-跑马.png",
+    "原始资料/03-跑狗.png",
+    "原始资料/04-码头诗.png",
+    "原始资料/05-澳门传真.png",
+    "原始资料/06-澳门挂牌.png"
+  ],
+  "missing_materials": [],
+  "scope_confirmed": true,
+  "ambiguous_text": [
+    "跑马下半句按原件放大暂读照炫转荧煌珠翠，荧字保存识读限制。",
+    "码头依图保留遐想、群规，非标准句法不校改。",
+    "巡山人物、树木品种、器物未定；传真双数合单语义待证。"
+  ],
+  "previous_first_verified": true,
+  "downgrades_checked": true,
+  "status": "六原件、固定范围、上期首特及五项本期降权齐备，疑字与歧义已在分析中单列",
+  "scope_basis": "六张附件期号均为322，按决策记录R02—R07的固定范围",
+  "checked_at": "2026-11-18T13:10:54+08:00",
+  "effective_scope": {
+    "管家婆": "仅醒时分付两三枝，平特真龙天子及回放排除",
+    "跑马": "人物及山野图、眉开眼笑、恨海难填、诗句、豪、壯指定总6",
+    "跑狗": "井边汲水图、黄河水清、恨海难填、诗文、盛、晓指定总10；猴冲虎仅用于降权",
+    "码头诗": "四句正文和两句赠诗",
+    "澳门传真": "当期正文与七拼八凑",
+    "澳门挂牌": "宿弊一清；挂31鼠、爆鸡仅降权，六小人物等排除"
+  },
+  "previous_result": {
+    "period": 321,
+    "regular_numbers": [
+      15,
+      45,
+      23,
+      8,
+      47,
+      49
+    ],
+    "first_number": 15,
+    "first_zodiac": "龙",
+    "special_number": 41,
+    "special_zodiac": "虎",
+    "source": "../321/开奖结果.json",
+    "all_image_replays_match": true
+  },
+  "downgrades": [
+    {
+      "zodiac": "龙",
+      "level": "最高",
+      "source": "321首15龙"
+    },
+    {
+      "zodiac": "鼠",
+      "level": "最高",
+      "source": "322挂31鼠"
+    },
+    {
+      "zodiac": "鸡",
+      "level": "次级",
+      "source": "322爆鸡"
+    },
+    {
+      "zodiac": "猴",
+      "level": "次级",
+      "source": "322跑狗猴冲虎"
+    },
+    {
+      "zodiac": "虎",
+      "level": "次级",
+      "source": "322跑狗猴冲虎"
+    }
+  ]
+}

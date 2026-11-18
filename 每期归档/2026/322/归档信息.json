@@ -1,0 +1,47 @@
+{
+  "year": 2026,
+  "period": 322,
+  "archived_at": "2026-11-18T13:10:10+08:00",
+  "source": "用户对话附件原始PNG",
+  "status": "六图齐，分析v001已冻结，未查322结果",
+  "files": [
+    {
+      "path": "原始资料/01-管家婆.png",
+      "sha256": "21975b78922415f549339bc52bd694ff20f6cb1f990418618f732189e90149b8",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-81e14a55-61c4-4eef-883d-b6da678acfb9.png"
+    },
+    {
+      "path": "原始资料/02-跑马.png",
+      "sha256": "b7550007b37e1958a33e68134bbce9b68d36037669e46d61ed8cc56eca9eaa8d",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-3f64c374-1f69-4ad9-9d5c-78d1ab26ce6c.png"
+    },
+    {
+      "path": "原始资料/03-跑狗.png",
+      "sha256": "51018f7281a6c4c155e9e6969be1468948715766c2191bfba62502f5283af41d",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-8b32b5d0-e752-451f-b884-38cb6b97f87d.png"
+    },
+    {
+      "path": "原始资料/04-码头诗.png",
+      "sha256": "d306925f7fe097b4f73fa5f58b11f093d0221ab37ee689701a06a85b80b66cd0",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-a2729def-9fb9-4a0c-a15b-f818ffdb4277.png"
+    },
+    {
+      "path": "原始资料/05-澳门传真.png",
+      "sha256": "fc4e5c4eeb3d2757cb61bcee5911842587783a73e48cd3b173fbf0d09d7c2caa",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-268b3251-1612-4a8c-af37-5d21061725d1.png"
+    },
+    {
+      "path": "原始资料/06-澳门挂牌.png",
+      "sha256": "0c2970676ff6e4881192cfdebba98d152522cb28e83ed8e6f06a803bc07ca455",
+      "source_path": "/var/folders/2x/g2t7df4j18qgm3mdvkxh3g7r0000gn/T/codex-clipboard-fe473fe0-0ca1-4792-b3e1-14bfa27e78ce.png"
+    }
+  ],
+  "archive_date": "2026-11-18",
+  "analysis_transcript_complete": true,
+  "latest_full_analysis": "分析-v001.md",
+  "latest_summary": "总结-v001.md",
+  "analysis_formed_at": "2026-11-18T13:49:23+08:00",
+  "evidence_count": 47,
+  "pre_draw_proven": false,
+  "frozen_at": "2026-11-18T13:49:23+08:00"
+}

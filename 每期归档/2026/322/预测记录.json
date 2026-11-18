@@ -1,0 +1,33 @@
+{
+  "year": 2026,
+  "period": 322,
+  "versions": [
+    {
+      "version": "v001",
+      "status": "final",
+      "formed_at": "2026-11-18T13:49:23+08:00",
+      "analysis_file": "分析-v001.md",
+      "summary_file": "总结-v001.md",
+      "main": [
+        "马",
+        "猴",
+        "牛",
+        "羊",
+        "蛇",
+        "兔"
+      ],
+      "defense": [
+        "猪",
+        "鸡",
+        "虎"
+      ],
+      "evidence_file": "证据表.csv",
+      "rule_commit": "7a2ddb97df84bd70119467a575b69efe15772f9c",
+      "before_result_received_in_chat": true,
+      "before_actual_draw_verified": null,
+      "frozen": true,
+      "specific_number_targeted": false,
+      "note": "六原件及固定范围齐。23猴/13马/22鸡等号码是证据比较。未查322结果，未独立认证开奖前形成。"
+    }
+  ]
+}
