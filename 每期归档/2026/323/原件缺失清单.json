@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-11-19T16:38:28+08:00",
+  "source": "本会话第323期六张内嵌图",
+  "message_received_at": null,
+  "reason": "会话图片可见，工作区及可用附件接口未提供原文件或可下载文件标识",
+  "sources": [
+    {
+      "material": "管家婆",
+      "suggested_archive_path": "原始资料/01-管家婆（扩展名待据实登记）",
+      "archived": false,
+      "sha256": null
+    },
+    {
+      "material": "跑马",
+      "suggested_archive_path": "原始资料/02-跑马（扩展名待据实登记）",
+      "archived": false,
+      "sha256": null
+    },
+    {
+      "material": "跑狗",
+      "suggested_archive_path": "原始资料/03-跑狗（扩展名待据实登记）",
+      "archived": false,
+      "sha256": null
+    },
+    {
+      "material": "码头诗",
+      "suggested_archive_path": "原始资料/04-码头诗（扩展名待据实登记）",
+      "archived": false,
+      "sha256": null
+    },
+    {
+      "material": "澳门传真",
+      "suggested_archive_path": "原始资料/05-澳门传真（扩展名待据实登记）",
+      "archived": false,
+      "sha256": null
+    },
+    {
+      "material": "澳门挂牌",
+      "suggested_archive_path": "原始资料/06-澳门挂牌（扩展名待据实登记）",
+      "archived": false,
+      "sha256": null
+    }
+  ]
+}
