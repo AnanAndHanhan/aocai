@@ -1,3 +1,6 @@
 {"event": "period_created", "at": "2026-11-19T16:33:53+08:00"}
 {"event": "chat_images_verified", "at": "2026-11-19T16:38:28+08:00", "visible_count": 6, "original_files_count": 0, "message_received_at": null}
 {"event": "analysis_v001_saved", "at": "2026-11-19T16:38:28+08:00", "status": "provisional", "pre_draw_proven": false}
+{"event": "draw_cross_checked", "at": "2026-11-19T22:35:06+08:00", "period": 323, "first": "33狗", "special": "47猴", "source_verify": false}
+{"event": "archive_push_timestamp_verified", "at": "2026-11-19T22:35:06+08:00", "pushed_at": "2026-11-19T22:08:05+08:00", "pre_draw_proven": false}
+{"event": "semantic_review_completed", "at": "2026-11-19T22:35:06+08:00", "audit_rows": 37, "original_files_count": 0, "pixel_review_pending": true}

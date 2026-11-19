@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-11-19T22:35:06+08:00",
+  "version": "v001",
+  "source": "https://api.github.com/repos/AnanAndHanhan/aocai/activity?ref=refs%2Fheads%2Fmain&activity_type=push&per_page=15",
+  "activity": {
+    "id": 51004259899,
+    "ref": "refs/heads/main",
+    "activity_type": "push",
+    "timestamp": "2026-11-19T14:08:05Z",
+    "before": "4008d6b86a6c51677ec1c96e5a748819d0fa5036",
+    "after": "b502c831b3541a19f8f234b9801401c524ae716f"
+  },
+  "pushed_at": "2026-11-19T22:08:05+08:00",
+  "draw_time": "2026-11-19T21:32:32+08:00",
+  "seconds_after_draw": 2133,
+  "pre_draw_proven": false,
+  "hashes": {
+    "分析-v001.md": "101d0cdbee8ad0258dfbd725122e3bc0d9d55fef9eaed0c2bd643742ddcd9841",
+    "总结-v001.md": "d96d072f33c5fb8b01b25471e266b39edf7b497e3480d7f504f6e96d9fc8964c",
+    "冻结记录/v001/分析.md": "101d0cdbee8ad0258dfbd725122e3bc0d9d55fef9eaed0c2bd643742ddcd9841",
+    "冻结记录/v001/预测.json": "c4886b699decd49bcbe5a83b3530d8de50caf9e75efc97f6fc66d5a342f35f6b",
+    "冻结记录/v001/凭据.json": "4a9de48cf96a04411bc21760258892d0d4be9b29607586d70bf6b7c075475e1a"
+  },
+  "note": "原文件和暂定冻结件与GitHub活动指向的提交逐字节一致。远端推送晚于开奖，无法依此认证实际开奖前已形成。"
+}
