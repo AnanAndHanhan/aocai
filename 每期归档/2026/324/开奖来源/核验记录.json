@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-11-20T22:07:03+08:00",
+  "expect": "2026324",
+  "lottery": "新澳门六合彩",
+  "annual_source": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+  "annual_raw_path": "数据/来源/2026-abf8b7ca01ff.json",
+  "annual_sha256": "abf8b7ca01ff0ae7489bc23d7c56c03f0c22342b69251a20195ad4952a4067f6",
+  "annual_saved_at": "2026-11-20T22:03:29+08:00",
+  "annual_rows": 366,
+  "annual_matching_rows": 1,
+  "live_source": "https://macaumarksix.com/api/macaujc2.com",
+  "live_raw_path": "开奖来源/实时新澳门六合彩.json",
+  "live_sha256": "2e5ca4649965e7fd1282fc0437dcba099ca80211bfbe8bf7988dc50872aa47bf",
+  "live_saved_at": "2026-11-20T22:03:29+08:00",
+  "single_source": "https://history.macaumarksix.com/history/macaujc2/expect/2026324",
+  "single_raw_path": "开奖来源/单期历史新澳门六合彩.json",
+  "single_sha256": "96bc5c6f2e44cd2f29a10de3d762bbe135dc87ec63d9f0ef27a2405cc8e53a4b",
+  "single_saved_at": "2026-11-20T22:03:29+08:00",
+  "rows_equal": true,
+  "source_verify": false,
+  "old_records_identical": 183,
+  "checks": "核对type8、日期、期号、七码唯一且原序、生肖、波色、首号与特码；三个入口属于同一数据服务。"
+}

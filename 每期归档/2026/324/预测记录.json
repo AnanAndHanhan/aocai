@@ -29,5 +29,24 @@
       "specific_number_targeted": false,
       "note": "六图对话可见，原件0/6。暂定冻结，另行核验实际开奖和独立开奖前时间。"
     }
-  ]
+  ],
+  "result_recorded_at": "2026-11-20T22:04:28+08:00",
+  "evaluation_recorded_at": "2026-11-20T22:07:03+08:00",
+  "result_special_zodiac": "鼠",
+  "result_special_number": 43,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": false,
+    "main_rank": null,
+    "defense_zodiac_covered": true,
+    "defense_rank": 3,
+    "actual_position": "防三肖第3位",
+    "specific_special_number_explicitly_listed": true,
+    "specific_special_number_listing_scope": "43在原逐图正文及E021用于绿波梅花的条件对照，原鼠总结重点为07；海中金为复盘补查。",
+    "specific_special_number_targeted": false,
+    "pre_draw_version_proven": true,
+    "certified_pre_draw_performance_included": false,
+    "pre_draw_verification_file": "开奖前版本核验.json",
+    "reason": "远端推送时间已独立证明为开奖前；v001仍为暂定，原件0/6。依完整最终版主评估口径，将暂定覆盖结果单列。"
+  }
 }
