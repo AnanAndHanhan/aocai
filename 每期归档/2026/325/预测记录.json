@@ -29,5 +29,24 @@
       "specific_number_targeted": false,
       "note": "对话六图可见，原件入库0/6。暂定冻结，开奖和推送早于开奖的证据待核。"
     }
-  ]
+  ],
+  "result_recorded_at": "2026-11-21T22:01:59+08:00",
+  "evaluation_recorded_at": "2026-11-21T22:05:10+08:00",
+  "result_special_zodiac": "龙",
+  "result_special_number": 3,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": true,
+    "main_rank": 3,
+    "defense_zodiac_covered": false,
+    "defense_rank": null,
+    "actual_position": "主六肖第3位",
+    "specific_special_number_explicitly_listed": true,
+    "specific_special_number_listing_scope": "原传真「零三四」相邻分段03和34，原E029、逐图分析和逐肖总结明确列03；单三同号是辅助。测字总15另列，原未锁单号。",
+    "specific_special_number_targeted": false,
+    "pre_draw_version_proven": true,
+    "certified_pre_draw_performance_included": false,
+    "pre_draw_verification_file": "开奖前版本核验.json",
+    "reason": "远端推送时间已独立证明在开奖前；v001仍为暂定且原件0/6。依完整最终版的主评估口径，暂定覆盖结果单列。"
+  }
 }
