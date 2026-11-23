@@ -1,3 +1,7 @@
 {"event": "period_created", "at": "2026-11-23T14:54:58+08:00"}
 {"event": "chat_images_verified", "at": "2026-11-23T14:55:37+08:00", "visible_count": 6, "original_files_count": 0, "message_received_at": null}
 {"event": "analysis_v001_saved", "at": "2026-11-23T14:59:01+08:00", "status": "provisional", "pre_draw_proven": false}
+{"event": "annual_history_rejected", "at": "2026-11-23T22:03:02+08:00", "rows": 366, "other_year": 2025, "other_year_rows": 39}
+{"event": "draw_cross_checked", "at": "2026-11-23T22:03:02+08:00", "period": 327, "first": "21狗", "special": "45狗", "source_verify": false}
+{"event": "archive_push_timestamp_verified", "at": "2026-11-23T22:03:02+08:00", "pushed_at": "2026-11-23T14:59:26+08:00", "pre_draw_proven": true, "version_status": "provisional"}
+{"event": "semantic_review_completed", "at": "2026-11-23T22:03:02+08:00", "audit_rows": 43, "original_files_count": 0, "pixel_review_pending": true}
