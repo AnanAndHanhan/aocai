@@ -29,5 +29,24 @@
       "specific_number_targeted": false,
       "note": "会话六图可见，原图0/6；暂定冻结，实际开奖与推送时间关系待核。"
     }
-  ]
+  ],
+  "result_recorded_at": "2026-11-24T22:03:15+08:00",
+  "evaluation_recorded_at": "2026-11-24T22:08:53+08:00",
+  "result_special_zodiac": "牛",
+  "result_special_number": 6,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": true,
+    "main_rank": 2,
+    "defense_zodiac_covered": false,
+    "defense_rank": null,
+    "actual_position": "主六肖第2位",
+    "specific_special_number_explicitly_listed": false,
+    "specific_special_number_listing_scope": "原有18牛大将的九九派生及30牛员外条件，06未列。06及13为开奖后元帅同名比较。",
+    "specific_special_number_targeted": false,
+    "pre_draw_version_proven": true,
+    "certified_pre_draw_performance_included": false,
+    "pre_draw_verification_file": "开奖前版本核验.json",
+    "reason": "GitHub服务端确认早于开奖，v001暂定且原图0/6，按完整最终版主评估口径单列。"
+  }
 }
