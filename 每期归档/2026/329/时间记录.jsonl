@@ -2,3 +2,7 @@
 {"event": "chat_images_verified", "at": "2026-11-25T12:18:13+08:00", "visible_count": 6, "original_files_count": 0, "message_received_at": null}
 {"event": "analysis_v001_saved", "at": "2026-11-25T12:22:01+08:00", "status": "provisional", "pre_draw_proven": false}
 {"event": "analysis_v002_saved", "at": "2026-11-25T12:48:29+08:00", "status": "provisional", "pre_draw_proven": false, "based_on": "v001", "evidence_rows": 48}
+{"event": "annual_history_rejected", "at": "2026-11-25T22:06:20+08:00", "rows": 365, "other_year": 2025, "other_year_rows": 36}
+{"event": "draw_cross_checked", "at": "2026-11-25T22:06:20+08:00", "period": 329, "first": "45狗", "special": "44猪", "source_verify": false}
+{"event": "archive_push_timestamp_verified", "at": "2026-11-25T22:06:20+08:00", "versions": [{"version": "v001", "pushed_at": "2026-11-25T12:22:31+08:00", "pre_draw_proven": true}, {"version": "v002", "pushed_at": "2026-11-25T12:49:31+08:00", "pre_draw_proven": true}]}
+{"event": "semantic_review_completed", "at": "2026-11-25T22:06:20+08:00", "audit_rows": 60, "original_files_count": 0, "pixel_review_pending": true}

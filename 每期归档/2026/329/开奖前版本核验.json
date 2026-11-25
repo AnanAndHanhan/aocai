@@ -1,0 +1,79 @@
+{
+  "verified_at": "2026-11-25T22:06:20+08:00",
+  "source": "https://api.github.com/repos/AnanAndHanhan/aocai/activity?ref=refs%2Fheads%2Fmain&activity_type=push&per_page=15",
+  "activity_read_at": "2026-11-25T22:02:13+08:00",
+  "draw_time": "2026-11-25T21:32:32+08:00",
+  "versions": [
+    {
+      "version": "v001",
+      "version_status": "provisional",
+      "activity": {
+        "id": 51766584904,
+        "ref": "refs/heads/main",
+        "activity_type": "push",
+        "timestamp": "2026-11-25T04:22:31Z",
+        "before": "af42793c15874701c88afaecef3bacbaf205a92b",
+        "after": "701bcf109908f1f2350ca9a65065504cfdf18bc7"
+      },
+      "pushed_at": "2026-11-25T12:22:31+08:00",
+      "seconds_before_draw": 33001,
+      "pre_draw_proven": true,
+      "main_evaluation_eligible": false,
+      "hashes_at_push": {
+        "分析-v001.md": "fed5f79fc23dcc63d54daaf3772672e141bbd91d648bd33fc534b714e35bb521",
+        "证据表.csv": "fc848d6ccd45dcf5416a55a3601edc30af2138cd76dded35cc575c38d471b954",
+        "总结-v001.md": "0285dcc4ced24850b683cc5c3a2b0c4466423d1df5d00b8c890d95519950c0cf",
+        "预测记录.json": "2600e26f3023364b10f016e130a8037e1e31ae63e046b96a472c5dd7845f59df",
+        "冻结记录/v001/分析.md": "fed5f79fc23dcc63d54daaf3772672e141bbd91d648bd33fc534b714e35bb521",
+        "冻结记录/v001/预测.json": "8713284dfa1ab55b5e82c33ef2b529df20f657d62a180c982fc0076f035e1758",
+        "冻结记录/v001/凭据.json": "a5f748870accacd5d92ec786f52e553f39759c7a35f07dedf04401f2acd0ee93"
+      },
+      "summary_format_activity": {
+        "id": 51768402815,
+        "ref": "refs/heads/main",
+        "activity_type": "push",
+        "timestamp": "2026-11-25T04:43:48Z",
+        "before": "701bcf109908f1f2350ca9a65065504cfdf18bc7",
+        "after": "edda9fd463ef1f165e2db88fc8ef408101015764"
+      },
+      "summary_format_pushed_at": "2026-11-25T12:43:48+08:00",
+      "current_summary_sha256": "4dfa85a76b3e558748d9c29b0ffaa5aa54aa7bc31011ac0dcad8d7062c73bfae"
+    },
+    {
+      "version": "v002",
+      "version_status": "provisional",
+      "activity": {
+        "id": 51768888585,
+        "ref": "refs/heads/main",
+        "activity_type": "push",
+        "timestamp": "2026-11-25T04:49:31Z",
+        "before": "edda9fd463ef1f165e2db88fc8ef408101015764",
+        "after": "8b92b51e0a638515354752cb3b213dbba6fc27ca"
+      },
+      "pushed_at": "2026-11-25T12:49:31+08:00",
+      "seconds_before_draw": 31381,
+      "pre_draw_proven": true,
+      "main_evaluation_eligible": false,
+      "hashes_at_push": {
+        "分析-v002.md": "03eb2cdcd18bfc017bc66f2ef7124a431462460e7cbd6786ad6caef828a5e4d9",
+        "证据表-v002.csv": "2d7a4a0d4c6028cacfd7edc8b706aa7f8a9bf35df8709a48b0bdffaf9ba297aa",
+        "总结-v002.md": "ffd27ed3f45a6aa136b0ad510d4f1a21b891d8e9f83e8cbfae6d0df61b683b3a",
+        "预测记录.json": "f07b24a34ecf53be36886cf21f9a285923ff64789bc40961d0c4796d40a91ede",
+        "冻结记录/v002/分析.md": "03eb2cdcd18bfc017bc66f2ef7124a431462460e7cbd6786ad6caef828a5e4d9",
+        "冻结记录/v002/预测.json": "2ef77bcc92f98092729b5f598d1b0d60f0a189744a06476bde5fe81e61455fb0",
+        "冻结记录/v002/凭据.json": "6a74423b6870c012ac63584f4d17d5340bd10e2953f1fde3328d0368e8c34cf5"
+      },
+      "summary_format_activity": {
+        "id": 51802195453,
+        "ref": "refs/heads/main",
+        "activity_type": "push",
+        "timestamp": "2026-11-25T10:11:05Z",
+        "before": "4d6e9aeb8a17753042e7025fb5fac0db50a7b8e5",
+        "after": "add99d221efbcec03694f4ba8d11e0dde547628f"
+      },
+      "summary_format_pushed_at": "2026-11-25T18:11:05+08:00",
+      "current_summary_sha256": "acdc52d236fc0fa71afd75e04d1e10ef9b5f9bfe3682d83f7f8db06820461dec"
+    }
+  ],
+  "note": "GitHub服务端分别证明两版在开奖前进入main。分析、证据表、版本条目与冻结随初推保留，总结后续格式调整也有各自的服务端推送时刻。两版均暂定，按暂定样本单列。"
+}

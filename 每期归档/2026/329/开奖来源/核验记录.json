@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-25T22:06:20+08:00",
+  "expect": "2026329",
+  "lottery": "新澳门六合彩",
+  "accepted_source": "https://history.macaumarksix.com/history/macaujc2/expect/2026329",
+  "single_raw_path": "数据/来源/2026-f33566acebcb.json",
+  "single_sha256": "f33566acebcbec58ca100301d57aba7a30ccb6713dd8d6789b8a0c78b580ef32",
+  "single_saved_at": "2026-11-25T22:02:12+08:00",
+  "live_source": "https://macaumarksix.com/api/macaujc2.com",
+  "live_raw_path": "开奖来源/实时新澳门六合彩.json",
+  "live_sha256": "8f872f6d44facd4ecadb10f713cdc71dab19e3c912dec6931a5f3d7f086a6c75",
+  "live_saved_at": "2026-11-25T22:02:12+08:00",
+  "rejected_annual_source": {
+    "url": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+    "raw_path": "开奖来源/年度2026-拒绝原件.json",
+    "sha256": "76f93d328e7fcc8bacd6fbbfa84b2b3edb0c47c8d065f3b95e796be88573c68e",
+    "saved_at": "2026-11-25T22:02:13+08:00",
+    "rows": 365,
+    "years": {
+      "2026": 329,
+      "2025": 36
+    },
+    "accepted": false,
+    "reason": "彩种或年份/期号不符，混年整批拒绝。"
+  },
+  "rows_equal": true,
+  "source_verify": false,
+  "old_records_identical": 188,
+  "checks": "实时与单期完整行一致。已核type8、2026329、实际日期和开奖时刻、原序七码、唯一性、生肖及波色。首45狗红、特44猪绿。两个接口属于同一服务。"
+}

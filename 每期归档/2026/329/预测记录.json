@@ -57,5 +57,45 @@
       "note": "依据用户指出的分析省略补查六图。补入大双、两版和尚及其他号码交叉，重新比较主防边界。第329期结果未查询，原图0/6，实际开奖前时间关系待独立复核。",
       "revises": "v001"
     }
+  ],
+  "result_recorded_at": "2026-11-25T22:02:47+08:00",
+  "evaluation_recorded_at": "2026-11-25T22:06:20+08:00",
+  "result_special_zodiac": "猪",
+  "result_special_number": 44,
+  "evaluations": [
+    {
+      "version": "v001",
+      "main_zodiac_covered": true,
+      "main_rank": 1,
+      "defense_zodiac_covered": false,
+      "defense_rank": null,
+      "actual_position": "主六肖第1位",
+      "specific_special_number_explicitly_listed": false,
+      "special_number_in_wide_conditions": false,
+      "specific_special_number_prioritized": false,
+      "specific_special_number_targeted": false,
+      "specific_special_number_listing_scope": "44未列，08为原有跨图同号，32商贾和僧0尾的20各属条件。",
+      "pre_draw_version_proven": true,
+      "pre_draw_verification_file": "开奖前版本核验.json",
+      "certified_pre_draw_performance_included": false,
+      "reason": "服务端推送早于开奖，版本暂定且原图0/6，暂定样本单列。"
+    },
+    {
+      "version": "v002",
+      "main_zodiac_covered": true,
+      "main_rank": 1,
+      "defense_zodiac_covered": false,
+      "defense_rank": null,
+      "actual_position": "主六肖第1位",
+      "specific_special_number_explicitly_listed": true,
+      "special_number_in_wide_conditions": true,
+      "specific_special_number_prioritized": false,
+      "specific_special_number_targeted": false,
+      "specific_special_number_listing_scope": "44列于大双全表、大双与六畜交集及泛花的桂花对照，仅宽条件覆盖，未单列为重点。",
+      "pre_draw_version_proven": true,
+      "pre_draw_verification_file": "开奖前版本核验.json",
+      "certified_pre_draw_performance_included": false,
+      "reason": "服务端推送早于开奖，版本暂定且原图0/6，暂定样本单列。"
+    }
   ]
 }
