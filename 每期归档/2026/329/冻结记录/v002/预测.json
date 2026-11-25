@@ -1,0 +1,28 @@
+{
+  "version": "v002",
+  "status": "provisional",
+  "formed_at": "2026-11-25T12:48:29+08:00",
+  "analysis_file": "分析-v002.md",
+  "summary_file": "总结-v002.md",
+  "main": [
+    "猪",
+    "猴",
+    "牛",
+    "狗",
+    "虎",
+    "蛇"
+  ],
+  "defense": [
+    "龙",
+    "鼠",
+    "羊"
+  ],
+  "evidence_file": "证据表-v002.csv",
+  "rule_commit": "edda9fd463ef1f165e2db88fc8ef408101015764",
+  "before_result_received_in_chat": true,
+  "before_actual_draw_verified": null,
+  "frozen": true,
+  "specific_number_targeted": false,
+  "note": "依据用户指出的分析省略补查六图。补入大双、两版和尚及其他号码交叉，重新比较主防边界。第329期结果未查询，原图0/6，实际开奖前时间关系待独立复核。",
+  "revises": "v001"
+}

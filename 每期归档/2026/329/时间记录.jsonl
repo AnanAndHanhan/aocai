@@ -1,3 +1,4 @@
 {"event": "period_created", "at": "2026-11-25T12:17:46+08:00"}
 {"event": "chat_images_verified", "at": "2026-11-25T12:18:13+08:00", "visible_count": 6, "original_files_count": 0, "message_received_at": null}
 {"event": "analysis_v001_saved", "at": "2026-11-25T12:22:01+08:00", "status": "provisional", "pre_draw_proven": false}
+{"event": "analysis_v002_saved", "at": "2026-11-25T12:48:29+08:00", "status": "provisional", "pre_draw_proven": false, "based_on": "v001", "evidence_rows": 48}
