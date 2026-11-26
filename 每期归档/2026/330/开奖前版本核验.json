@@ -1,0 +1,30 @@
+{
+  "verified_at": "2026-11-26T22:04:45+08:00",
+  "version": "v001",
+  "source": "https://api.github.com/repos/AnanAndHanhan/aocai/activity?ref=refs%2Fheads%2Fmain&activity_type=push&per_page=15",
+  "activity_read_at": "2026-11-26T22:00:20+08:00",
+  "activity": {
+    "id": 51917739802,
+    "ref": "refs/heads/main",
+    "activity_type": "push",
+    "timestamp": "2026-11-26T03:39:07Z",
+    "before": "b19bc8e48f0f4b0680f81278cabd5d10849b467a",
+    "after": "ff5e0dbb0b1694c78029d9d3c4b6b5ca3efb6036"
+  },
+  "pushed_at": "2026-11-26T11:39:07+08:00",
+  "draw_time": "2026-11-26T21:32:32+08:00",
+  "seconds_before_draw": 35605,
+  "pre_draw_proven": true,
+  "version_status": "provisional",
+  "main_evaluation_eligible": false,
+  "hashes_at_push": {
+    "分析-v001.md": "9d86b9c9002a7bce1798f7ff9449eb7c4f49cd0a58f04be7f962935c63b465e2",
+    "总结-v001.md": "43497e344488a735e20ea14eef3ab45f28abe8480e737d5e6d142e25938e8335",
+    "证据表.csv": "71e80cc9e673e25bed4199ef80167006edac083e15c9cb240c3cb27b92339611",
+    "预测记录.json": "56313d550fb32b794846c232a964c88bc24945f9be54ceaee7728fada32d98eb",
+    "冻结记录/v001/分析.md": "9d86b9c9002a7bce1798f7ff9449eb7c4f49cd0a58f04be7f962935c63b465e2",
+    "冻结记录/v001/预测.json": "1f5a30a20958f334b725b76b8642ef508dee16d5e9ec29946882160153e686ad",
+    "冻结记录/v001/凭据.json": "2d0e66e7205385e5c347477ebec5d95e523fed350efd20f8ca67ac88b3ee5761"
+  },
+  "note": "GitHub服务端确认暂定v001在实际开奖前进入main。列示文件在追加顶层评价前与该提交逐字节一致，原版本数组和冻结件保留。"
+}

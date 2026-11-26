@@ -29,5 +29,24 @@
       "specific_number_targeted": false,
       "note": "会话六图可见，原图0/6，原件或精确收件时间待补。实际开奖前时间关系待独立查证。"
     }
-  ]
+  ],
+  "result_recorded_at": "2026-11-26T22:00:58+08:00",
+  "evaluation_recorded_at": "2026-11-26T22:04:45+08:00",
+  "result_special_zodiac": "蛇",
+  "result_special_number": 26,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": false,
+    "main_rank": null,
+    "defense_zodiac_covered": true,
+    "defense_rank": 2,
+    "actual_position": "防三肖第2位",
+    "specific_special_number_explicitly_listed": true,
+    "specific_special_number_targeted": false,
+    "specific_special_number_listing_scope": "E031及原逐图分析以「美」对照26蛇美女，属明确的外号候选号，七九另给07、09、16，原未锁定单号。",
+    "pre_draw_version_proven": true,
+    "pre_draw_verification_file": "开奖前版本核验.json",
+    "certified_pre_draw_performance_included": false,
+    "reason": "GitHub服务端确认早于开奖。v001暂定且原件0/6，按完整最终版口径单列。"
+  }
 }
