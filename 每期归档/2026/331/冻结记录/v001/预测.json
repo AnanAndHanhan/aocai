@@ -1,0 +1,27 @@
+{
+  "version": "v001",
+  "status": "provisional",
+  "formed_at": "2026-11-27T13:04:11+08:00",
+  "analysis_file": "分析-v001.md",
+  "summary_file": "总结-v001.md",
+  "main": [
+    "狗",
+    "羊",
+    "兔",
+    "龙",
+    "猪",
+    "牛"
+  ],
+  "defense": [
+    "鼠",
+    "鸡",
+    "虎"
+  ],
+  "evidence_file": "证据表.csv",
+  "rule_commit": "69b066352c07ab217aa2839f9caf6a74b9ce5cda",
+  "before_result_received_in_chat": true,
+  "before_actual_draw_verified": null,
+  "frozen": true,
+  "specific_number_targeted": false,
+  "note": "会话六图可见，原图0/6。实际开奖与推送先后留待独立核查。"
+}
