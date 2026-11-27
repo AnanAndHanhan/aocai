@@ -29,5 +29,24 @@
       "specific_number_targeted": false,
       "note": "会话六图可见，原图0/6。实际开奖与推送先后留待独立核查。"
     }
-  ]
+  ],
+  "result_recorded_at": "2026-11-27T22:03:52+08:00",
+  "evaluation_recorded_at": "2026-11-27T22:07:02+08:00",
+  "result_special_zodiac": "马",
+  "result_special_number": 13,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": false,
+    "main_rank": null,
+    "defense_zodiac_covered": false,
+    "defense_rank": null,
+    "actual_position": "九肖外",
+    "specific_special_number_explicitly_listed": false,
+    "specific_special_number_targeted": false,
+    "specific_special_number_listing_scope": "原有头角、书、家勤雨、战肖与01／马位、25秀才条件。13原未列，复盘补查06牛／13马同名元帅。",
+    "pre_draw_version_proven": true,
+    "pre_draw_verification_file": "开奖前版本核验.json",
+    "certified_pre_draw_performance_included": false,
+    "reason": "GitHub服务端确认早于开奖。v001暂定且原件0/6，按完整最终版口径单列。"
+  }
 }
