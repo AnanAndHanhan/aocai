@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-11-28T15:39:48+08:00",
+  "message_received_at": null,
+  "source": "本会话第332期六图",
+  "status": "六图可在会话辨读。云端工作区未见原图文件或下载标识。",
+  "sources": [
+    {
+      "material": "管家婆",
+      "suggested_archive_path": "原始资料/01-管家婆（扩展名待核）",
+      "archived": false,
+      "sha256": null
+    },
+    {
+      "material": "跑马",
+      "suggested_archive_path": "原始资料/02-跑马（扩展名待核）",
+      "archived": false,
+      "sha256": null
+    },
+    {
+      "material": "跑狗",
+      "suggested_archive_path": "原始资料/03-跑狗（扩展名待核）",
+      "archived": false,
+      "sha256": null
+    },
+    {
+      "material": "码头诗",
+      "suggested_archive_path": "原始资料/04-码头诗（扩展名待核）",
+      "archived": false,
+      "sha256": null
+    },
+    {
+      "material": "澳门传真",
+      "suggested_archive_path": "原始资料/05-澳门传真（扩展名待核）",
+      "archived": false,
+      "sha256": null
+    },
+    {
+      "material": "澳门挂牌",
+      "suggested_archive_path": "原始资料/06-澳门挂牌（扩展名待核）",
+      "archived": false,
+      "sha256": null
+    }
+  ]
+}
