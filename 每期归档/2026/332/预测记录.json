@@ -29,5 +29,25 @@
       "specific_number_targeted": false,
       "note": "本期六图会话可辨，原件0/6。独立开奖前版本认证待开奖后核验。"
     }
-  ]
+  ],
+  "result_recorded_at": "2026-11-28T22:04:26+08:00",
+  "evaluation_recorded_at": "2026-11-28T22:07:15+08:00",
+  "result_special_zodiac": "马",
+  "result_special_number": 13,
+  "evaluation": {
+    "version": "v001",
+    "main_zodiac_covered": true,
+    "main_rank": 4,
+    "defense_zodiac_covered": false,
+    "defense_rank": null,
+    "actual_position": "主六肖第4位",
+    "specific_special_number_explicitly_listed": true,
+    "specific_special_number_prioritized": false,
+    "specific_special_number_targeted": false,
+    "specific_special_number_listing_scope": "原稿及E003、E042明确列06牛和13马同名元帅，是跑马持弓所触发的角色条件比较。两号同列，未优先13或锁号。",
+    "pre_draw_version_proven": true,
+    "pre_draw_verification_file": "开奖前版本核验.json",
+    "certified_pre_draw_performance_included": false,
+    "reason": "GitHub服务端证实早于实际开奖。原为暂定且六件原图未入库，按完整最终版口径单列。"
+  }
 }
